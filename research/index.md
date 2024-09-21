@@ -14,7 +14,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include button.html icon="fa-solid fa-book-open" text="More on PubMed" link="https://pubmed.ncbi.nlm.nih.gov/?term=harenza+jo+or+rokita+jo" %}
 
 {% include section.html %}
 
