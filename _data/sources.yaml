@@ -1,23 +1,41 @@
-- id: doi:10.1371/journal.pcbi.1007128
+- id: doi:10.1101/2024.07.09.599086
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  description: The Open Pediatric Cancer Project
+  date: 2024-
+  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11257555/figure/F1/
   buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
     - type: source
       text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
+      link: https://github.com/rokitalab/OpenPedCan-manuscript
+    - type: manubot
       link: http://manubot.org/
   tags:
     - open science
     - collaboration
-  repo: greenelab/meta-review
+    - pediatric cancer
+    - genomics
+  repo: rokitalab/OpenPedCan-manuscript
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: doi:10.1101/2024.08.03.606419
+  type: paper
+  description: Characterization of aberrant splicing in pediatric central nervous system tumors reveals CLK1 as a candidate oncogenic dependency
+  date: 2022-08-22
+  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11326178/figure/F1/
+  tags:
+    - pediatric cancer
+    - splicing
+  repo: rokitalab/clk1-splicing
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1093/bioinformatics/btae114
+  type: paper
+  description: AutoGVP
+  date: 2024-02-29
+  tags:
+  - open science
+  - germline
+  - cancer
+  image: https://academic.oup.com/view-large/figure/445059631/btae114f1.tif
+  buttons:
+    - type: tool
+      link: https://github.com/diskin-lab-chop/AutoGVP
+  repo: diskin-lab-chop/AutoGVP
