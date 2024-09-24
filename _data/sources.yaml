@@ -1,7 +1,7 @@
-- id: doi:10.1101/2024.07.09.599086
+- id: pubmed:39026781
   type: preprint
   description: The Open Pediatric Cancer Project
-  date: 2024-
+  date: 2024-07-11
   image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11257555/figure/F1/
   buttons:
     - type: source
@@ -16,7 +16,7 @@
     - genomics
   repo: rokitalab/OpenPedCan-manuscript
 
-- id: doi:10.1101/2024.08.03.606419
+- id: pubmed:39149264
   type: preprint
   description: Characterization of aberrant splicing in pediatric central nervous system tumors reveals CLK1 as a candidate oncogenic dependency
   date: 2022-08-22
@@ -26,7 +26,7 @@
     - splicing
   repo: rokitalab/clk1-splicing
 
-- id: doi:10.1093/bioinformatics/btae114
+- id: pubmed:38426335
   type: paper
   description: AutoGVP
   date: 2024-02-29
