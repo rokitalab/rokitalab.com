@@ -1,14 +1,14 @@
 ---
-name: Jane Smith
-image: images/photo.jpg
+name: Jo Lynne Rokita
+image: images/rokita_photo.jpg
 role: pi
-affiliation: University of Colorado
+affiliation: Children's National Hospital
 aliases:
-  - J. Smith
-  - J Smith
+  - Rokita
+  - Harenza
 links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  home-page: 
+  orcid: 0000-0003-2171-3627
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
