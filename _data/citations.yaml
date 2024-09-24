@@ -1,888 +1,405 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2023.12.06.570390
-  title: A proteogenomic surfaceome study identifies DLK1 as an immunotherapeutic
-    target in neuroblastoma
+- id: pubmed:39149264
+  title: Characterization of aberrant splicing in pediatric central nervous system
+    tumors reveals
   authors:
-  - Amber K. Weiner
-  - Alexander B. Radaoui
+  - Ammar S Naqvi
+  - Ryan J Corbett
+  - Priyanka Seghal
+  - Karina L Conkrite
+  - Komal S Rathi
+  - Brian M Ennis
+  - Katharina E Hayer
+  - Bo Zhang
+  - Miguel A Brown
+  - Daniel P Miller
+  - Adam A Kraya
+  - Joseph M Dybas
+  - Zhuangzhuang Geng
+  - Christopher Blackden
+  - Shehbeel Arif
+  - Antonia Chroni
+  - Aditya Lahiri
+  - Madison L Hollawell
+  - Phillip B Storm
+  - Jessica B Foster
+  - Mateusz Koptyra
+  - Peter J Madsen
+  - Sharon J Diskin
+  - Andrei Thomas-Tikhonenko
+  - Adam C Resnick
+  - Jo Lynne Rokita
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2024-08-22'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39149264
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:39026781
+  title: The Open Pediatric Cancer Project.
+  authors:
+  - Zhuangzhuang Geng
+  - Eric Wafula
+  - Ryan J Corbett
+  - Yuanchao Zhang
+  - Run Jin
+  - Krutika S Gaonkar
+  - Sangeeta Shukla
+  - Komal S Rathi
+  - Dave Hill
+  - Aditya Lahiri
+  - Daniel P Miller
+  - Alex Sickler
+  - Kelsey Keith
+  - Christopher Blackden
+  - Antonia Chroni
+  - Miguel A Brown
+  - Adam A Kraya
+  - Carl J Koschmann
+  - Kenneth Aldape
+  - Xiaoyan Huang
+  - Brian R Rood
+  - Jennifer L Mason
+  - Gerri R Trooskin
+  - Zied Abdullaev
+  - Pei Wang
+  - Yuankun Zhu
+  - Bailey K Farrow
+  - Alvin Farrel
+  - Joseph M Dybas
+  - Chuwei Zhong
+  - Nicholas Van Kuren
+  - Bo Zhang
+  - Mariarita Santi
+  - Saksham Phul
+  - Asif T Chinwalla
+  - Adam C Resnick
+  - Sharon J Diskin
+  - Sarah Tasian
+  - Stephanie Stefankiewicz
+  - John M Maris
+  - Brian M Ennis
+  - Matthew R Lueder
+  - Ammar S Naqvi
+  - Noel Coleman
+  - Weiping Ma
+  - Deanne Taylor
+  - Jo Lynne Rokita
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2024-07-11'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39026781
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:38426335
+  title: 'AutoGVP: a dockerized workflow integrating ClinVar and InterVar germline
+    sequence variant classification.'
+  authors:
+  - Jung Kim
+  - Ammar S Naqvi
+  - Ryan J Corbett
+  - Rebecca S Kaufman
+  - Zalman Vaksman
+  - Miguel A Brown
+  - Daniel P Miller
+  - Saksham Phul
+  - Zhuangzhuang Geng
+  - Phillip B Storm
+  - Adam C Resnick
+  - Douglas R Stewart
+  - Jo Lynne Rokita
+  - Sharon J Diskin
+  publisher: Bioinformatics (Oxford, England)
+  date: '2024-03-04'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/38426335
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:38106022
+  title: A proteogenomic surfaceome study identifies DLK1 as an immunotherapeutic
+    target in neuroblastoma.
+  authors:
+  - Amber K Weiner
+  - Alexander B Radaoui
   - Matthew Tsang
   - Daniel Martinez
   - Simone Sidoli
-  - Karina L. Conkrite
+  - Karina L Conkrite
   - Alberto Delaidelli
   - Apexa Modi
   - Jo Lynne Rokita
   - Khushbu Patel
-  - Maria V. Lane
+  - Maria V Lane
   - Bo Zhang
   - Chuwei Zhong
   - Brian Ennis
-  - Daniel P. Miller
-  - Miguel A. Brown
-  - Komal S. Rathi
+  - Daniel P Miller
+  - Miguel A Brown
+  - Komal S Rathi
   - Pichai Raman
   - Jennifer Pogoriler
   - Tricia Bhatti
   - Bruce Pawel
   - Tina Glisovic-Aplenc
   - Beverly Teicher
-  - Stephen W. Erickson
-  - Eric J. Earley
-  - Kristopher R. Bosse
-  - Poul H. Sorensen
+  - Stephen W Erickson
+  - Eric J Earley
+  - Kristopher R Bosse
+  - Poul H Sorensen
   - Kateryna Krytska
-  - Yael P. Mosse
-  - Karin E. Havenith
+  - Yael P Mosse
+  - Karin E Havenith
   - Francesca Zammarchi
-  - Patrick H. van Berkel
-  - Malcolm A. Smith
-  - Benjamin A. Garcia
-  - John M. Maris
-  - Sharon J. Diskin
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-12-08'
-  link: https://doi.org/g43x2b
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1111/gbb.12844
-  title: "Identification of candidate genes for nicotine withdrawal in <scp>C57BL</scp>/<scp>6J</scp>\_\
-    \xD7\_<scp>DBA</scp>/<scp>2J</scp> recombinant inbred mice"
+  - Patrick H van Berkel
+  - Malcolm A Smith
+  - Benjamin A Garcia
+  - John M Maris
+  - Sharon J Diskin
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2024-01-07'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/38106022
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:38076939
+  title: 'AutoGVP: a dockerized workflow integrating ClinVar and InterVar germline
+    sequence variant classification.'
   authors:
-  - Maren L. Smith
-  - Kristin M. Mignogna
-  - Jo L. Rokita
-  - Lorna MacLeod
-  - M. Imad Damaj
-  - Michael F. Miles
-  publisher: Genes, Brain and Behavior
-  date: '2023-02-13'
-  link: https://doi.org/g43x2k
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.c.6513432.v1
-  title: Data from GAS7 Deficiency Promotes Metastasis in MYCN-Driven Neuroblastoma
-  authors:
-  - Zhiwei Dong
-  - Kok Siong Yeo
-  - Gonzalo Lopez
-  - Cheng Zhang
-  - Erin N. Dankert Eggum
+  - Jung Kim
+  - Ammar S Naqvi
+  - Ryan J Corbett
+  - Rebecca S Kaufman
+  - Zalman Vaksman
+  - Miguel A Brown
+  - Daniel P Miller
+  - Saksham Phul
+  - Zhuangzhuang Geng
+  - Phillip B Storm
+  - Adam C Resnick
+  - Douglas R Stewart
   - Jo Lynne Rokita
-  - Choong Yong Ung
-  - Taylor M. Levee
-  - Zuag Paj Her
-  - Cassie J. Howe
-  - Xiaonan Hou
-  - Janine H. van Ree
-  - Shuai Li
-  - Shuning He
-  - Ting Tao
-  - Karen Fritchie
-  - Jorge Torres-Mora
-  - Julia S. Lehman
-  - Alexander Meves
-  - Gina L. Razidlo
-  - Komal S. Rathi
-  - S. John Weroha
-  - A. Thomas Look
-  - Jan M. van Deursen
-  - Hu Li
-  - Jennifer J. Westendorf
-  - John M. Maris
-  - Shizhen Zhu
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x2r
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.c.6513432
-  title: Data from GAS7 Deficiency Promotes Metastasis in MYCN-Driven Neuroblastoma
+  - Sharon J Diskin
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2023-12-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/38076939
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37978951
+  title: 'Everolimus for Children With Recurrent or Progressive Low-Grade Glioma:
+    Results From the Phase II PNOC001 Trial.'
   authors:
-  - Zhiwei Dong
-  - Kok Siong Yeo
-  - Gonzalo Lopez
-  - Cheng Zhang
-  - Erin N. Dankert Eggum
-  - Jo Lynne Rokita
-  - Choong Yong Ung
-  - Taylor M. Levee
-  - Zuag Paj Her
-  - Cassie J. Howe
-  - Xiaonan Hou
-  - Janine H. van Ree
-  - Shuai Li
-  - Shuning He
-  - Ting Tao
-  - Karen Fritchie
-  - Jorge Torres-Mora
-  - Julia S. Lehman
-  - Alexander Meves
-  - Gina L. Razidlo
-  - Komal S. Rathi
-  - S. John Weroha
-  - A. Thomas Look
-  - Jan M. van Deursen
-  - Hu Li
-  - Jennifer J. Westendorf
-  - John M. Maris
-  - Shizhen Zhu
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x23
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.c.6511828.v1
-  title: Data from Telomere Maintenance Mechanisms Define Clinical Outcome in High-Risk
-    Neuroblastoma
-  authors:
-  - Balakrishna Koneru
-  - Gonzalo Lopez
-  - Ahsan Farooqi
-  - Karina L. Conkrite
-  - Thinh H. Nguyen
-  - Shawn J. Macha
-  - Apexa Modi
-  - Jo Lynne Rokita
-  - Eduardo Urias
-  - Ashly Hindle
-  - Heather Davidson
-  - Kristyn Mccoy
-  - Jonas Nance
-  - Vanda Yazdani
-  - Meredith S. Irwin
-  - Shengping Yang
-  - David A. Wheeler
-  - John M. Maris
-  - Sharon J. Diskin
-  - C. Patrick Reynolds
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x27
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.c.6511828
-  title: Data from Telomere Maintenance Mechanisms Define Clinical Outcome in High-Risk
-    Neuroblastoma
-  authors:
-  - Balakrishna Koneru
-  - Gonzalo Lopez
-  - Ahsan Farooqi
-  - Karina L. Conkrite
-  - Thinh H. Nguyen
-  - Shawn J. Macha
-  - Apexa Modi
-  - Jo Lynne Rokita
-  - Eduardo Urias
-  - Ashly Hindle
-  - Heather Davidson
-  - Kristyn Mccoy
-  - Jonas Nance
-  - Vanda Yazdani
-  - Meredith S. Irwin
-  - Shengping Yang
-  - David A. Wheeler
-  - John M. Maris
-  - Sharon J. Diskin
-  - C. Patrick Reynolds
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x3b
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.c.6511223.v1
-  title: Data from YAP1 Mediates Resistance to MEK1/2 Inhibition in Neuroblastomas
-    with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x3h
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.c.6511223
-  title: Data from YAP1 Mediates Resistance to MEK1/2 Inhibition in Neuroblastomas
-    with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x3q
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422452
-  title: Supplemental Tables S1-5 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x3t
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422452.v1
-  title: Supplemental Tables S1-5 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x3z
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22429665
-  title: Supplementary Data from GAS7 Deficiency Promotes Metastasis in MYCN-Driven
-    Neuroblastoma
-  authors:
-  - Zhiwei Dong
-  - Kok Siong Yeo
-  - Gonzalo Lopez
-  - Cheng Zhang
-  - Erin N. Dankert Eggum
-  - Jo Lynne Rokita
-  - Choong Yong Ung
-  - Taylor M. Levee
-  - Zuag Paj Her
-  - Cassie J. Howe
-  - Xiaonan Hou
-  - Janine H. van Ree
-  - Shuai Li
-  - Shuning He
-  - Ting Tao
-  - Karen Fritchie
-  - Jorge Torres-Mora
-  - Julia S. Lehman
-  - Alexander Meves
-  - Gina L. Razidlo
-  - Komal S. Rathi
-  - S. John Weroha
-  - A. Thomas Look
-  - Jan M. van Deursen
-  - Hu Li
-  - Jennifer J. Westendorf
-  - John M. Maris
-  - Shizhen Zhu
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x36
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22429665.v1
-  title: Supplementary Data from GAS7 Deficiency Promotes Metastasis in MYCN-Driven
-    Neuroblastoma
-  authors:
-  - Zhiwei Dong
-  - Kok Siong Yeo
-  - Gonzalo Lopez
-  - Cheng Zhang
-  - Erin N. Dankert Eggum
-  - Jo Lynne Rokita
-  - Choong Yong Ung
-  - Taylor M. Levee
-  - Zuag Paj Her
-  - Cassie J. Howe
-  - Xiaonan Hou
-  - Janine H. van Ree
-  - Shuai Li
-  - Shuning He
-  - Ting Tao
-  - Karen Fritchie
-  - Jorge Torres-Mora
-  - Julia S. Lehman
-  - Alexander Meves
-  - Gina L. Razidlo
-  - Komal S. Rathi
-  - S. John Weroha
-  - A. Thomas Look
-  - Jan M. van Deursen
-  - Hu Li
-  - Jennifer J. Westendorf
-  - John M. Maris
-  - Shizhen Zhu
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x4d
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22424632.v1
-  title: Supplementary Data from Telomere Maintenance Mechanisms Define Clinical Outcome
-    in High-Risk Neuroblastoma
-  authors:
-  - Balakrishna Koneru
-  - Gonzalo Lopez
-  - Ahsan Farooqi
-  - Karina L. Conkrite
-  - Thinh H. Nguyen
-  - Shawn J. Macha
-  - Apexa Modi
-  - Jo Lynne Rokita
-  - Eduardo Urias
-  - Ashly Hindle
-  - Heather Davidson
-  - Kristyn Mccoy
-  - Jonas Nance
-  - Vanda Yazdani
-  - Meredith S. Irwin
-  - Shengping Yang
-  - David A. Wheeler
-  - John M. Maris
-  - Sharon J. Diskin
-  - C. Patrick Reynolds
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x4h
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22424632
-  title: Supplementary Data from Telomere Maintenance Mechanisms Define Clinical Outcome
-    in High-Risk Neuroblastoma
-  authors:
-  - Balakrishna Koneru
-  - Gonzalo Lopez
-  - Ahsan Farooqi
-  - Karina L. Conkrite
-  - Thinh H. Nguyen
-  - Shawn J. Macha
-  - Apexa Modi
-  - Jo Lynne Rokita
-  - Eduardo Urias
-  - Ashly Hindle
-  - Heather Davidson
-  - Kristyn Mccoy
-  - Jonas Nance
-  - Vanda Yazdani
-  - Meredith S. Irwin
-  - Shengping Yang
-  - David A. Wheeler
-  - John M. Maris
-  - Sharon J. Diskin
-  - C. Patrick Reynolds
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x4m
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422449.v1
-  title: Supplementary Figure Legends from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x4q
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422449
-  title: Supplementary Figure Legends from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x4x
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422446
-  title: Supplementary Figure S1 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x44
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422446.v1
-  title: Supplementary Figure S1 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x45
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422443.v1
-  title: Supplementary Figure S2 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x48
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422443
-  title: Supplementary Figure S2 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x53
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422440.v1
-  title: Supplementary Figure S3 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x57
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422440
-  title: Supplementary Figure S3 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x58
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422434.v1
-  title: Supplementary Figure S4 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x6c
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422434
-  title: Supplementary Figure S4 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x6h
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422431.v1
-  title: Supplementary Figure S5 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x6n
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422431
-  title: Supplementary Figure S5 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x6s
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422428
-  title: Supplementary Figure S6 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x6v
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422428.v1
-  title: Supplementary Figure S6 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x63
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22424629.v1
-  title: Supplementary Table S1 from Telomere Maintenance Mechanisms Define Clinical
-    Outcome in High-Risk Neuroblastoma
-  authors:
-  - Balakrishna Koneru
-  - Gonzalo Lopez
-  - Ahsan Farooqi
-  - Karina L. Conkrite
-  - Thinh H. Nguyen
-  - Shawn J. Macha
-  - Apexa Modi
-  - Jo Lynne Rokita
-  - Eduardo Urias
-  - Ashly Hindle
-  - Heather Davidson
-  - Kristyn Mccoy
-  - Jonas Nance
-  - Vanda Yazdani
-  - Meredith S. Irwin
-  - Shengping Yang
-  - David A. Wheeler
-  - John M. Maris
-  - Sharon J. Diskin
-  - C. Patrick Reynolds
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x66
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22424629
-  title: Supplementary Table S1 from Telomere Maintenance Mechanisms Define Clinical
-    Outcome in High-Risk Neuroblastoma
-  authors:
-  - Balakrishna Koneru
-  - Gonzalo Lopez
-  - Ahsan Farooqi
-  - Karina L. Conkrite
-  - Thinh H. Nguyen
-  - Shawn J. Macha
-  - Apexa Modi
-  - Jo Lynne Rokita
-  - Eduardo Urias
-  - Ashly Hindle
-  - Heather Davidson
-  - Kristyn Mccoy
-  - Jonas Nance
-  - Vanda Yazdani
-  - Meredith S. Irwin
-  - Shengping Yang
-  - David A. Wheeler
-  - John M. Maris
-  - Sharon J. Diskin
-  - C. Patrick Reynolds
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x7b
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22424626.v1
-  title: Supplementary Table S2 from Telomere Maintenance Mechanisms Define Clinical
-    Outcome in High-Risk Neuroblastoma
-  authors:
-  - Balakrishna Koneru
-  - Gonzalo Lopez
-  - Ahsan Farooqi
-  - Karina L. Conkrite
-  - Thinh H. Nguyen
-  - Shawn J. Macha
-  - Apexa Modi
-  - Jo Lynne Rokita
-  - Eduardo Urias
-  - Ashly Hindle
-  - Heather Davidson
-  - Kristyn Mccoy
-  - Jonas Nance
-  - Vanda Yazdani
-  - Meredith S. Irwin
-  - Shengping Yang
-  - David A. Wheeler
-  - John M. Maris
-  - Sharon J. Diskin
-  - C. Patrick Reynolds
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x7f
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22424626
-  title: Supplementary Table S2 from Telomere Maintenance Mechanisms Define Clinical
-    Outcome in High-Risk Neuroblastoma
-  authors:
-  - Balakrishna Koneru
-  - Gonzalo Lopez
-  - Ahsan Farooqi
-  - Karina L. Conkrite
-  - Thinh H. Nguyen
-  - Shawn J. Macha
-  - Apexa Modi
-  - Jo Lynne Rokita
-  - Eduardo Urias
-  - Ashly Hindle
-  - Heather Davidson
-  - Kristyn Mccoy
-  - Jonas Nance
-  - Vanda Yazdani
-  - Meredith S. Irwin
-  - Shengping Yang
-  - David A. Wheeler
-  - John M. Maris
-  - Sharon J. Diskin
-  - C. Patrick Reynolds
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x7m
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.neo.2022.100846
-  title: The children's brain tumor network (CBTN) - Accelerating research in pediatric
-    central nervous system tumors through collaboration and open science
-  authors:
-  - Jena V. Lilly
-  - Jo Lynne Rokita
-  - Jennifer L. Mason
-  - Tatiana Patton
-  - Stephanie Stefankiewiz
-  - David Higgins
-  - Gerri Trooskin
-  - Carina A. Larouci
-  - Kamnaa Arya
-  - Elizabeth Appert
-  - Allison P. Heath
-  - Yuankun Zhu
-  - Miguel A. Brown
-  - Bo Zhang
-  - Bailey K. Farrow
-  - Shannon Robins
-  - Allison M. Morgan
-  - Thinh Q. Nguyen
-  - Elizabeth Frenkel
-  - Kaitlin Lehmann
-  - Emily Drake
-  - Catherine Sullivan
-  - Alexa Plisiewicz
-  - Noel Coleman
-  - Luke Patterson
-  - Mateusz Koptyra
-  - Zeinab Helili
-  - Nicholas Van Kuren
-  - Nathan Young
-  - Meen Chul Kim
-  - Christopher Friedman
-  - Alex Lubneuski
-  - Christopher Blackden
-  - Marti Williams
-  - Valerie Baubet
-  - Lamiya Tauhid
-  - Jamie Galanaugh
-  - Katie Boucher
-  - Heba Ijaz
-  - Kristina A. Cole
-  - Namrata Choudhari
-  - Mariarita Santi
-  - Robert W. Moulder
-  - Jonathan Waller
-  - Whitney Rife
-  - Sharon J. Diskin
-  - Marion Mateos
-  - Donald W. Parsons
-  - Ian F. Pollack
+  - Daphne A Haas-Kogan
+  - Mariam S Aboian
+  - Jane E Minturn
+  - Sarah E S Leary
+  - Mohamed S Abdelbaki
   - Stewart Goldman
-  - Sarah Leary
-  - Chiara Caporalini
-  - Anna Maria Buccoliero
-  - Mirko Scagnet
-  - David Haussler
-  - Derek Hanson
-  - Ron Firestein
-  - Jason Cain
-  - Joanna J. Phillips
-  - Nalin Gupta
-  - Sabine Mueller
-  - Gerald Grant
-  - Michelle Monje-Deisseroth
-  - Sonia Partap
-  - Jeffrey P. Greenfield
-  - Rintaro Hashizume
-  - Amy Smith
-  - Shida Zhu
-  - James M. Johnston
-  - Jason R. Fangusaro
-  - Matthew Miller
-  - Matthew D. Wood
-  - Sharon Gardner
-  - Claire L. Carter
-  - Laura M. Prolo
-  - Jared Pisapia
-  - Katherine Pehlivan
-  - Andrea Franson
-  - Toba Niazi
-  - Josh Rubin
-  - Mohamed Abdelbaki
-  - David S. Ziegler
-  - Holly B. Lindsay
-  - Ana Guerreiro Stucklin
-  - Nicolas Gerber
-  - Olena M. Vaske
-  - Carolyn Quinsey
-  - Brian R. Rood
-  - Javad Nazarian
-  - Eric Raabe
-  - Eric M. Jackson
-  - Stacie Stapleton
-  - Robert M. Lober
-  - David E. Kram
-  - Carl Koschmann
-  - Phillip B. Storm
-  - Rishi R. Lulla
-  - Michael Prados
-  - Adam C. Resnick
-  - Angela J. Waanders
-  publisher: Neoplasia
-  date: '2023-01-01'
-  link: https://doi.org/grkvcf
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1038/s43018-022-00472-0
-  title: Enhancing childhood cancer targetability
-  authors:
-  - Ammar S. Naqvi
+  - Jennifer D Elster
+  - Adam Kraya
+  - Matthew R Lueder
+  - Divya Ramakrishnan
+  - Marc von Reppert
+  - Kevin X Liu
   - Jo Lynne Rokita
-  publisher: Nature Cancer
-  date: '2022-12-30'
-  link: https://doi.org/g43x7w
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/neuonc/noac278
+  - Adam C Resnick
+  - David A Solomon
+  - Joanna J Phillips
+  - Michael Prados
+  - Annette M Molinaro
+  - Sebastian M Waszak
+  - Sabine Mueller
+  publisher: 'Journal of clinical oncology : official journal of the American Society
+    of Clinical Oncology'
+  date: '2023-11-17'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37978951
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37688570
+  title: BARD1 germline variants induce haploinsufficiency and DNA repair defects
+    in neuroblastoma.
+  authors:
+  - Michael P Randall
+  - Laura E Egolf
+  - Zalman Vaksman
+  - Minu Samanta
+  - Matthew Tsang
+  - David Groff
+  - J Perry Evans
+  - Jo Lynne Rokita
+  - Mehdi Layeghifard
+  - Adam Shlien
+  - John M Maris
+  - Sharon J Diskin
+  - Kristopher R Bosse
+  publisher: Journal of the National Cancer Institute
+  date: '2024-01-10'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37688570
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37492101
+  title: 'OpenPBTA: The Open Pediatric Brain Tumor Atlas.'
+  authors:
+  - Joshua A Shapiro
+  - Krutika S Gaonkar
+  - Stephanie J Spielman
+  - Candace L Savonen
+  - Chante J Bethell
+  - Run Jin
+  - Komal S Rathi
+  - Yuankun Zhu
+  - Laura E Egolf
+  - Bailey K Farrow
+  - Daniel P Miller
+  - Yang Yang
+  - Tejaswi Koganti
+  - Nighat Noureen
+  - Mateusz P Koptyra
+  - Nhat Duong
+  - Mariarita Santi
+  - Jung Kim
+  - Shannon Robins
+  - Phillip B Storm
+  - Stephen C Mack
+  - Jena V Lilly
+  - Hongbo M Xie
+  - Payal Jain
+  - Pichai Raman
+  - Brian R Rood
+  - Rishi R Lulla
+  - Javad Nazarian
+  - Adam A Kraya
+  - Zalman Vaksman
+  - Allison P Heath
+  - Cassie Kline
+  - Laura Scolaro
+  - Angela N Viaene
+  - Xiaoyan Huang
+  - Gregory P Way
+  - Steven M Foltz
+  - Bo Zhang
+  - Anna R Poetsch
+  - Sabine Mueller
+  - Brian M Ennis
+  - Michael Prados
+  - Sharon J Diskin
+  - Siyuan Zheng
+  - Yiran Guo
+  - Shrivats Kannan
+  - Angela J Waanders
+  - Ashley S Margol
+  - Meen Chul Kim
+  - Derek Hanson
+  - Nicholas Van Kuren
+  - Jessica Wong
+  - Rebecca S Kaufman
+  - Noel Coleman
+  - Christopher Blackden
+  - Kristina A Cole
+  - Jennifer L Mason
+  - Peter J Madsen
+  - Carl J Koschmann
+  - Douglas R Stewart
+  - Eric Wafula
+  - Miguel A Brown
+  - Adam C Resnick
+  - Casey S Greene
+  - Jo Lynne Rokita
+  - Jaclyn N Taroni
+  publisher: Cell genomics
+  date: '2023-05-31'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37492101
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37235472
+  title: Macrophages in SHH subgroup medulloblastoma display dynamic heterogeneity
+    that varies with treatment modality.
+  authors:
+  - Mai T Dang
+  - Michael V Gonzalez
+  - Krutika S Gaonkar
+  - Komal S Rathi
+  - Patricia Young
+  - Sherjeel Arif
+  - Li Zhai
+  - Zahidul Alam
+  - Samir Devalaraja
+  - Tsun Ki Jerrick To
+  - Ian W Folkert
+  - Pichai Raman
+  - Jo Lynne Rokita
+  - Daniel Martinez
+  - Jaclyn N Taroni
+  - Joshua A Shapiro
+  - Casey S Greene
+  - Candace Savonen
+  - Fernanda Mafra
+  - Hakon Hakonarson
+  - Tom Curran
+  - Malay Haldar
+  publisher: Cell reports
+  date: '2023-05-25'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37235472
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36781202
+  title: "Identification of candidate genes for nicotine withdrawal in C57BL/6J\_\xD7\
+    \_DBA/2J recombinant inbred mice."
+  authors:
+  - Maren L Smith
+  - Kristin M Mignogna
+  - Jo L Rokita
+  - Lorna MacLeod
+  - M Imad Damaj
+  - Michael F Miles
+  publisher: Genes, brain, and behavior
+  date: '2023-02-13'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36781202
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36778420
+  title: ''
+  authors:
+  - Michael P Randall
+  - Laura E Egolf
+  - Zalman Vaksman
+  - Minu Samanta
+  - Matthew Tsang
+  - David Groff
+  - J Perry Evans
+  - Jo Lynne Rokita
+  - Mehdi Layeghifard
+  - Adam Shlien
+  - John M Maris
+  - Sharon J Diskin
+  - Kristopher R Bosse
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2023-02-03'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36778420
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36585448
+  title: Enhancing childhood cancer targetability.
+  authors:
+  - Ammar S Naqvi
+  - Jo Lynne Rokita
+  publisher: Nature cancer
+  date: '2023-02-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36585448
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36541551
   title: Alternative lengthening of telomeres (ALT) in pediatric high-grade gliomas
     can occur without ATRX mutation and is enriched in patients with pathogenic germline
-    mismatch repair (MMR) variants
+    mismatch repair (MMR) variants.
   authors:
   - Jennifer L Stundon
   - Heba Ijaz
@@ -907,34 +424,34 @@
   - Sharon J Diskin
   - Jo Lynne Rokita
   - Kristina A Cole
-  publisher: Neuro-Oncology
-  date: '2022-12-20'
-  link: https://doi.org/grnc33
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.10.14.511975
-  title: "The Children\u2019s Brain Tumor Network (CBTN) - Accelerating Research in\
-    \ Pediatric Central Nervous System Tumors through Collaboration and Open Science"
+  publisher: Neuro-oncology
+  date: '2023-07-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36541551
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36335802
+  title: The children's brain tumor network (CBTN) - Accelerating research in pediatric
+    central nervous system tumors through collaboration and open science.
   authors:
-  - Jena V. Lilly
+  - Jena V Lilly
   - Jo Lynne Rokita
-  - Jennifer L. Mason
+  - Jennifer L Mason
   - Tatiana Patton
   - Stephanie Stefankiewiz
   - David Higgins
   - Gerri Trooskin
-  - Carina A. Larouci
+  - Carina A Larouci
   - Kamnaa Arya
   - Elizabeth Appert
-  - Allison P. Heath
+  - Allison P Heath
   - Yuankun Zhu
-  - Miguel A. Brown
+  - Miguel A Brown
   - Bo Zhang
-  - Bailey K. Farrow
+  - Bailey K Farrow
   - Shannon Robins
-  - Allison M. Morgan
-  - Thinh Q. Nguyen
+  - Allison M Morgan
+  - Thinh Q Nguyen
   - Elizabeth Frenkel
   - Kaitlin Lehmann
   - Emily Drake
@@ -956,16 +473,16 @@
   - Jamie Galanaugh
   - Katie Boucher
   - Heba Ijaz
-  - Kristina A. Cole
+  - Kristina A Cole
   - Namrata Choudhari
   - Mariarita Santi
-  - Robert W. Moulder
+  - Robert W Moulder
   - Jonathan Waller
   - Whitney Rife
-  - Sharon J. Diskin
+  - Sharon J Diskin
   - Marion Mateos
-  - Donald W. Parsons
-  - Ian F. Pollack
+  - Donald W Parsons
+  - Ian F Pollack
   - Stewart Goldman
   - Sarah Leary
   - Chiara Caporalini
@@ -975,128 +492,57 @@
   - Derek Hanson
   - Ron Firestein
   - Jason Cain
-  - Joanna J. Phillips
+  - Joanna J Phillips
   - Nalin Gupta
   - Sabine Mueller
   - Gerald Grant
   - Michelle Monje-Deisseroth
   - Sonia Partap
-  - Jeffrey P. Greenfield
+  - Jeffrey P Greenfield
   - Rintaro Hashizume
   - Amy Smith
   - Shida Zhu
-  - James M. Johnston
+  - James M Johnston
   - Jason R Fangusaro
   - Matthew Miller
-  - Matthew D. Wood
+  - Matthew D Wood
   - Sharon Gardner
-  - Claire L. Carter
-  - Laura M. Prolo
+  - Claire L Carter
+  - Laura M Prolo
   - Jared Pisapia
   - Katherine Pehlivan
   - Andrea Franson
   - Toba Niazi
   - Josh Rubin
   - Mohamed Abdelbaki
-  - David S. Ziegler
-  - Holly B. Lindsay
+  - David S Ziegler
+  - Holly B Lindsay
   - Ana Guerreiro Stucklin
   - Nicolas Gerber
-  - Olena M. Vaske
+  - Olena M Vaske
   - Carolyn Quinsey
-  - Brian R. Rood
+  - Brian R Rood
   - Javad Nazarian
   - Eric Raabe
-  - Eric M. Jackson
+  - Eric M Jackson
   - Stacie Stapleton
-  - Robert M. Lober
-  - David E. Kram
+  - Robert M Lober
+  - David E Kram
   - Carl Koschmann
-  - Phillip B. Storm
-  - Rishi R. Lulla
+  - Phillip B Storm
+  - Rishi R Lulla
   - Michael Prados
-  - Adam C. Resnick
-  - Angela J. Waanders
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-10-18'
-  link: https://doi.org/g43x76
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.09.13.507832
-  title: 'OpenPBTA: An Open Pediatric Brain Tumor Atlas'
-  authors:
-  - Joshua A. Shapiro
-  - Krutika S. Gaonkar
-  - Candace L. Savonen
-  - Stephanie J. Spielman
-  - Chante J. Bethell
-  - Run Jin
-  - Komal S. Rathi
-  - Yuankun Zhu
-  - Laura E. Egolf
-  - Bailey K. Farrow
-  - Daniel P. Miller
-  - Yang Yang
-  - Tejaswi Koganti
-  - Nighat Noureen
-  - Mateusz P. Koptyra
-  - Nhat Duong
-  - Adam A. Kraya
-  - Cassie Kline
-  - Yiran Guo
-  - Phillip B. Storm
-  - Javad Nazarian
-  - Stephen C. Mack
-  - Pichai Raman
-  - Siyuan Zheng
-  - Peter J. Madsen
-  - Nicholas Van Kuren
-  - Shannon Robins
-  - Xiaoyan Huang
-  - Angela J. Waanders
-  - Jung Kim
-  - Derek Hanson
-  - Carl J. Koschmann
-  - Sharon J. Diskin
-  - Rishi R. Lulla
-  - Miguel A. Brown
-  - Jessica Wong
-  - Jennifer L. Mason
-  - Laura Scolaro
-  - Meen Chul Kim
-  - Hongbo M. Xie
-  - Brian R. Rood
-  - Kristina A. Cole
-  - Ashley S. Margol
-  - Zalman Vaksman
-  - Rebecca S. Kaufman
-  - Allison P. Heath
-  - Brian M. Ennis
-  - Mariarita Santi
-  - Anna R. Poetsch
-  - Angela N. Viaene
-  - Douglas R. Stewart
-  - Steven M. Foltz
-  - Payal Jain
-  - Bo Zhang
-  - Shrivats Kannan
-  - Michael Prados
-  - Jena V. Lilly
-  - Sabine Mueller
-  - Adam C. Resnick
-  - Casey S. Greene
-  - Jo Lynne Rokita
-  - Jaclyn N. Taroni
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-09-16'
-  link: https://doi.org/gqvf99
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1136/jitc-2021-004450
+  - Adam C Resnick
+  - Angela J Waanders
+  publisher: Neoplasia (New York, N.Y.)
+  date: '2022-11-03'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36335802
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36167467
   title: Development of GPC2-directed chimeric antigen receptors using mRNA for pediatric
-    brain tumors
+    brain tumors.
   authors:
   - Jessica B Foster
   - Crystal Griffin
@@ -1118,136 +564,293 @@
   - Adam C Resnick
   - John M Maris
   - Kristopher R Bosse
-  publisher: Journal for ImmunoTherapy of Cancer
+  publisher: Journal for immunotherapy of cancer
   date: '2022-09-01'
-  link: https://doi.org/gq53zb
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.08.05.502870
-  title: ALT in Pediatric High-Grade Gliomas Can Occur without<i>ATRX</i>Mutation
-    and is Enriched in Patients with Pathogenic Germline MMR Variants
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36167467
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:35852795
+  title: 'Upfront Biology-Guided Therapy in Diffuse Intrinsic Pontine Glioma: Therapeutic,
+    Molecular, and Biomarker Outcomes from PNOC003.'
   authors:
-  - Jennifer L. Stundon
-  - Heba Ijaz
-  - Krutika S. Gaonkar
-  - Rebecca S. Kaufman
-  - Run Jin
-  - Anastasios Karras
-  - Zalman Vaksman
-  - Jung Kim
-  - Ryan J. Corbett
-  - Matthew R. Lueder
-  - Daniel P. Miller
-  - Yiran Guo
-  - Mariarita Santi
-  - Marilyn Li
-  - Gonzalo Lopez
-  - Phillip B. Storm
-  - Adam C. Resnick
-  - Angela J. Waanders
-  - Suzanne P. MacFarland
-  - Douglas R. Stewart
-  - Sharon J. Diskin
+  - Cassie Kline
+  - Payal Jain
+  - Lindsay Kilburn
+  - Erin R Bonner
+  - Nalin Gupta
+  - John R Crawford
+  - Anu Banerjee
+  - Roger J Packer
+  - Javier Villanueva-Meyer
+  - Tracy Luks
+  - Yalan Zhang
+  - Madhuri Kambhampati
+  - Jie Zhang
+  - Sridevi Yadavilli
+  - Bo Zhang
+  - Krutika S Gaonkar
   - Jo Lynne Rokita
-  - Kristina A. Cole
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-08-06'
-  link: https://doi.org/g43x8n
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.CAN-20-1890
-  title: GAS7 Deficiency Promotes Metastasis in MYCN-Driven Neuroblastoma
+  - Adam Kraya
+  - John Kuhn
+  - Winnie Liang
+  - Sara Byron
+  - Michael Berens
+  - Annette Molinaro
+  - Michael Prados
+  - Adam Resnick
+  - Sebastian M Waszak
+  - Javad Nazarian
+  - Sabine Mueller
+  publisher: 'Clinical cancer research : an official journal of the American Association
+    for Cancer Research'
+  date: '2022-09-15'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/35852795
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:33789113
+  title: Macrophages in SHH subgroup medulloblastoma display dynamic heterogeneity
+    that varies with treatment modality.
+  authors:
+  - Mai T Dang
+  - Michael V Gonzalez
+  - Krutika S Gaonkar
+  - Komal S Rathi
+  - Patricia Young
+  - Sherjeel Arif
+  - Li Zhai
+  - Zahidul Alam
+  - Samir Devalaraja
+  - Tsun Ki Jerrick To
+  - Ian W Folkert
+  - Pichai Raman
+  - Jo Lynne Rokita
+  - Daniel Martinez
+  - Jaclyn N Taroni
+  - Joshua A Shapiro
+  - Casey S Greene
+  - Candace Savonen
+  - Fernanda Mafra
+  - Hakon Hakonarson
+  - Tom Curran
+  - Malay Haldar
+  publisher: Cell reports
+  date: '2021-03-30'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/33789113
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:33602789
+  title: GAS7 Deficiency Promotes Metastasis in MYCN-Driven Neuroblastoma.
   authors:
   - Zhiwei Dong
   - Kok Siong Yeo
   - Gonzalo Lopez
   - Cheng Zhang
-  - Erin N. Dankert Eggum
+  - Erin N Dankert Eggum
   - Jo Lynne Rokita
   - Choong Yong Ung
-  - Taylor M. Levee
+  - Taylor M Levee
   - Zuag Paj Her
-  - Cassie J. Howe
+  - Cassie J Howe
   - Xiaonan Hou
-  - Janine H. van Ree
+  - Janine H van Ree
   - Shuai Li
   - Shuning He
   - Ting Tao
   - Karen Fritchie
   - Jorge Torres-Mora
-  - Julia S. Lehman
+  - Julia S Lehman
   - Alexander Meves
-  - Gina L. Razidlo
-  - Komal S. Rathi
-  - S. John Weroha
-  - A. Thomas Look
-  - Jan M. van Deursen
+  - Gina L Razidlo
+  - Komal S Rathi
+  - S John Weroha
+  - A Thomas Look
+  - Jan M van Deursen
   - Hu Li
-  - Jennifer J. Westendorf
-  - John M. Maris
+  - Jennifer J Westendorf
+  - John M Maris
   - Shizhen Zhu
-  publisher: Cancer Research
+  publisher: Cancer research
   date: '2021-02-18'
-  link: https://doi.org/g43x8s
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1008263
-  title: A transcriptome-based classifier to determine molecular subtypes in medulloblastoma
+  link: https://www.ncbi.nlm.nih.gov/pubmed/33602789
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:33317447
+  title: 'annoFuse: an R Package to annotate, prioritize, and interactively explore
+    putative oncogenic RNA fusions.'
   authors:
-  - Komal S. Rathi
+  - Krutika S Gaonkar
+  - Federico Marini
+  - Komal S Rathi
+  - Payal Jain
+  - Yuankun Zhu
+  - Nicholas A Chimicles
+  - Miguel A Brown
+  - Ammar S Naqvi
+  - Bo Zhang
+  - Phillip B Storm
+  - John M Maris
+  - Pichai Raman
+  - Adam C Resnick
+  - Konstantin Strauch
+  - Jaclyn N Taroni
+  - Jo Lynne Rokita
+  publisher: BMC bioinformatics
+  date: '2020-12-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/33317447
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:33242424
+  title: Integrated Proteogenomic Characterization across Major Histological Types
+    of Pediatric Brain Cancer.
+  authors:
+  - Francesca Petralia
+  - Nicole Tignor
+  - Boris Reva
+  - Mateusz Koptyra
+  - Shrabanti Chowdhury
+  - Dmitry Rykunov
+  - Azra Krek
+  - Weiping Ma
+  - Yuankun Zhu
+  - Jiayi Ji
+  - Anna Calinawan
+  - Jeffrey R Whiteaker
+  - Antonio Colaprico
+  - Vasileios Stathias
+  - Tatiana Omelchenko
+  - Xiaoyu Song
+  - Pichai Raman
+  - Yiran Guo
+  - Miguel A Brown
+  - Richard G Ivey
+  - John Szpyt
+  - Sanjukta Guha Thakurta
+  - Marina A Gritsenko
+  - Karl K Weitz
+  - Gonzalo Lopez
+  - Selim Kalayci
+  - "Zeynep H G\xFCm\xFC\u015F"
+  - Seungyeul Yoo
+  - Felipe da Veiga Leprevost
+  - Hui-Yin Chang
+  - Karsten Krug
+  - Lizabeth Katsnelson
+  - Ying Wang
+  - Jacob J Kennedy
+  - Uliana J Voytovich
+  - Lei Zhao
+  - Krutika S Gaonkar
+  - Brian M Ennis
+  - Bo Zhang
+  - Valerie Baubet
+  - Lamiya Tauhid
+  - Jena V Lilly
+  - Jennifer L Mason
+  - Bailey Farrow
+  - Nathan Young
+  - Sarah Leary
+  - Jamie Moon
+  - Vladislav A Petyuk
+  - Javad Nazarian
+  - Nithin D Adappa
+  - James N Palmer
+  - Robert M Lober
+  - Samuel Rivero-Hinojosa
+  - Liang-Bo Wang
+  - Joshua M Wang
+  - Matilda Broberg
+  - Rosalie K Chu
+  - Ronald J Moore
+  - Matthew E Monroe
+  - Rui Zhao
+  - Richard D Smith
+  - Jun Zhu
+  - Ana I Robles
+  - Mehdi Mesri
+  - Emily Boja
+  - Tara Hiltke
+  - Henry Rodriguez
+  - Bing Zhang
+  - Eric E Schadt
+  - D R Mani
+  - Li Ding
+  - Antonio Iavarone
+  - Maciej Wiznerowicz
+  - "Stephan Sch\xFCrer"
+  - Xi S Chen
+  - Allison P Heath
+  - Jo Lynne Rokita
+  - Alexey I Nesvizhskii
+  - "David Feny\xF6"
+  - Karin D Rodland
+  - Tao Liu
+  - Steven P Gygi
+  - Amanda G Paulovich
+  - Adam C Resnick
+  - Phillip B Storm
+  - Brian R Rood
+  - Pei Wang
+  publisher: Cell
+  date: '2020-11-25'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/33242424
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:33119584
+  title: A transcriptome-based classifier to determine molecular subtypes in medulloblastoma.
+  authors:
+  - Komal S Rathi
   - Sherjeel Arif
   - Mateusz Koptyra
-  - Ammar S. Naqvi
-  - Deanne M. Taylor
-  - Phillip B. Storm
-  - Adam C. Resnick
+  - Ammar S Naqvi
+  - Deanne M Taylor
+  - Phillip B Storm
+  - Adam C Resnick
   - Jo Lynne Rokita
   - Pichai Raman
-  publisher: PLOS Computational Biology
+  publisher: PLoS computational biology
   date: '2020-10-29'
-  link: https://doi.org/gm84kq
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.CAN-19-3068
-  title: Telomere Maintenance Mechanisms Define Clinical Outcome in High-Risk Neuroblastoma
+  link: https://www.ncbi.nlm.nih.gov/pubmed/33119584
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:32339949
+  title: LIN28B promotes neuroblastoma metastasis and regulates PDZ binding kinase.
   authors:
-  - Balakrishna Koneru
-  - Gonzalo Lopez
-  - Ahsan Farooqi
-  - Karina L. Conkrite
-  - Thinh H. Nguyen
-  - Shawn J. Macha
-  - Apexa Modi
+  - Dongdong Chen
+  - Julie Cox
+  - Jayabhargav Annam
+  - Melanie Weingart
+  - Grace Essien
+  - Komal S Rathi
   - Jo Lynne Rokita
-  - Eduardo Urias
-  - Ashly Hindle
-  - Heather Davidson
-  - Kristyn Mccoy
-  - Jonas Nance
-  - Vanda Yazdani
-  - Meredith S. Irwin
-  - Shengping Yang
-  - David A. Wheeler
-  - John M. Maris
-  - Sharon J. Diskin
-  - C. Patrick Reynolds
-  publisher: Cancer Research
-  date: '2020-06-15'
-  link: https://doi.org/gsdpwn
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/pbc.28267
-  title: Limited antitumor activity of combined BET and MEK inhibition in neuroblastoma
+  - Priya Khurana
+  - Selma M Cuya
+  - Kristopher R Bosse
+  - Adeiye Pilgrim
+  - Daisy Li
+  - Cara Shields
+  - Oskar Laur
+  - John M Maris
+  - Robert W Schnepp
+  publisher: Neoplasia (New York, N.Y.)
+  date: '2020-04-24'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32339949
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:32307821
+  title: Limited antitumor activity of combined BET and MEK inhibition in neuroblastoma.
   authors:
-  - Jason R. Healy
-  - Lori S. Hart
-  - Alexander L. Shazad
-  - Maria E. Gagliardi
+  - Jason R Healy
+  - Lori S Hart
+  - Alexander L Shazad
+  - Maria E Gagliardi
   - Matthew Tsang
   - Jimmy Elias
   - Jacob Ruden
@@ -1258,68 +861,290 @@
   - Olena Barbash
   - Vandana Batra
   - Minu Samanta
-  - John M. Maris
-  - Robert W. Schnepp
-  publisher: Pediatric Blood &amp; Cancer
+  - John M Maris
+  - Robert W Schnepp
+  publisher: Pediatric blood & cancer
   date: '2020-04-19'
-  link: https://doi.org/g43x89
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.CAN-19-1415
-  title: YAP1 Mediates Resistance to MEK1/2 Inhibition in Neuroblastomas with Hyperactivated
-    RAS Signaling
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32307821
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:32291317
+  title: Telomere Maintenance Mechanisms Define Clinical Outcome in High-Risk Neuroblastoma.
   authors:
-  - Grace E. Coggins
+  - Balakrishna Koneru
+  - Gonzalo Lopez
+  - Ahsan Farooqi
+  - Karina L Conkrite
+  - Thinh H Nguyen
+  - Shawn J Macha
+  - Apexa Modi
+  - Jo Lynne Rokita
+  - Eduardo Urias
+  - Ashly Hindle
+  - Heather Davidson
+  - Kristyn Mccoy
+  - Jonas Nance
+  - Vanda Yazdani
+  - Meredith S Irwin
+  - Shengping Yang
+  - David A Wheeler
+  - John M Maris
+  - Sharon J Diskin
+  - C Patrick Reynolds
+  publisher: Cancer research
+  date: '2020-04-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32291317
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:32286315
+  title: Epigenomic profiling of neuroblastoma cell lines.
+  authors:
+  - Kristen Upton
+  - Apexa Modi
+  - Khushbu Patel
+  - Nathan M Kendsersky
+  - Karina L Conkrite
+  - Robyn T Sussman
+  - Gregory P Way
+  - Rebecca N Adams
+  - Gregory I Sacks
+  - Paolo Fortina
+  - Sharon J Diskin
+  - John M Maris
+  - Jo Lynne Rokita
+  publisher: Scientific data
+  date: '2020-04-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32286315
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:32211329
+  title: CAMKV Is a Candidate Immunotherapeutic Target in
+  authors:
+  - Robyn T Sussman
+  - Jo Lynne Rokita
+  - Kevin Huang
+  - Pichai Raman
+  - Komal S Rathi
+  - Daniel Martinez
+  - Kristopher R Bosse
+  - Maria Lane
+  - Lori S Hart
+  - Tricia Bhatti
+  - Bruce Pawel
+  - John M Maris
+  publisher: Frontiers in oncology
+  date: '2020-03-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32211329
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31819055
+  title: ASCL1 is a MYCN- and LMO1-dependent member of the adrenergic neuroblastoma
+    core regulatory circuitry.
+  authors:
+  - Lu Wang
+  - Tze King Tan
+  - Adam D Durbin
+  - Mark W Zimmerman
+  - Brian J Abraham
+  - Shi Hao Tan
+  - Phuong Cao Thi Ngoc
+  - Nina Weichert-Leahey
+  - Koshi Akahane
+  - Lee N Lawton
+  - Jo Lynne Rokita
+  - John M Maris
+  - Richard A Young
+  - A Thomas Look
+  - Takaomi Sanda
+  publisher: Nature communications
+  date: '2019-12-09'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31819055
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31810498
+  title: Combined innate and adaptive immunotherapy overcomes resistance of immunologically
+    cold syngeneic murine neuroblastoma to checkpoint inhibition.
+  authors:
+  - Julie Voeller
+  - Amy K Erbe
+  - Jacob Slowinski
+  - Kayla Rasmussen
+  - Peter M Carlson
+  - Anna Hoefges
+  - Sabrina VandenHeuvel
+  - Ashley Stuckwisch
+  - Xing Wang
+  - Stephen D Gillies
+  - Ravi B Patel
   - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
+  - Jo Lynne Rokita
+  - John Maris
+  - Jacquelyn A Hank
+  - Zachary S Morris
+  - Alexander L Rakhmilevich
+  - Paul M Sondel
+  publisher: Journal for immunotherapy of cancer
+  date: '2019-12-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31810498
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31693904
+  title: Genomic Profiling of Childhood Tumor Patient-Derived Xenograft Models to
+    Enable Rational Clinical Trial Design.
+  authors:
+  - Jo Lynne Rokita
+  - Komal S Rathi
+  - Maria F Cardenas
+  - Kristen A Upton
+  - Joy Jayaseelan
+  - Katherine L Cross
+  - Jacob Pfeil
+  - Laura E Egolf
+  - Gregory P Way
+  - Alvin Farrel
+  - Nathan M Kendsersky
+  - Khushbu Patel
+  - Krutika S Gaonkar
+  - Apexa Modi
+  - Esther R Berko
+  - Gonzalo Lopez
+  - Zalman Vaksman
+  - Chelsea Mayoh
+  - Jonas Nance
+  - Kristyn McCoy
+  - Michelle Haber
+  - Kathryn Evans
+  - Hannah McCalmont
+  - Katerina Bendak
+  - "Julia W B\xF6hm"
+  - Glenn M Marshall
+  - Vanessa Tyrrell
+  - Karthik Kalletla
+  - Frank K Braun
+  - Lin Qi
+  - Yunchen Du
+  - Huiyuan Zhang
+  - Holly B Lindsay
+  - Sibo Zhao
+  - Jack Shu
+  - Patricia Baxter
+  - Christopher Morton
+  - Dias Kurmashev
+  - Siyuan Zheng
+  - Yidong Chen
+  - Jay Bowen
+  - Anthony C Bryan
+  - Kristen M Leraas
+  - Sara E Coppens
+  - HarshaVardhan Doddapaneni
+  - Zeineen Momin
+  - Wendong Zhang
+  - Gregory I Sacks
+  - Lori S Hart
+  - Kateryna Krytska
+  - Yael P Mosse
+  - Gregory J Gatto
+  - Yolanda Sanchez
+  - Casey S Greene
+  - Sharon J Diskin
+  - Olena Morozova Vaske
+  - David Haussler
+  - Julie M Gastier-Foster
+  - E Anders Kolb
+  - Richard Gorlick
+  - Xiao-Nan Li
+  - C Patrick Reynolds
+  - Raushan T Kurmasheva
+  - Peter J Houghton
+  - Malcolm A Smith
+  - Richard B Lock
+  - Pichai Raman
+  - David A Wheeler
+  - John M Maris
+  publisher: Cell reports
+  date: '2019-11-05'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31693904
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31672841
+  title: YAP1 Mediates Resistance to MEK1/2 Inhibition in Neuroblastomas with Hyperactivated
+    RAS Signaling.
+  authors:
+  - Grace E Coggins
+  - Alvin Farrel
+  - Komal S Rathi
+  - Colin M Hayes
   - Laura Scolaro
   - Jo Lynne Rokita
-  - John M. Maris
-  publisher: Cancer Research
-  date: '2019-12-13'
-  link: https://doi.org/g43x9b
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/656587
-  title: "Pediatric High Grade Glioma Resources From the Children\u2019s Brain Tumor\
-    \ Tissue Consortium (CBTTC) and Pediatric Brain Tumor Atlas (PBTA)"
+  - John M Maris
+  publisher: Cancer research
+  date: '2019-10-31'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31672841
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31613963
+  title: Pediatric high-grade glioma resources from the Children's Brain Tumor Tissue
+    Consortium.
   authors:
   - Heba Ijaz
   - Mateusz Koptyra
-  - Krutika S. Gaonkar
+  - Krutika S Gaonkar
   - Jo Lynne Rokita
-  - Valerie P. Baubet
+  - Valerie P Baubet
   - Lamiya Tauhid
-  - Yankun Zhu
+  - Yuankun Zhu
   - Miguel Brown
   - Gonzalo Lopez
   - Bo Zhang
-  - Sharon J. Diskin
+  - Sharon J Diskin
   - Zalman Vaksman
-  - Jennifer L. Mason
+  - Jennifer L Mason
   - Elizabeth Appert
   - Jena Lilly
   - Rishi Lulla
   - Thomas De Raedt
-  - Allison P. Heath
+  - Allison P Heath
   - Alex Felmeister
   - Pichai Raman
   - Javad Nazarian
   - Maria Rita Santi
-  - Phillip B. Storm
+  - Phillip B Storm
   - Adam Resnick
-  - Angela J. Waanders
-  - Kristina A. Cole
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-05-31'
-  link: https://doi.org/gf66qt
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: pmid:30930166
+  - Angela J Waanders
+  - Kristina A Cole
+  publisher: Neuro-oncology
+  date: '2020-01-11'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31613963
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31474320
+  title: Germline 16p11.2 Microdeletion Predisposes to Neuroblastoma.
+  authors:
+  - Laura E Egolf
+  - Zalman Vaksman
+  - Gonzalo Lopez
+  - Jo Lynne Rokita
+  - Apexa Modi
+  - Patricia V Basta
+  - Hakon Hakonarson
+  - Andrew F Olshan
+  - Sharon J Diskin
+  publisher: American journal of human genetics
+  date: '2019-08-29'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31474320
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:30930166
   title: 'The Pediatric Cell Atlas: Defining the Growth Phase of Human Development
     at Single-Cell Resolution.'
   authors:
@@ -1399,89 +1224,12 @@
   publisher: Developmental cell
   date: '2019-03-28'
   link: https://www.ncbi.nlm.nih.gov/pubmed/30930166
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/566455
-  title: Genomic profiling of childhood tumor patient-derived xenograft models to
-    enable rational clinical trial design
-  authors:
-  - Jo Lynne Rokita
-  - Komal S. Rathi
-  - Maria F. Cardenas
-  - Kristen A. Upton
-  - Joy Jayaseelan
-  - Katherine L. Cross
-  - Jacob Pfeil
-  - Laura E. Ritenour
-  - Apexa Modi
-  - Alvin Farrel
-  - Gregory P. Way
-  - Nathan M. Kendsersky
-  - Khushbu Patel
-  - Gonzalo Lopez
-  - Zalman Vaksman
-  - Chelsea Mayoh
-  - Jonas Nance
-  - Kristyn McCoy
-  - Michelle Haber
-  - Kathryn Evans
-  - Hannah McCalmont
-  - Katerina Bendak
-  - "Julia W. B\xF6hm"
-  - Glenn M. Marshall
-  - Vanessa Tyrrell
-  - Karthik Kalletla
-  - Frank K. Braun
-  - Lin Qi
-  - Yunchen Du
-  - Huiyuan Zhang
-  - Holly B. Lindsay
-  - Sibo Zhao
-  - Jack Shu
-  - Patricia Baxter
-  - Christopher Morton
-  - Dias Kurmashev
-  - Siyuan Zheng
-  - Yidong Chen
-  - Jay Bowen
-  - Anthony C. Bryan
-  - Kristen M. Leraas
-  - Sara E. Coppens
-  - HarshaVardhan Doddapaneni
-  - Zeineen Momin
-  - Wendong Zhang
-  - Gregory I. Sacks
-  - Lori S. Hart
-  - Kateryna Krytska
-  - Yael P. Mosse
-  - Gregory J. Gatto
-  - Yolanda Sanchez
-  - Casey S. Greene
-  - Sharon J. Diskin
-  - Olena Morozova Vaske
-  - David Haussler
-  - Julie M. Gastier-Foster
-  - E. Anders Kolb
-  - Richard Gorlick
-  - Xiao-Nan Li
-  - C. Patrick Reynolds
-  - Raushan T. Kurmasheva
-  - Peter J. Houghton
-  - Malcolm A. Smith
-  - Richard B. Lock
-  - Pichai Raman
-  - David A. Wheeler
-  - John M. Maris
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-06'
-  link: https://doi.org/gg7m5w
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/2159-8290.cd-16-0861
-  title: "Cross-Cohort Analysis Identifies a TEAD4\u2013MYCN Positive Feedback Loop\
-    \ as the Core Regulatory Element of High-Risk Neuroblastoma"
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:29510988
+  title: Cross-Cohort Analysis Identifies a TEAD4-MYCN Positive Feedback Loop as the
+    Core Regulatory Element of High-Risk Neuroblastoma.
   authors:
   - Presha Rajbhandari
   - Gonzalo Lopez
@@ -1492,114 +1240,114 @@
   - Daniel Martinez
   - Mark Yarmarkovich
   - Nina Weichert-Leahey
-  - Brian J. Abraham
-  - Mariano J. Alvarez
+  - Brian J Abraham
+  - Mariano J Alvarez
   - Archana Iyer
   - Jo Lynne Harenza
   - Derek Oldridge
   - Katleen De Preter
   - Jan Koster
   - Shahab Asgharzadeh
-  - Robert C. Seeger
-  - Jun S. Wei
+  - Robert C Seeger
+  - Jun S Wei
   - Javed Khan
   - Jo Vandesompele
   - Pieter Mestdagh
   - Rogier Versteeg
-  - A. Thomas Look
-  - Richard A. Young
+  - A Thomas Look
+  - Richard A Young
   - Antonio Iavarone
   - Anna Lasorella
-  - Jose M. Silva
-  - John M. Maris
+  - Jose M Silva
+  - John M Maris
   - Andrea Califano
-  publisher: Cancer Discovery
-  date: '2018-04-30'
-  link: https://doi.org/gfgqt9
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.ccell.2017.08.003
-  title: Identification of GPC2 as an Oncoprotein and Candidate Immunotherapeutic
-    Target in High-Risk Neuroblastoma
+  publisher: Cancer discovery
+  date: '2018-03-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29510988
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:29206221
+  title: 'Corrigendum: Transcriptomic profiling of 39 commonly-used neuroblastoma
+    cell lines.'
   authors:
-  - Kristopher R. Bosse
+  - Jo Lynne Harenza
+  - Maura A Diamond
+  - Rebecca N Adams
+  - Michael M Song
+  - Heather L Davidson
+  - Lori S Hart
+  - Maiah H Dent
+  - Paolo Fortina
+  - C Patrick Reynolds
+  - John M Maris
+  publisher: Scientific data
+  date: '2017-12-05'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29206221
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:28898695
+  title: Identification of GPC2 as an Oncoprotein and Candidate Immunotherapeutic
+    Target in High-Risk Neuroblastoma.
+  authors:
+  - Kristopher R Bosse
   - Pichai Raman
   - Zhongyu Zhu
   - Maria Lane
   - Daniel Martinez
   - Sabine Heitzeneder
-  - Komal S. Rathi
-  - Nathan M. Kendsersky
+  - Komal S Rathi
+  - Nathan M Kendsersky
   - Michael Randall
   - Laura Donovan
   - Sorana Morrissy
-  - Robyn T. Sussman
-  - Doncho V. Zhelev
+  - Robyn T Sussman
+  - Doncho V Zhelev
   - Yang Feng
   - Yanping Wang
   - Jennifer Hwang
   - Gonzalo Lopez
   - Jo Lynne Harenza
-  - Jun S. Wei
+  - Jun S Wei
   - Bruce Pawel
   - Tricia Bhatti
   - Mariarita Santi
   - Arupa Ganguly
   - Javed Khan
-  - Marco A. Marra
-  - Michael D. Taylor
-  - Dimiter S. Dimitrov
-  - Crystal L. Mackall
-  - John M. Maris
-  publisher: Cancer Cell
-  date: '2017-09-01'
-  link: https://doi.org/gbx8d5
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1038/sdata.2017.33
-  title: Transcriptomic profiling of 39 commonly-used neuroblastoma cell lines
+  - Marco A Marra
+  - Michael D Taylor
+  - Dimiter S Dimitrov
+  - Crystal L Mackall
+  - John M Maris
+  publisher: Cancer cell
+  date: '2017-09-11'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28898695
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:28350380
+  title: Transcriptomic profiling of 39 commonly-used neuroblastoma cell lines.
   authors:
   - Jo Lynne Harenza
-  - Maura A. Diamond
-  - Rebecca N. Adams
-  - Michael M. Song
-  - Heather L. Davidson
-  - Lori S. Hart
-  - Maiah H. Dent
+  - Maura A Diamond
+  - Rebecca N Adams
+  - Michael M Song
+  - Heather L Davidson
+  - Lori S Hart
+  - Maiah H Dent
   - Paolo Fortina
-  - C. Patrick Reynolds
-  - John M. Maris
-  publisher: Scientific Data
+  - C Patrick Reynolds
+  - John M Maris
+  publisher: Scientific data
   date: '2017-03-28'
-  link: https://doi.org/f9v8hh
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1038/sdata.2017.183
-  title: 'Correction: Corrigendum: Transcriptomic profiling of 39 commonly-used neuroblastoma
-    cell lines'
-  authors:
-  - Jo Lynne Harenza
-  - Maura A. Diamond
-  - Rebecca N. Adams
-  - Michael M. Song
-  - Heather L. Davidson
-  - Lori S. Hart
-  - Maiah H. Dent
-  - Paolo Fortina
-  - C. Patrick Reynolds
-  - John M. Maris
-  publisher: Scientific Data
-  date: '2017-12-05'
-  link: https://doi.org/g43x9s
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1021/acs.analchem.6b03076
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28350380
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:28193036
   title: International Comparison of Enumeration-Based Quantification of DNA Copy-Concentration
-    Using Flow Cytometric Counting and Digital Polymerase Chain Reaction
+    Using Flow Cytometric Counting and Digital Polymerase Chain Reaction.
   authors:
   - Hee-Bong Yoo
   - Sang-Ryoul Park
@@ -1613,190 +1361,43 @@
   - Philippe Corbisier
   - "M\xE1trai Janka"
   - Bruno Cosme
-  - Janaina J. de V. Cavalcante
+  - Janaina J de V Cavalcante
   - Roberto Becht Flatshart
   - Daniel Burke
   - Michael Forbes-Smith
   - Jacob McLaughlin
   - Kerry Emslie
-  - Alexandra S. Whale
-  - Jim F. Huggett
+  - Alexandra S Whale
+  - Jim F Huggett
   - Helen Parkes
-  - Margaret C. Kline
+  - Margaret C Kline
   - Jo Lynne Harenza
-  - Peter M. Vallone
-  publisher: Analytical Chemistry
+  - Peter M Vallone
+  publisher: Analytical chemistry
   date: '2016-11-30'
-  link: https://doi.org/f9hq9m
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1111/gbb.12289
-  title: "Identification of quantitative trait loci and candidate genes for an anxiolytic\u2010\
-    like response to ethanol in <scp>BXD</scp> recombinant inbred strains"
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28193036
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:21494628
+  title: 'Genetic analysis of the neurosteroid deoxycorticosterone and its relation
+    to alcohol phenotypes: identification of QTLs and downstream gene regulation.'
   authors:
-  - A. H. Putman
-  - A. R. Wolen
-  - J. L. Harenza
-  - R. K. Yordanova
-  - B. T. Webb
-  - E. J. Chesler
-  - M. F. Miles
-  publisher: Genes, Brain and Behavior
-  date: '2016-04-01'
-  link: https://doi.org/f9ngrs
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/1538-7445.am2015-1077
-  title: 'Abstract 1077: Use of the SVClassify algorithm to classify pediatric solid
-    tumor translocation variant calls as likely true or false positives'
-  authors:
+  - Patrizia Porcu
+  - Todd K O'Buckley
+  - Soomin C Song
   - Jo Lynne Harenza
-  - Hemang M. Parikh
-  - Jun S. Wei
-  - Xinyu Wen
-  - Sivasish Sindiri
-  - Rajesh Patidar
-  - Marc Salit
-  - Paul S. Meltzer
-  - Javed Khan
-  - Justin Zook
-  publisher: Cancer Research
-  date: '2015-08-01'
-  link: https://doi.org/g43x95
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1111/bph.12948
-  title: Inhibition of monoacylglycerol lipase reduces nicotine withdrawal
-  authors:
-  - P P Muldoon
-  - J Chen
-  - J L Harenza
-  - R A Abdullah
-  - "L J Sim\u2010Selley"
-  - B F Cravatt
-  - M F Miles
-  - X Chen
-  - A H Lichtman
-  - M I Damaj
-  publisher: British Journal of Pharmacology
-  date: '2015-01-08'
-  link: https://doi.org/f62mgn
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1111/gbb.12113
-  title: "Genetic variation within the <i>Chrna7</i> gene modulates nicotine reward\u2010\
-    like phenotypes in mice"
-  authors:
-  - J. L. Harenza
-  - P. P. Muldoon
-  - M. De Biasi
-  - M. I. Damaj
-  - M. F. Miles
-  publisher: Genes, Brain and Behavior
-  date: '2013-12-26'
-  link: https://doi.org/g43zbc
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1111/bph.12741
-  title: "The \u03B13\u03B24* nicotinic <scp>ACh</scp> receptor subtype mediates physical\
-    \ dependence to morphine: mouse and human studies"
-  authors:
-  - P P Muldoon
-  - K J Jackson
-  - E Perez
-  - J L Harenza
-  - S Molas
-  - B Rais
-  - H Anwar
-  - N T Zaveri
-  - R Maldonado
-  - U Maskos
-  - J M McIntosh
-  - M Dierssen
-  - M F Miles
-  - X Chen
-  - M De Biasi
-  - M I Damaj
-  publisher: British Journal of Pharmacology
-  date: '2014-07-25'
-  link: https://doi.org/f6ck6k
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1038/npp.2012.95
-  title: 'Erratum: The Neuropeptide Galanin and Variants in the GalR1 Gene are Associated
-    with Nicotine Dependence'
-  authors:
-  - Kia J Jackson
-  - Xiangning Chen
+  - Lu Lu
+  - Xusheng Wang
+  - Robert W Williams
   - Michael F Miles
-  - JoLynne Harenza
-  - M Imad Damaj
-  publisher: Neuropsychopharmacology
-  date: '2012-08-16'
-  link: https://doi.org/g43zbh
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/annotation/ce7007ca-506f-4b54-b7ff-1e0a93d689f7
-  title: 'Correction: Genetic Analysis of the Neurosteroid Deoxycorticosterone and
-    Its Relation to Alcohol Phenotypes: Identification of QTLs and Downstream Gene
-    Regulation'
-  authors:
-  - Patrizia Porcu
-  - Todd K. O'Buckley
-  - Soomin C. Song
-  - Jo Lynne Harenza
-  - Lu Lu
-  - Xusheng Wang
-  - Robert W. Williams
-  - Michael F. Miles
-  - A. Leslie Morrow
-  publisher: PLoS ONE
-  date: '2011-06-30'
-  link: https://doi.org/b8kjgv
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pone.0018405
-  title: 'Genetic Analysis of the Neurosteroid Deoxycorticosterone and Its Relation
-    to Alcohol Phenotypes: Identification of QTLs and Downstream Gene Regulation'
-  authors:
-  - Patrizia Porcu
-  - Todd K. O'Buckley
-  - Soomin C. Song
-  - Jo Lynne Harenza
-  - Lu Lu
-  - Xusheng Wang
-  - Robert W. Williams
-  - Michael F. Miles
-  - A. Leslie Morrow
-  publisher: PLoS ONE
+  - A Leslie Morrow
+  publisher: PloS one
   date: '2011-04-08'
-  link: https://doi.org/dstn38
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1038/npp.2011.123
-  title: The Neuropeptide Galanin and Variants in the GalR1 Gene are Associated with
-    Nicotine Dependence
-  authors:
-  - Kia J Jackson
-  - Xiangning Chen
-  - Michael F Miles
-  - JoLynne Harenza
-  - M Imad Damaj
-  publisher: Neuropsychopharmacology
-  date: '2011-07-27'
-  link: https://doi.org/bh396p
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21494628
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: doi:10.1101/2024.07.09.599086
   title: The Open Pediatric Cancer Project
   authors:
