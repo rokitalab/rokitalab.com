@@ -398,7 +398,8 @@
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:36778420
-  title: ''
+  title: BARD1 germline variants induce haploinsufficiency and DNA repair defects
+    in neuroblastoma
   authors:
   - Michael P Randall
   - Laura E Egolf
@@ -420,8 +421,6 @@
   plugin: sources.py
   file: sources.yaml
   type: preprint
-  description: BARD1 germline variants induce haploinsufficiency and DNA repair defects
-    in neuroblastoma
 - id: pubmed:36585448
   title: Enhancing childhood cancer targetability.
   authors:
