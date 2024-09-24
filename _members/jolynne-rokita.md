@@ -4,8 +4,8 @@ image: images/rokita_photo.jpg
 role: pi
 affiliation: Children's National Hospital
 aliases:
-  - J. Rokita
-  - J Rokita
+  - Rokita Jo
+  - Harenza Jo
 links:
   home-page: 
   orcid: 0000-0003-2171-3627
