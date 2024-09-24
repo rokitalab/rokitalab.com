@@ -1,7 +1,7 @@
 # manually override specific citation detail
 - id: pubmed:36778420
   type: preprint
-  description: BARD1 germline variants induce haploinsufficiency and DNA repair defects in neuroblastoma
+  title: BARD1 germline variants induce haploinsufficiency and DNA repair defects in neuroblastoma
 
 - id: pubmed:39026781
   type: preprint
