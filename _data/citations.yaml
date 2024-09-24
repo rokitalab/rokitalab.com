@@ -31,11 +31,19 @@
   - Adam C Resnick
   - Jo Lynne Rokita
   publisher: 'bioRxiv : the preprint server for biology'
-  date: '2024-08-22'
+  date: '2022-08-22'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39149264
   term: Rokita Jo[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: preprint
+  description: Characterization of aberrant splicing in pediatric central nervous
+    system tumors reveals CLK1 as a candidate oncogenic dependency
+  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11326178/figure/F1/
+  tags:
+  - pediatric cancer
+  - splicing
+  repo: rokitalab/clk1-splicing
 - id: pubmed:39026781
   title: The Open Pediatric Cancer Project.
   authors:
@@ -90,8 +98,23 @@
   date: '2024-07-11'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39026781
   term: Rokita Jo[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: preprint
+  description: The Open Pediatric Cancer Project
+  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11257555/figure/F1/
+  buttons:
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/rokitalab/OpenPedCan-manuscript
+  - type: manubot
+    link: http://manubot.org/
+  tags:
+  - open science
+  - collaboration
+  - pediatric cancer
+  - genomics
+  repo: rokitalab/OpenPedCan-manuscript
 - id: pubmed:38426335
   title: 'AutoGVP: a dockerized workflow integrating ClinVar and InterVar germline
     sequence variant classification.'
@@ -111,11 +134,22 @@
   - Jo Lynne Rokita
   - Sharon J Diskin
   publisher: Bioinformatics (Oxford, England)
-  date: '2024-03-04'
+  date: '2024-02-29'
   link: https://www.ncbi.nlm.nih.gov/pubmed/38426335
   term: Rokita Jo[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  description: AutoGVP
+  tags:
+  - open science
+  - germline
+  - cancer
+  image: https://academic.oup.com/view-large/figure/445059631/btae114f1.tif
+  buttons:
+  - type: tool
+    link: https://github.com/diskin-lab-chop/AutoGVP
+  repo: diskin-lab-chop/AutoGVP
 - id: pubmed:38106022
   title: A proteogenomic surfaceome study identifies DLK1 as an immunotherapeutic
     target in neuroblastoma.
@@ -1398,150 +1432,3 @@
   term: Rokita Jo[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: doi:10.1101/2024.07.09.599086
-  title: The Open Pediatric Cancer Project
-  authors:
-  - Zhuangzhuang Geng
-  - Eric Wafula
-  - Ryan J. Corbett
-  - Yuanchao Zhang
-  - Run Jin
-  - Krutika S. Gaonkar
-  - Sangeeta Shukla
-  - Komal S. Rathi
-  - Dave Hill
-  - Aditya Lahiri
-  - Daniel P. Miller
-  - Alex Sickler
-  - Kelsey Keith
-  - Christopher Blackden
-  - Antonia Chroni
-  - Miguel A. Brown
-  - Adam A. Kraya
-  - Carl J. Koschmann
-  - Kenneth Aldape
-  - Xiaoyan Huang
-  - Brian R. Rood
-  - Jennifer L. Mason
-  - Gerri R. Trooskin
-  - Zied Abdullaev
-  - Pei Wang
-  - Yuankun Zhu
-  - Bailey K. Farrow
-  - Alvin Farrel
-  - Joseph M. Dybas
-  - Chuwei Zhong
-  - Nicholas Van Kuren
-  - Bo Zhang
-  - Mariarita Santi
-  - Saksham Phul
-  - Asif T Chinwalla
-  - Adam C. Resnick
-  - Sharon J. Diskin
-  - Sarah Tasian
-  - Stephanie Stefankiewicz
-  - John M. Maris
-  - Brian M. Ennis
-  - Matthew R. Lueder
-  - Ammar S. Naqvi
-  - Noel Coleman
-  - Weiping Ma
-  - Deanne Taylor
-  - Jo Lynne Rokita
-  publisher: Cold Spring Harbor Laboratory
-  date: ''
-  link: https://doi.org/g43zbt
-  type: preprint
-  description: The Open Pediatric Cancer Project
-  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11257555/figure/F1/
-  buttons:
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/rokitalab/OpenPedCan-manuscript
-  - type: manubot
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  - pediatric cancer
-  - genomics
-  repo: rokitalab/OpenPedCan-manuscript
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1101/2024.08.03.606419
-  title: Characterization of aberrant splicing in pediatric central nervous system
-    tumors reveals CLK1 as a candidate oncogenic dependency
-  authors:
-  - Ammar S Naqvi
-  - Ryan J Corbett
-  - Priyanka Seghal
-  - Karina L Conkrite
-  - Komal S Rathi
-  - Brian M Ennis
-  - Katharina E Hayer
-  - Bo Zhang
-  - Miguel A Brown
-  - Daniel P Miller
-  - Adam Kraya
-  - Joseph M Dybas
-  - Zhuangzhuang Geng
-  - Christopher Blackden
-  - Shehbeel Arif
-  - Antonia Chroni
-  - Aditya Lahiri
-  - Madison L Hollawell
-  - Phillip B Storm
-  - Jessica B Foster
-  - Matuesz Koptyra
-  - Peter J Madsen
-  - Sharon J Diskin
-  - Andrei Thomas-Tikhonenko
-  - Adam C Resnick
-  - Jo Lynne Rokita
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-08-22'
-  link: https://doi.org/g43zbx
-  type: preprint
-  description: Characterization of aberrant splicing in pediatric central nervous
-    system tumors reveals CLK1 as a candidate oncogenic dependency
-  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11326178/figure/F1/
-  tags:
-  - pediatric cancer
-  - splicing
-  repo: rokitalab/clk1-splicing
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1093/bioinformatics/btae114
-  title: 'AutoGVP: a dockerized workflow integrating ClinVar and InterVar germline
-    sequence variant classification'
-  authors:
-  - Jung Kim
-  - Ammar S Naqvi
-  - Ryan J Corbett
-  - Rebecca S Kaufman
-  - Zalman Vaksman
-  - Miguel A Brown
-  - Daniel P Miller
-  - Saksham Phul
-  - Zhuangzhuang Geng
-  - Phillip B Storm
-  - Adam C Resnick
-  - Douglas R Stewart
-  - Jo Lynne Rokita
-  - Sharon J Diskin
-  publisher: Bioinformatics
-  date: '2024-02-29'
-  link: https://doi.org/g43zb4
-  type: paper
-  description: AutoGVP
-  tags:
-  - open science
-  - germline
-  - cancer
-  image: https://academic.oup.com/view-large/figure/445059631/btae114f1.tif
-  buttons:
-  - type: tool
-    link: https://github.com/diskin-lab-chop/AutoGVP
-  repo: diskin-lab-chop/AutoGVP
-  plugin: sources.py
-  file: sources.yaml
