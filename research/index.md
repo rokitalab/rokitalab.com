@@ -5,7 +5,7 @@ nav:
   tooltip: Present and past research
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-wrench" %}Research
 
 Below are some of our present and past research projects.
 

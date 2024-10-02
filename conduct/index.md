@@ -1,11 +1,11 @@
 ---
 title: Team
 nav:
-  order: 4
+  order: 5
   tooltip: Code of Conduct
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# {% include icon.html icon="fa-solid fa-users" %}Code of Conduct
 
 Coming soon!
 
