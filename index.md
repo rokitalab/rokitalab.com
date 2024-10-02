@@ -58,7 +58,7 @@ Committed to collaboration, we actively develop open-source tools and data resou
 
 {% capture text %}
 
-We are deeply committed to fostering the next generation of scientific leaders through comprehensive training and mentorship. We believe that diversity drives innovation, and we actively promote an inclusive and supportive team culture where individuals from all backgrounds feel valued and empowered to contribute. Together, we strive to create a future where every voice is heard, and all researchers have the opportunity to make an impact.
+We are deeply committed to fostering the next generation of scientific leaders through comprehensive training and mentorship. We believe that diversity drives innovation, and we actively promote an inclusive and supportive team culture where individuals from all backgrounds feel valued and empowered to contribute. Together, we strive to create a future where every voice is heard, and all researchers have the opportunity to make an impact. (Image created with [www.freepik.com](www.freepik.com)).
 
 
 {%
@@ -74,7 +74,7 @@ We are deeply committed to fostering the next generation of scientific leaders t
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/connections.jpg"
   link="team"
   title="Our Team"
   text=text
