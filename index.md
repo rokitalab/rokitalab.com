@@ -37,7 +37,7 @@ Committed to collaboration, we actively develop open-source tools and data resou
 
 {%
   include button.html
-  link="projects"
+  link="research"
   text="Browse our projects"
   icon="fa-solid fa-arrow-right"
   flip=true
