@@ -1,27 +1,26 @@
 ---
 title: Research
 nav:
-  order: 1
-  tooltip: Published works
+  order: 2
+  tooltip: Present and past research
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Below, you'll find a selection of our recent publications that highlight our contributions to pediatric oncology research and precision medicine. These papers showcase our commitment to advancing knowledge, developing innovative tools, and collaborating with the broader scientific community. Dive in to explore the insights we've gained and the impact we're making!
+Below are some of our present and past research projects.
 
-
-{% include section.html %}
-
-## Highlighted
-
-{% include button.html icon="fa-solid fa-book-open" text="More on PubMed" link="https://pubmed.ncbi.nlm.nih.gov/?term=harenza+jo+or+rokita+jo" %}
-
-{% include section.html %}
-
-## All
-
-{% include search-box.html %}
+{% include tags.html tags="publication, research, website" %}
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include section.html %}
+
+## Featured
+
+{% include list.html component="card" data="projects" filters="group: featured" %}
+
+{% include section.html %}
+
+## More
+
+{% include list.html component="card" data="projects" filters="group: " style="small" %}

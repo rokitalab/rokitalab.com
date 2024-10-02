@@ -16,7 +16,7 @@ We are passionate about unlocking new insights into pediatric brain tumors and a
 
 {%
   include button.html
-  link="research"
+  link="publications"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -51,7 +51,7 @@ Committed to collaboration, we actively develop open-source tools and data resou
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
+  link="research"
   title="Our Projects"
   flip=true
   style="bare"
