@@ -7,8 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Below, you'll find a selection of our recent publications that highlight our contributions to pediatric oncology research and precision medicine. These papers showcase our commitment to advancing knowledge, developing innovative tools, and collaborating with the broader scientific community. Dive in to explore the insights we've gained and the impact we're making!
+
 
 {% include section.html %}
 
