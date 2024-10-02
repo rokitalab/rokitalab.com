@@ -5,7 +5,7 @@ nav:
   tooltip: Code of Conduct
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Code of Conduct
+# {% include icon.html icon="fa-solid fa-users" %}Conduct
 
 Coming soon!
 
