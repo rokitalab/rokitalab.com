@@ -1,8 +1,8 @@
 - title: AutoGVP
   subtitle: Automated Germline Variant Pathogenicity
   group: featured
-  image: images/autogvp.jpg.jpg
-  link: https://github.com/
+  image: images/autogvp.jpg
+  link: https://doi.org/10.1093/bioinformatics/btae114
   description: A dockerized workflow integrating ClinVar and InterVar germline sequence variant classification
   repo: diskin-lab-chop/AutoGVP
   tags:
@@ -13,8 +13,8 @@
 - title: OpenPedCan
   subtitle: The Open Pediatric Cancer Project
   group: featured
-  image: images/opc.jpg
-  link: https://github.com/
+  image: images/opc.png
+  link: https://pubmed.ncbi.nlm.nih.gov/39026781/
   description: A harmonized open-source multi-omic dataset from > 6,000 pediatric cancer patients with > 7,000 tumor events across more than 100 histologies. 
   repo: d3b-center/OpenPedCan-analysis
   tags:
@@ -25,7 +25,7 @@
 - title: OpenPBTA
   subtitle: The Open Pediatric Brain Tumor Atlas
   image: images/openpbta.jpg
-  link: https://github.com/
+  link: https://pubmed.ncbi.nlm.nih.gov/37492101/
   description: A global open science initiative characterizing over 1,000 pediatric brain tumors. 
   repo: AlexsLemonade/OpenPBTA-analysis
   tags:
@@ -36,7 +36,7 @@
 - title: Genetic ancestry associated disparities
   subtitle: a study across PBTA and PNOC
   image: images/anc-trt.jpg
-  link: https://github.com/
+  link: https://www.medrxiv.org/content/10.1101/2024.06.14.24308885v1
   description: Distinct associations of genetic ancestry-based superpopulations exist within pediatric CNS tumor histologic and molecular subtypes and correlate with survival outcomes and treatment.
   repo: rokitalab/pbta-genetic-ancestry
   tags:
@@ -48,7 +48,7 @@
 - title: CLK1 as an oncogenic dependency
   subtitle: a subtitle
   image: images/cluster-heat.jpg
-  link: https://github.com/
+  link: https://pubmed.ncbi.nlm.nih.gov/39149264/
   description: Characterization of aberrant splicing in pediatric central nervous system tumors reveals CLK1 as a candidate oncogenic dependency
   repo: rokitalab/clk1-splicing
   tags:
