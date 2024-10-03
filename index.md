@@ -27,7 +27,7 @@ We are passionate about unlocking new insights into pediatric brain tumors and a
   include feature.html
   image="images/cluster-heat.jpg"
   link="research"
-  title="Our Research"
+  title="Open Science Approach"
   text=text
 %}
 
