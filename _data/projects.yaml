@@ -16,7 +16,7 @@
   image: images/opc.png
   link: https://pubmed.ncbi.nlm.nih.gov/39026781/
   description: A harmonized open-source multi-omic dataset from > 6,000 pediatric cancer patients with > 7,000 tumor events across more than 100 histologies. 
-  repo: d3b-center/OpenPedCan-analysis
+  repo: rokitalab/OpenPedCan-analysis
   tags:
     - resource
     - preprint
