@@ -5,13 +5,7 @@ nav:
   tooltip: Code of Conduct
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Code of Conduct
-
-Here’s a **Code of Conduct** page for your computational lab website that emphasizes open-source principles, collaboration, inclusion, and respect.
-
----
-
-## Rokita Lab Code of Conduct
+# {% include icon.html icon="fa-solid fa-users" %}Rokita Lab Code of Conduct
 
 Welcome to the Rokita Lab! 
 Our mission is to advance knowledge through innovative research and tool development while fostering a collaborative, inclusive, and respectful environment. 
@@ -30,10 +24,10 @@ To support this philosophy, our lab:
 
 Our lab thrives on teamwork and the open exchange of ideas. 
 To support a productive and innovative lab culture, we value:
-   - Transparent communication: we share ideas, progress, and challenges openly.
-   - Constructive feedback: we offer and receive feedback graciously, with the shared goal of advancing everyone’s work.
-   - Documentation: we follow structured repository guidelines coupled with documentation to make our code and methods understandable for lab members, collaborators, and future users.
-   - Code Review: we engage in routine scientific and structural review of code through a pull request model to ensure the highest rigor for analyses, optimization of code, and reproducibility for any future code or tool users.
+   - **Transparent communication**: we share ideas, progress, and challenges openly.
+   - **Constructive feedback**: we offer and receive feedback graciously, with the shared goal of advancing everyone’s work.
+   - **Documentation**: we follow structured repository guidelines coupled with documentation to make our code and methods understandable for lab members, collaborators, and future users.
+   - **Open Code Review**: we engage in routine, open scientific and structural review of code through a pull request model to ensure the highest rigor for analyses, optimization of code, and reproducibility for any future code or tool users.
 
 ### 3. **Inclusivity and Diversity**
 
@@ -78,6 +72,3 @@ Thank you for helping us build a collaborative and respectful lab community!
 
 
 {% include section.html %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
