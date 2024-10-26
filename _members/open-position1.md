@@ -1,11 +1,11 @@
 ---
-name: Jane Doe
+name: Open Position
 image: images/photo.jpg
 description: Bioinformatics Scientist
 role: programmer
 links:
-  email: bfxsci@gmail.com
+  email: 
   twitter: 
 ---
 
-Bioinformatics Scientist for the Rokita Lab.
+We are hiring Bioinformatics Scientists for the Rokita Lab.
