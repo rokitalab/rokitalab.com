@@ -1,5 +1,53 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:39454577
+  title: A proteogenomic surfaceome study identifies DLK1 as an immunotherapeutic
+    target in neuroblastoma.
+  authors:
+  - Amber K Hamilton
+  - Alexander B Radaoui
+  - Matthew Tsang
+  - Daniel Martinez
+  - Karina L Conkrite
+  - Khushbu Patel
+  - Simone Sidoli
+  - Alberto Delaidelli
+  - Apexa Modi
+  - Jo Lynne Rokita
+  - Maria V Lane
+  - Nicholas Hartnett
+  - Raphael D Lopez
+  - Bo Zhang
+  - Chuwei Zhong
+  - Brian Ennis
+  - Daniel P Miller
+  - Miguel A Brown
+  - Komal S Rathi
+  - Pichai Raman
+  - Jennifer Pogoriler
+  - Tricia Bhatti
+  - Bruce Pawel
+  - Tina Glisovic-Aplenc
+  - Beverly Teicher
+  - Stephen W Erickson
+  - Eric J Earley
+  - Kristopher R Bosse
+  - Poul H Sorensen
+  - Kateryna Krytska
+  - Yael P Mosse
+  - Karin E Havenith
+  - Francesca Zammarchi
+  - Patrick H van Berkel
+  - Malcolm A Smith
+  - Benjamin A Garcia
+  - John M Maris
+  - Sharon J Diskin
+  publisher: Cancer cell
+  date: '2024-10-23'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39454577
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:39149264
   title: Characterization of aberrant splicing in pediatric central nervous system
     tumors reveals
