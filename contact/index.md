@@ -13,5 +13,5 @@ Please reach out if you are interested in joining the laboratory or would like t
   include button.html
   type="email"
   text="Email Dr. Rokita"
-  link="jolynnerokita@gmail.com"
+  link="jrokita@childrensnational.org"
 %}
