@@ -11,7 +11,7 @@ links:
   orcid: 0000-0003-2171-3627
 ---
 
-Dr. Jo Lynne Rokita is Principal Investigator (PI) of the Rokita Lab and Director of the Brain Tumor Institute (BTI) Bioinformatics Core Facility within the [Center of Cancer and Immunology Research (CCIR)](https://research.childrensnational.org/center-for-cancer-and-immunology) at Children’s National Hospital (CNH). 
+Dr. Jo Lynne Rokita is Principal Investigator (PI) of the Rokita Lab and Director of the Brain Tumor Institute (BTI) Bioinformatics Core Facility within the [Center of Cancer and Immunology Research (CCIR)](https://research.childrensnational.org/center-for-cancer-and-immunology) at Children’s National Hospital (CNH). She is a Tenure-track Assistant Professor of [Pediatrics](https://pediatrics.smhs.gwu.edu/) at the George Washington University [School of Medicine and Health Sciences](https://smhs.gwu.edu/).
 
 Before opening the Rokita Lab at CNH, Dr. Rokita led the Bioinformatics Translational Pediatric Oncology Team at the Center for [Data-Driven Discovery in Biomedicine (D3b)](https://d3b.center/) at [Children's Hospital of Philadelphia](https://www.chop.edu/), a team of multidisciplinary bioinformatics scientists who advance pediatric oncology research and precision medicine through cross-functional team collaboration and development of open-source analytical tools, frameworks, and data resources. 
 
