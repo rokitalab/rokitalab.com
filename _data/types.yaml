@@ -97,7 +97,7 @@ twitter:
   link: https://twitter.com/$VALUE
 
 bluesky:
-  icon: bluesky-brands-solid.svg
+  icon: square-bluesky-brands-solid.svg
   text: Bluesky
   tooltip: Bluesky
   link: https://bsky.app/profile/$VALUE
