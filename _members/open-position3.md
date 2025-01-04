@@ -8,4 +8,4 @@ links:
   twitter: 
 ---
 
-We are hiring a Bioinformatics Engineer for the Brain Tumor Institute Bioinformatics Core.
+We are hiring a Bioinformatics Engineer for the Brain Tumor Institute Bioinformatics Core. Please apply [here](https://bit.ly/bti-eng).

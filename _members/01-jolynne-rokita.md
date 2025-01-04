@@ -1,5 +1,5 @@
 ---
-name: Jo Lynne Rokita
+name: Jo Lynne Rokita, Ph.D.
 image: images/rokita_photo.jpg
 role: pi
 affiliation: Children's National Hospital
