@@ -1,6 +1,6 @@
 ---
 title: Rokita Lab opens at Children's National Hospital
-author: jolynne-rokita
+author: Jo Lynne Rokita
 tags:
   - lab
 
