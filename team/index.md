@@ -19,4 +19,4 @@ Please read below to learn more about our team!
 
 {% include section.html %}
 
-We are actively recruiting bioinformatics scientists, a bioinformatics engineer, and/or postdoctoral fellows for both my lab and the Brain Tumor Institute Bioinformatics Core. Please reach out!
+We are actively recruiting bioinformatics scientists, a bioinformatics engineer, a technical project manager, and/or postdoctoral fellows for both my lab and the Brain Tumor Institute Bioinformatics Core. Please reach out!
