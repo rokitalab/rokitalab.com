@@ -7,7 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}News
 
-Check back soon!
 
 {% include section.html %}
 
