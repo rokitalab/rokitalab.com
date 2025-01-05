@@ -2,8 +2,7 @@
 title: Dr. Ryan Corbett joins the Rokita Lab!
 author: Jo Lynne Rokita
 tags:
-  - new team member
-
+  - team
 ---
 
 We are thrilled to welcome Dr. Ryan Corbett as a Senior Bioinformatics Scientist in the Rokita Lab at Children's National Hospital (CNH) 🎉. 
