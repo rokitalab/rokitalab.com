@@ -268,6 +268,37 @@
   term: Rokita Jo[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:37978951
+  title: 'Everolimus for Children With Recurrent or Progressive Low-Grade Glioma:
+    Results From the Phase II PNOC001 Trial.'
+  authors:
+  - Daphne A Haas-Kogan
+  - Mariam S Aboian
+  - Jane E Minturn
+  - Sarah E S Leary
+  - Mohamed S Abdelbaki
+  - Stewart Goldman
+  - Jennifer D Elster
+  - Adam Kraya
+  - Matthew R Lueder
+  - Divya Ramakrishnan
+  - Marc von Reppert
+  - Kevin X Liu
+  - Jo Lynne Rokita
+  - Adam C Resnick
+  - David A Solomon
+  - Joanna J Phillips
+  - Michael Prados
+  - Annette M Molinaro
+  - Sebastian M Waszak
+  - Sabine Mueller
+  publisher: 'Journal of clinical oncology : official journal of the American Society
+    of Clinical Oncology'
+  date: '2023-11-17'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37978951
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:37688570
   title: BARD1 germline variants induce haploinsufficiency and DNA repair defects
     in neuroblastoma.
@@ -438,6 +469,17 @@
   plugin: sources.py
   file: sources.yaml
   type: preprint
+- id: pubmed:36585448
+  title: Enhancing childhood cancer targetability.
+  authors:
+  - Ammar S Naqvi
+  - Jo Lynne Rokita
+  publisher: Nature cancer
+  date: '2023-02-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36585448
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:36541551
   title: Alternative lengthening of telomeres (ALT) in pediatric high-grade gliomas
     can occur without ATRX mutation and is enriched in patients with pathogenic germline
@@ -911,6 +953,35 @@
   term: Rokita Jo[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:32291317
+  title: Telomere Maintenance Mechanisms Define Clinical Outcome in High-Risk Neuroblastoma.
+  authors:
+  - Balakrishna Koneru
+  - Gonzalo Lopez
+  - Ahsan Farooqi
+  - Karina L Conkrite
+  - Thinh H Nguyen
+  - Shawn J Macha
+  - Apexa Modi
+  - Jo Lynne Rokita
+  - Eduardo Urias
+  - Ashly Hindle
+  - Heather Davidson
+  - Kristyn Mccoy
+  - Jonas Nance
+  - Vanda Yazdani
+  - Meredith S Irwin
+  - Shengping Yang
+  - David A Wheeler
+  - John M Maris
+  - Sharon J Diskin
+  - C Patrick Reynolds
+  publisher: Cancer research
+  date: '2020-04-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32291317
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:32286315
   title: Epigenomic profiling of neuroblastoma cell lines.
   authors:
@@ -976,6 +1047,34 @@
   publisher: Nature communications
   date: '2019-12-09'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31819055
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31810498
+  title: Combined innate and adaptive immunotherapy overcomes resistance of immunologically
+    cold syngeneic murine neuroblastoma to checkpoint inhibition.
+  authors:
+  - Julie Voeller
+  - Amy K Erbe
+  - Jacob Slowinski
+  - Kayla Rasmussen
+  - Peter M Carlson
+  - Anna Hoefges
+  - Sabrina VandenHeuvel
+  - Ashley Stuckwisch
+  - Xing Wang
+  - Stephen D Gillies
+  - Ravi B Patel
+  - Alvin Farrel
+  - Jo Lynne Rokita
+  - John Maris
+  - Jacquelyn A Hank
+  - Zachary S Morris
+  - Alexander L Rakhmilevich
+  - Paul M Sondel
+  publisher: Journal for immunotherapy of cancer
+  date: '2019-12-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31810498
   term: Rokita Jo[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -1129,6 +1228,89 @@
   term: Rokita Jo[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:30930166
+  title: 'The Pediatric Cell Atlas: Defining the Growth Phase of Human Development
+    at Single-Cell Resolution.'
+  authors:
+  - Deanne M Taylor
+  - Bruce J Aronow
+  - Kai Tan
+  - Kathrin Bernt
+  - Nathan Salomonis
+  - Casey S Greene
+  - Alina Frolova
+  - Sarah E Henrickson
+  - Andrew Wells
+  - Liming Pei
+  - Jyoti K Jaiswal
+  - Jeffrey Whitsett
+  - Kathryn E Hamilton
+  - Sonya A MacParland
+  - Judith Kelsen
+  - Robert O Heuckeroth
+  - S Steven Potter
+  - Laura A Vella
+  - Natalie A Terry
+  - Louis R Ghanem
+  - Benjamin C Kennedy
+  - Ingo Helbig
+  - Kathleen E Sullivan
+  - Leslie Castelo-Soccio
+  - Arnold Kreigstein
+  - Florian Herse
+  - Martijn C Nawijn
+  - Gerard H Koppelman
+  - Melissa Haendel
+  - Nomi L Harris
+  - Jo Lynne Rokita
+  - Yuanchao Zhang
+  - Aviv Regev
+  - Orit Rozenblatt-Rosen
+  - Jennifer E Rood
+  - Timothy L Tickle
+  - Roser Vento-Tormo
+  - Saif Alimohamed
+  - Monkol Lek
+  - Jessica C Mar
+  - Kathleen M Loomes
+  - David M Barrett
+  - Prech Uapinyoying
+  - Alan H Beggs
+  - Pankaj B Agrawal
+  - Yi-Wen Chen
+  - Amanda B Muir
+  - Lana X Garmire
+  - Scott B Snapper
+  - Javad Nazarian
+  - Steven H Seeholzer
+  - Hossein Fazelinia
+  - Larry N Singh
+  - Robert B Faryabi
+  - Pichai Raman
+  - Noor Dawany
+  - Hongbo Michael Xie
+  - Batsal Devkota
+  - Sharon J Diskin
+  - Stewart A Anderson
+  - Eric F Rappaport
+  - William Peranteau
+  - Kathryn A Wikenheiser-Brokamp
+  - Sarah Teichmann
+  - Douglas Wallace
+  - Tao Peng
+  - Yang-Yang Ding
+  - Man S Kim
+  - Yi Xing
+  - Sek Won Kong
+  - "Carsten G B\xF6nnemann"
+  - Kenneth D Mandl
+  - Peter S White
+  publisher: Developmental cell
+  date: '2019-03-28'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30930166
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:29510988
   title: Cross-Cohort Analysis Identifies a TEAD4-MYCN Positive Feedback Loop as the
     Core Regulatory Element of High-Risk Neuroblastoma.
@@ -1244,6 +1426,40 @@
   publisher: Scientific data
   date: '2017-03-28'
   link: https://www.ncbi.nlm.nih.gov/pubmed/28350380
+  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:28193036
+  title: International Comparison of Enumeration-Based Quantification of DNA Copy-Concentration
+    Using Flow Cytometric Counting and Digital Polymerase Chain Reaction.
+  authors:
+  - Hee-Bong Yoo
+  - Sang-Ryoul Park
+  - Lianhua Dong
+  - Jing Wang
+  - Zhiwei Sui
+  - "Jernej Pav\u0161i\u010D"
+  - Mojca Milavec
+  - Muslum Akgoz
+  - "Erkan Mozio\u011Flu"
+  - Philippe Corbisier
+  - "M\xE1trai Janka"
+  - Bruno Cosme
+  - Janaina J de V Cavalcante
+  - Roberto Becht Flatshart
+  - Daniel Burke
+  - Michael Forbes-Smith
+  - Jacob McLaughlin
+  - Kerry Emslie
+  - Alexandra S Whale
+  - Jim F Huggett
+  - Helen Parkes
+  - Margaret C Kline
+  - Jo Lynne Harenza
+  - Peter M Vallone
+  publisher: Analytical chemistry
+  date: '2016-11-30'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28193036
   term: Rokita Jo[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
