@@ -45,7 +45,7 @@
   publisher: Cancer cell
   date: '2024-10-23'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39454577
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:39149264
@@ -81,7 +81,7 @@
   publisher: 'bioRxiv : the preprint server for biology'
   date: '2022-08-22'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39149264
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: sources.py
   file: sources.yaml
   type: preprint
@@ -145,7 +145,7 @@
   publisher: 'bioRxiv : the preprint server for biology'
   date: '2024-07-11'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39026781
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: sources.py
   file: sources.yaml
   type: preprint
@@ -184,7 +184,7 @@
   publisher: Bioinformatics (Oxford, England)
   date: '2024-02-29'
   link: https://www.ncbi.nlm.nih.gov/pubmed/38426335
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: sources.py
   file: sources.yaml
   type: paper
@@ -241,7 +241,7 @@
   publisher: 'bioRxiv : the preprint server for biology'
   date: '2024-01-07'
   link: https://www.ncbi.nlm.nih.gov/pubmed/38106022
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:38076939
@@ -265,7 +265,7 @@
   publisher: 'bioRxiv : the preprint server for biology'
   date: '2023-12-01'
   link: https://www.ncbi.nlm.nih.gov/pubmed/38076939
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:37978951
@@ -296,7 +296,7 @@
     of Clinical Oncology'
   date: '2023-11-17'
   link: https://www.ncbi.nlm.nih.gov/pubmed/37978951
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:37688570
@@ -319,7 +319,7 @@
   publisher: Journal of the National Cancer Institute
   date: '2024-01-10'
   link: https://www.ncbi.nlm.nih.gov/pubmed/37688570
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:37492101
@@ -394,7 +394,7 @@
   publisher: Cell genomics
   date: '2023-05-31'
   link: https://www.ncbi.nlm.nih.gov/pubmed/37492101
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:37235472
@@ -426,7 +426,7 @@
   publisher: Cell reports
   date: '2023-05-25'
   link: https://www.ncbi.nlm.nih.gov/pubmed/37235472
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:36781202
@@ -442,7 +442,7 @@
   publisher: Genes, brain, and behavior
   date: '2023-02-13'
   link: https://www.ncbi.nlm.nih.gov/pubmed/36781202
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:36778420
@@ -465,7 +465,7 @@
   publisher: 'bioRxiv : the preprint server for biology'
   date: '2023-02-03'
   link: https://www.ncbi.nlm.nih.gov/pubmed/36778420
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: sources.py
   file: sources.yaml
   type: preprint
@@ -477,7 +477,7 @@
   publisher: Nature cancer
   date: '2023-02-01'
   link: https://www.ncbi.nlm.nih.gov/pubmed/36585448
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:36541551
@@ -511,7 +511,7 @@
   publisher: Neuro-oncology
   date: '2023-07-06'
   link: https://www.ncbi.nlm.nih.gov/pubmed/36541551
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:36335802
@@ -621,7 +621,7 @@
   publisher: Neoplasia (New York, N.Y.)
   date: '2022-11-03'
   link: https://www.ncbi.nlm.nih.gov/pubmed/36335802
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:36167467
@@ -651,7 +651,7 @@
   publisher: Journal for immunotherapy of cancer
   date: '2022-09-01'
   link: https://www.ncbi.nlm.nih.gov/pubmed/36167467
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:35852795
@@ -690,7 +690,7 @@
     for Cancer Research'
   date: '2022-09-15'
   link: https://www.ncbi.nlm.nih.gov/pubmed/35852795
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:33789113
@@ -722,7 +722,7 @@
   publisher: Cell reports
   date: '2021-03-30'
   link: https://www.ncbi.nlm.nih.gov/pubmed/33789113
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:33602789
@@ -759,7 +759,7 @@
   publisher: Cancer research
   date: '2021-02-18'
   link: https://www.ncbi.nlm.nih.gov/pubmed/33602789
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:33317447
@@ -785,7 +785,7 @@
   publisher: BMC bioinformatics
   date: '2020-12-14'
   link: https://www.ncbi.nlm.nih.gov/pubmed/33317447
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:33242424
@@ -882,7 +882,7 @@
   publisher: Cell
   date: '2020-11-25'
   link: https://www.ncbi.nlm.nih.gov/pubmed/33242424
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:33119584
@@ -900,7 +900,7 @@
   publisher: PLoS computational biology
   date: '2020-10-29'
   link: https://www.ncbi.nlm.nih.gov/pubmed/33119584
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:32339949
@@ -925,7 +925,7 @@
   publisher: Neoplasia (New York, N.Y.)
   date: '2020-04-24'
   link: https://www.ncbi.nlm.nih.gov/pubmed/32339949
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:32307821
@@ -950,7 +950,7 @@
   publisher: Pediatric blood & cancer
   date: '2020-04-19'
   link: https://www.ncbi.nlm.nih.gov/pubmed/32307821
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:32291317
@@ -979,7 +979,7 @@
   publisher: Cancer research
   date: '2020-04-14'
   link: https://www.ncbi.nlm.nih.gov/pubmed/32291317
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:32286315
@@ -1001,7 +1001,7 @@
   publisher: Scientific data
   date: '2020-04-14'
   link: https://www.ncbi.nlm.nih.gov/pubmed/32286315
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:32211329
@@ -1022,7 +1022,7 @@
   publisher: Frontiers in oncology
   date: '2020-03-06'
   link: https://www.ncbi.nlm.nih.gov/pubmed/32211329
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:31819055
@@ -1047,7 +1047,7 @@
   publisher: Nature communications
   date: '2019-12-09'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31819055
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:31810498
@@ -1075,7 +1075,7 @@
   publisher: Journal for immunotherapy of cancer
   date: '2019-12-06'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31810498
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:31693904
@@ -1154,7 +1154,7 @@
   publisher: Cell reports
   date: '2019-11-05'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31693904
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:31672841
@@ -1171,7 +1171,7 @@
   publisher: Cancer research
   date: '2019-10-31'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31672841
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:31613963
@@ -1207,7 +1207,7 @@
   publisher: Neuro-oncology
   date: '2020-01-11'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31613963
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:31474320
@@ -1225,7 +1225,7 @@
   publisher: American journal of human genetics
   date: '2019-08-29'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31474320
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:30930166
@@ -1308,7 +1308,7 @@
   publisher: Developmental cell
   date: '2019-03-28'
   link: https://www.ncbi.nlm.nih.gov/pubmed/30930166
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:29510988
@@ -1348,7 +1348,7 @@
   publisher: Cancer discovery
   date: '2018-03-06'
   link: https://www.ncbi.nlm.nih.gov/pubmed/29510988
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:29206221
@@ -1368,7 +1368,7 @@
   publisher: Scientific data
   date: '2017-12-05'
   link: https://www.ncbi.nlm.nih.gov/pubmed/29206221
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:28898695
@@ -1407,7 +1407,7 @@
   publisher: Cancer cell
   date: '2017-09-11'
   link: https://www.ncbi.nlm.nih.gov/pubmed/28898695
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:28350380
@@ -1426,7 +1426,7 @@
   publisher: Scientific data
   date: '2017-03-28'
   link: https://www.ncbi.nlm.nih.gov/pubmed/28350380
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:28193036
@@ -1460,7 +1460,7 @@
   publisher: Analytical chemistry
   date: '2016-11-30'
   link: https://www.ncbi.nlm.nih.gov/pubmed/28193036
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:21494628
@@ -1479,6 +1479,6 @@
   publisher: PloS one
   date: '2011-04-08'
   link: https://www.ncbi.nlm.nih.gov/pubmed/21494628
-  term: Rokita Jo[Author] OR Harenza Jo[Author]
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
