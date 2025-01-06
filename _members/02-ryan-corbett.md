@@ -4,8 +4,7 @@ image: images/corbett_photo.jpg
 description: Senior Bioinformatics Scientist
 role: programmer
 links:
-  email: 
-  twitter: 
+  github: rjcorb
 ---
 
 Dr. Ryan Corbett is a Senior Bioinformatics Scientist in the Rokita Lab at Children’s National Hospital (CNH). 
