@@ -6,7 +6,7 @@ tags:
 ---
 
 We are thrilled to welcome Dr. Ryan Corbett as a Senior Bioinformatics Scientist in the Rokita Lab at Children's National Hospital (CNH) 🎉. 
-Ryan joins us two years of outstanding work under the mentorship of Dr. Rokita at the Children's Hospital of Philadelphia (CHOP). 
+Ryan joins us after two years of outstanding work under the mentorship of Dr. Rokita at the Children's Hospital of Philadelphia (CHOP). 
 
 Ryan has played a pivotal role in advancing bioinformatics tools and applications critical for pediatric cancer research, including co-development and maintenance of the germline pathogenicity tool, [AutoGVP](https://github.com/diskin-lab-chop/AutoGVP), essential involvement in the [Open Pediatric Cancer (OpenPedCan) Project](https://github.com/rokitalab/OpenPedCan-Project), and development contributuions for two key CAVATICA applications, [Pathogenicity Preprocessing](https://github.com/d3b-center/D3b-Pathogenicity-Preprocessing) and [AlleleCouNT](https://github.com/d3b-center/AlleleCouNT).
 Ryan's research productivity speaks for itself. 
