@@ -1,5 +1,38 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:39847453
+  title: Genetic ancestry superpopulations show distinct prevalence and outcomes across
+    pediatric central nervous system tumors from the PBTA and PNOC.
+  authors:
+  - Ryan J Corbett
+  - Cricket C Gullickson
+  - Zhuangzhuang Geng
+  - Miguel A Brown
+  - Bo Zhang
+  - Chuwei Zhong
+  - Nicholas Van Kuren
+  - Antonia Chroni
+  - Christopher Blackden
+  - Ammar S Naqvi
+  - Alexa Plisiewicz
+  - Sean McHugh
+  - Emmett Drake
+  - Kaitlin Lehmann
+  - Tom B Davidson
+  - Michael Prados
+  - Phillip B Storm
+  - Adam C Resnick
+  - Angela J Waanders
+  - Sebastian M Waszak
+  - Sabine Mueller
+  - Jo Lynne Rokita
+  - Cassie Kline
+  publisher: Neuro-oncology
+  date: '2025-01-23'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39847453
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:39454577
   title: A proteogenomic surfaceome study identifies DLK1 as an immunotherapeutic
     target in neuroblastoma.
@@ -43,7 +76,7 @@
   - John M Maris
   - Sharon J Diskin
   publisher: Cancer cell
-  date: '2024-10-23'
+  date: '2024-10-24'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39454577
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
