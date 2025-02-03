@@ -1,5 +1,46 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:39868324
+  title: Neuronal cell adhesion molecule (NRCAM) variant defined by microexon skipping
+    is an essential, antigenically distinct, and targetable proteoform in high-grade
+    glioma.
+  authors:
+  - Priyanka Sehgal
+  - Ammar S Naqvi
+  - Makenna Higgins
+  - Jiageng Liu
+  - Kyra Harvey
+  - Julien Jarroux
+  - Taewoo Kim
+  - Berk Mankaliye
+  - Pamela Mishra
+  - Grace Watterson
+  - Justyn Fine
+  - Jacinta Davis
+  - Katharina E Hayer
+  - Annette Castro
+  - Adanna Mogbo
+  - Charles Drummer
+  - Daniel Martinez
+  - Mateusz P Koptyra
+  - Zhiwei Ang
+  - Kai Wang
+  - Alvin Farrel
+  - Mathieu Quesnel-Vallieres
+  - Yoseph Barash
+  - Jamie B Spangler
+  - Jo Lynne Rokita
+  - Adam C Resnick
+  - Hagen U Tilgner
+  - Thomas DeRaedt
+  - Daniel J Powell
+  - Andrei Thomas-Tikhonenko
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2025-01-19'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39868324
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:39847453
   title: Genetic ancestry superpopulations show distinct prevalence and outcomes across
     pediatric central nervous system tumors from the PBTA and PNOC.
