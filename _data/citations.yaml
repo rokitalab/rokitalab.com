@@ -1,5 +1,33 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:39907037
+  title: Kinome reprogramming of G2/M kinases and repression of MYCN contribute to
+    superior efficacy of lorlatinib in ALK-driven neuroblastoma.
+  authors:
+  - Smita Matkar
+  - Michael P East
+  - Timothy J Stuhlmiller
+  - Gabriela Witek
+  - Alvin Farrel
+  - Steven Pastor
+  - Denis O Okumu
+  - Anne Kennedy
+  - Joshua R Kalna
+  - Esther R Berko
+  - Colleen E Casey
+  - Kateryna Krytska
+  - Khushbu Patel
+  - Jo Lynne Rokita
+  - Mark Gerelus
+  - John M Maris
+  - Gary L Johnson
+  - "Yael P Moss\xE9"
+  publisher: Molecular cancer therapeutics
+  date: '2025-02-05'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39907037
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:39868324
   title: Neuronal cell adhesion molecule (NRCAM) variant defined by microexon skipping
     is an essential, antigenically distinct, and targetable proteoform in high-grade
