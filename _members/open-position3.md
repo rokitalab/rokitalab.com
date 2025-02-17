@@ -1,11 +1,11 @@
 ---
 name: Open Position
 image: images/photo.jpg
-description: Bioinformatics Engineer
+description: Bioinformatics Scientist
 role: programmer
 links:
   email: 
   twitter: 
 ---
 
-We are hiring a Bioinformatics Engineer for the Brain Tumor Institute Bioinformatics Core. Please apply [here](https://bit.ly/bti-eng).
+We are seeking a talented Bioinformatics Scientist to join the lab. Please apply [here](https://cnhs.taleo.net/careersection/1/jobdetail.ftl?job=240003K6&tz=GMT-05:00&tzname=America/New_York).
