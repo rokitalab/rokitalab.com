@@ -11,8 +11,8 @@ Please read below to learn more about our team!
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
+{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
+{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
 
 {% include section.html background="images/blue-banner.jpg" dark=true %}
 
