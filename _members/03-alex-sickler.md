@@ -3,8 +3,11 @@ name: Alex Sickler, B.S.
 image: images/photo.jpg
 description: Bioinformatics Engineer
 role: programmer
+aliases:
+  - Alex Sickler
+  - Alexander Sickler
+  - Sickler
 links:
-  email: 
   twitter: 
 ---
 
