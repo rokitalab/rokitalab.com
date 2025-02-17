@@ -3,6 +3,9 @@ name: Ryan Corbett, Ph.D.
 image: images/corbett_photo.jpg
 description: Senior Bioinformatics Scientist
 role: programmer
+aliases:
+  - Ryan Corbett
+  - Corbett
 links:
   github: rjcorb
 ---
