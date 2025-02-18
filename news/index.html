@@ -37,6 +37,10 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>News | The Rokita Lab</title>
@@ -90,9 +94,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -156,6 +160,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -276,6 +284,8 @@
 
   
     <link href="/_styles/util.css" rel="stylesheet">
+  
+
   
 
   
@@ -460,9 +470,9 @@
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <div class="search-box">
@@ -472,17 +482,17 @@
   </button>
 </div>
 
-<div class="tags" data-link="https://rokitalab.com/news/">
+<div class="tags" data-link="/news/">
     
-      <a href="https://rokitalab.com/news/?search=%22tag:%20lab%22" class="tag" data-tooltip='Show items with the tag "lab"'>
+      <a href="/news/?search=%22tag:%20lab%22" class="tag" data-tooltip='Show items with the tag "lab"'>
         lab
       </a>
     
-      <a href="https://rokitalab.com/news/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href="/news/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
-      <a href="https://rokitalab.com/news/?search=%22tag:%20team%22" class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href="/news/?search=%22tag:%20team%22" class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -507,10 +517,13 @@
   
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Ryan Corbett</span>
-      </span>
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>ryan corbett</span>
+        </span>
+      
     
   
 
@@ -527,7 +540,7 @@
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 17, 2025</span>
+      <span>February 18, 2025</span>
     </span>
   
 </div>
@@ -536,9 +549,9 @@
   
 
 
-  <div class="tags" data-link="https://rokitalab.com/news">
+  <div class="tags" data-link="/blog">
     
-      <a href="https://rokitalab.com/news?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href="blog?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -550,7 +563,7 @@
 
       
       
-      <p data-search="Our latest manuscript   Germline pathogenic variation impacts somatic alterations and patient outcomes in pediatric CNS tumors   work led by Dr  Ryan Corbett  is now preprinted on MedRxiv ">
+      <p data-search="Our latest manuscript, Germline pathogenic variation impacts somatic alterations and patient outcomes in pediatric CNS tumors , work led by Dr. Ryan Corbett, is now preprinted on MedRxiv">
         Our latest manuscript, “Germline pathogenic variation impacts somatic alterations and patient outcomes in pediatric CNS tumors”, work led by Dr. Ryan Corbett, is now preprinted on MedRxiv!
 
       </p>
@@ -573,10 +586,13 @@
   
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Jo Lynne Rokita</span>
-      </span>
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>jo lynne rokita</span>
+        </span>
+      
     
   
 
@@ -593,7 +609,7 @@
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 17, 2025</span>
+      <span>February 18, 2025</span>
     </span>
   
 </div>
@@ -602,9 +618,9 @@
   
 
 
-  <div class="tags" data-link="https://rokitalab.com/news">
+  <div class="tags" data-link="/blog">
     
-      <a href="https://rokitalab.com/news?search=%22tag:%20team%22" class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href="blog?search=%22tag:%20team%22" class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -616,7 +632,7 @@
 
       
       
-      <p data-search="We are thrilled to welcome Dr  Ryan Corbett as a Senior Bioinformatics Scientist in the Rokita Lab at Children s National Hospital  CNH     Ryan joins us after two years of outstanding work under the mentorship of Dr  Rokita at the Children s Hospital of Philadelphia  CHOP  Ryan has played a pivotal role in advancing bioinformatics tools and applications critical for pediatric cancer research  including co development and maintenance of the germline pathogenicity tool  AutoGVP  essential involvement in the Open Pediatric Cancer  OpenPedCan  Project  and development contributions for two key CAVATICA applications  Pathogenicity Preprocessing and AlleleCouNT Ryan s research productivity speaks for itself  He is lead author of a recently accepted manuscript in NeuroOncology  entitled   Genetic ancestry superpopulations show distinct prevalence and outcomes across pediatric central nervous system tumors from the PBTA and PNOC  and lead author of an upcoming preprint   Integrated germline and somatic profiling of pediatric CNS tumors reveals incidental findings and novel tumor biology   Ryan has collaborated on six additional manuscripts in the pediatric brain tumor field over the past two years  demonstrating his dedication to team based science In addition to his research  Ryan is passionate about mentoring and teaching  He has started leading workshops for computational staff at both CHOP and CNH  exemplifying his dedication to fostering a collaborative learning environment We re excited to have Ryan continue his impactful work here at CNH  contributing to our mission of advancing precision medicine for pediatric brain tumors  Welcome  Ryan   ">
+      <p data-search="We are thrilled to welcome Dr. Ryan Corbett as a Senior Bioinformatics Scientist in the Rokita Lab at Children s National Hospital CNH . Ryan joins us after two years of outstanding work under the mentorship of Dr. Rokita at the Children s Hospital of Philadelphia CHOP .Ryan has played a pivotal role in advancing bioinformatics tools and applications critical for pediatric cancer research, including co-development and maintenance of the germline pathogenicity tool, AutoGVP, essential involvement in the Open Pediatric Cancer OpenPedCan Project, and development contributions for two key CAVATICA applications, Pathogenicity Preprocessing and AlleleCouNT.Ryan s research productivity speaks for itself. He is lead author of a recently accepted manuscript in NeuroOncology, entitled, Genetic ancestry superpopulations show distinct prevalence and outcomes across pediatric central nervous system tumors from the PBTA and PNOC and lead author of an upcoming preprint, Integrated germline and somatic profiling of pediatric CNS tumors reveals incidental findings and novel tumor biology . Ryan has collaborated on six additional manuscripts in the pediatric brain tumor field over the past two years, demonstrating his dedication to team-based science.In addition to his research, Ryan is passionate about mentoring and teaching. He has started leading workshops for computational staff at both CHOP and CNH, exemplifying his dedication to fostering a collaborative learning environment.We re excited to have Ryan continue his impactful work here at CNH, contributing to our mission of advancing precision medicine for pediatric brain tumors. Welcome, Ryan">
         We are thrilled to welcome Dr. Ryan Corbett as a Senior Bioinformatics Scientist in the Rokita Lab at Children’s National Hospital (CNH) 🎉. 
 Ryan joins us after two years of outstanding work under the mentorship of Dr. Rokita at the Children’s Hospital of Philadelphia (CHOP).
 
@@ -642,10 +658,13 @@ Ryan joins us after two years of outstanding work under the mentorship of Dr. Ro
   
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Jo Lynne Rokita</span>
-      </span>
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>jo lynne rokita</span>
+        </span>
+      
     
   
 
@@ -662,7 +681,7 @@ Ryan joins us after two years of outstanding work under the mentorship of Dr. Ro
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 17, 2025</span>
+      <span>February 18, 2025</span>
     </span>
   
 </div>
@@ -671,9 +690,9 @@ Ryan joins us after two years of outstanding work under the mentorship of Dr. Ro
   
 
 
-  <div class="tags" data-link="https://rokitalab.com/news">
+  <div class="tags" data-link="/blog">
     
-      <a href="https://rokitalab.com/news?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href="blog?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -685,7 +704,7 @@ Ryan joins us after two years of outstanding work under the mentorship of Dr. Ro
 
       
       
-      <p data-search="Our newest manuscript   Genetic ancestry superpopulations show distinct prevalence and outcomes across pediatric central nervous system tumors from the PBTA and PNOC   work led by Dr  Ryan Corbett  has been accepted in NeuroOncology ">
+      <p data-search="Our newest manuscript, Genetic ancestry superpopulations show distinct prevalence and outcomes across pediatric central nervous system tumors from the PBTA and PNOC , work led by Dr. Ryan Corbett, has been accepted in NeuroOncology">
         Our newest manuscript, “Genetic ancestry superpopulations show distinct prevalence and outcomes across pediatric central nervous system tumors from the PBTA and PNOC”, work led by Dr. Ryan Corbett, has been accepted in NeuroOncology!
 
       </p>
@@ -708,10 +727,13 @@ Ryan joins us after two years of outstanding work under the mentorship of Dr. Ro
   
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Jo Lynne Rokita</span>
-      </span>
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>jo lynne rokita</span>
+        </span>
+      
     
   
 
@@ -728,7 +750,7 @@ Ryan joins us after two years of outstanding work under the mentorship of Dr. Ro
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 17, 2025</span>
+      <span>February 18, 2025</span>
     </span>
   
 </div>
@@ -737,9 +759,9 @@ Ryan joins us after two years of outstanding work under the mentorship of Dr. Ro
   
 
 
-  <div class="tags" data-link="https://rokitalab.com/news">
+  <div class="tags" data-link="/blog">
     
-      <a href="https://rokitalab.com/news?search=%22tag:%20lab%22" class="tag" data-tooltip='Show items with the tag "lab"'>
+      <a href="blog?search=%22tag:%20lab%22" class="tag" data-tooltip='Show items with the tag "lab"'>
         lab
       </a>
     
@@ -751,7 +773,7 @@ Ryan joins us after two years of outstanding work under the mentorship of Dr. Ro
 
       
       
-      <p data-search="We are thrilled to announce the opening of the Rokita Lab at Children s National within the Brain Tumor Institute  BTI  and Center for Cancer and Immunology Research  CCIR   Situated in a leading pediatric institution  our lab is equipped with cutting edge technology and resources  fostering a collaborative environment for groundbreaking discoveries  We re excited to accelerate our research and expand our efforts to improve outcomes for children with brain cancer We are immediately hiring bioinformatics scientists to join our lab ">
+      <p data-search="We are thrilled to announce the opening of the Rokita Lab at Children s National within the Brain Tumor Institute BTI and Center for Cancer and Immunology Research CCIR Situated in a leading pediatric institution, our lab is equipped with cutting-edge technology and resources, fostering a collaborative environment for groundbreaking discoveries. We re excited to accelerate our research and expand our efforts to improve outcomes for children with brain cancer.We are immediately hiring bioinformatics scientists to join our lab">
         We are thrilled to announce the opening of the Rokita Lab at Children’s National within the Brain Tumor Institute (BTI) and Center for Cancer and Immunology Research (CCIR)! 
 Situated in a leading pediatric institution, our lab is equipped with cutting-edge technology and resources, fostering a collaborative environment for groundbreaking discoveries. 
 We’re excited to accelerate our research and expand our efforts to improve outcomes for children with brain cancer.
@@ -859,7 +881,7 @@ We’re excited to accelerate our research and expand our efforts to improve out
 
   <div class="button-wrapper">
     <a class="button" href="https://bsky.app/profile/jolynnerokita.bsky.social" data-tooltip="Bluesky" data-style="bare" aria-label="Bluesky">
-      <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#ffffff" d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2c42.1-31.6 110.3-56 110.3 21.8c0 15.5-8.9 130.5-14.1 149.2C478.2 298 412 314.6 353.1 304.5c102.9 17.5 129.1 75.5 72.5 133.5c-107.4 110.2-154.3-27.6-166.3-62.9l0 0c-1.7-4.9-2.6-7.8-3.3-7.8s-1.6 3-3.3 7.8l0 0c-12 35.3-59 173.1-166.3 62.9c-56.5-58-30.4-116 72.5-133.5C100 314.6 33.8 298 15.7 233.1C10.4 214.4 1.5 99.4 1.5 83.9c0-77.8 68.2-53.4 110.3-21.8z"></path></svg></span>
+      <i class="icon fa-brands fa-bluesky"></i>
       
     </a>
   </div>
