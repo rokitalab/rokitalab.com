@@ -1,5 +1,43 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:39974082
+  title: Germline pathogenic variation impacts somatic alterations and patient outcomes
+    in pediatric CNS tumors.
+  authors:
+  - Ryan J Corbett
+  - Rebecca S Kaufman
+  - Shelly W McQuaid
+  - Zalman Vaksman
+  - Saksham Phul
+  - Miguel A Brown
+  - Jennifer L Mason
+  - Sebastian M Waszak
+  - Bo Zhang
+  - Chuwei Zhong
+  - Heena Desai
+  - Ryan Hausler
+  - Ammar S Naqvi
+  - Antonia Chroni
+  - Zhuangzhuang Geng
+  - Elizabeth M Gonzalez
+  - Yuankun Zhu
+  - Allison P Heath
+  - Marilyn Li
+  - Phillip B Storm
+  - Adam C Resnick
+  - Kara N Maxwell
+  - Kristina A Cole
+  - Angela J Waanders
+  - Miriam Bornhorst
+  - Suzanne P MacFarland
+  - Jo Lynne Rokita
+  - Sharon J Diskin
+  publisher: 'medRxiv : the preprint server for health sciences'
+  date: '2025-02-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39974082
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:39952665
   title: Imaging Clusters of Pediatric Low-Grade Glioma are Associated with Distinct
     Molecular Characteristics.
