@@ -1,5 +1,5 @@
 ---
-title: Preprint out describing NRCAM, a new pediatric high-grade glioma neoepitope! 
+title: Preprint describing NRCAM, a new pediatric high-grade glioma neoepitope online! 
 author: Jo Lynne Rokita
 tags:
   - publication
