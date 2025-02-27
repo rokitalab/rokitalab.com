@@ -1,5 +1,91 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:39992227
+  title: Germline pathogenic DROSHA variants are linked to pineoblastoma and Wilms
+    tumor predisposition.
+  authors:
+  - Peter N Fiorica
+  - Lisa Golmard
+  - Jung Kim
+  - Riyue Bao
+  - Frank Y Lin
+  - Angshumoy Roy
+  - Allison Pribnow
+  - Melissa R Perrino
+  - Julien Masliah-Planchon
+  - Sophie Michalak-Provost
+  - Jennifer Wong
+  - Mathilde Filser
+  - Dominique Stoppa-Lyonnet
+  - Franck Bourdeaut
+  - Afane Brahimi
+  - Olivier Ingster
+  - Giselle Saulnier Sholler
+  - Sarah A Jackson
+  - Mark M Sasaki
+  - Trent Fowler
+  - Anita Ng
+  - Ryan J Corbett
+  - Rebecca S Kaufman
+  - Jeremy S Haley
+  - David J Carey
+  - Kuan-Lin Huang
+  - Sharon J Diskin
+  - Jo Lynne Rokita
+  - Hussam Al-Kateb
+  - Rose B McGee
+  - Joshua D Schiffman
+  - Kenneth S Chen
+  - Douglas R Stewart
+  - D Williams Parsons
+  - Sharon E Plon
+  - Kris Ann P Schultz
+  - Kenan Onel
+  publisher: 'Clinical cancer research : an official journal of the American Association
+    for Cancer Research'
+  date: '2025-02-24'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39992227
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:39974082
+  title: Germline pathogenic variation impacts somatic alterations and patient outcomes
+    in pediatric CNS tumors.
+  authors:
+  - Ryan J Corbett
+  - Rebecca S Kaufman
+  - Shelly W McQuaid
+  - Zalman Vaksman
+  - Saksham Phul
+  - Miguel A Brown
+  - Jennifer L Mason
+  - Sebastian M Waszak
+  - Bo Zhang
+  - Chuwei Zhong
+  - Heena Desai
+  - Ryan Hausler
+  - Ammar S Naqvi
+  - Antonia Chroni
+  - Zhuangzhuang Geng
+  - Elizabeth M Gonzalez
+  - Yuankun Zhu
+  - Allison P Heath
+  - Marilyn Li
+  - Phillip B Storm
+  - Adam C Resnick
+  - Kara N Maxwell
+  - Kristina A Cole
+  - Angela J Waanders
+  - Miriam Bornhorst
+  - Suzanne P MacFarland
+  - Jo Lynne Rokita
+  - Sharon J Diskin
+  publisher: 'medRxiv : the preprint server for health sciences'
+  date: '2025-02-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39974082
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:39952665
   title: Imaging Clusters of Pediatric Low-Grade Glioma are Associated with Distinct
     Molecular Characteristics.
@@ -3415,41 +3501,3 @@
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2025.02.04.25321499
-  title: Germline pathogenic variation impacts somatic alterations and patient outcomes
-    in pediatric CNS tumors
-  authors:
-  - Ryan J. Corbett
-  - Rebecca S. Kaufman
-  - Shelly W. McQuaid
-  - Zalman Vaksman
-  - Saksham Phul
-  - Miguel A. Brown
-  - Jennifer L. Mason
-  - Sebastian M. Waszak
-  - Bo Zhang
-  - Chuwei Zhong
-  - Heena Desai
-  - Ryan Hausler
-  - Ammar S. Naqvi
-  - Antonia Chroni
-  - Zhuangzhuang Geng
-  - Elizabeth M. Gonzalez
-  - Yuankun Zhu
-  - Allison P. Heath
-  - Marilyn Li
-  - Phillip B. Storm
-  - Adam C. Resnick
-  - Kara N. Maxwell
-  - Kristina A. Cole
-  - Angela J. Waanders
-  - Miriam Bornhorst
-  - Suzanne P. MacFarland
-  - Jo Lynne Rokita
-  - Sharon J. Diskin
-  publisher: Cold Spring Harbor Laboratory
-  date: '2025-02-06'
-  link: https://doi.org/g85drf
-  type: preprint
-  plugin: sources.py
-  file: sources.yaml
