@@ -1,7 +1,7 @@
 ---
 name: Jo Lynne Rokita, Ph.D.
 image: images/rokita_photo.jpg
-role: pi
+role: principal-investigator
 affiliation: Children's National Hospital
 aliases:
   - Rokita
