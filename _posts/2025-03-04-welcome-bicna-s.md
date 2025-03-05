@@ -1,5 +1,5 @@
 ---
-title: Bicna Song joins the Brain Tumor Institute Bioinformatics Core!
+title: Dr. Bicna Song joins the Brain Tumor Institute Bioinformatics Core!
 author: Jo Lynne Rokita
 tags:
   - team
