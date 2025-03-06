@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Please read below to learn more about our team!
+Please read below to learn more about our teams within the Rokita Lab and the BTI Bioinformatics Core!
 
 {% include section.html %}
 
