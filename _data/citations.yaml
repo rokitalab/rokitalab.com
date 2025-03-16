@@ -1,5 +1,53 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:40072012
+  title: Germline analysis of an international cohort of pediatric diffuse midline
+    glioma patients.
+  authors:
+  - Marion K Mateos
+  - Pamela Ajuyah
+  - Noemi Fuentes-Bolanos
+  - Sam El-Kamand
+  - Paulette Barahona
+  - Ann-Kristin Altekoester
+  - Chelsea Mayoh
+  - Holly Holliday
+  - Jie Liu
+  - Louise Cui
+  - Elke Pfaff
+  - Alan Mackay
+  - Adam C Resnick
+  - Mark Pinese
+  - Loretta M S Lau
+  - Dong-Anh Khuong-Quang
+  - Kimberly Dias
+  - Catherine Goudie
+  - Alison Salkeld
+  - Jo Lynne Rokita
+  - David T W Jones
+  - Nikoleta Juretic
+  - Elisha Hayden
+  - Stefan M Pfister
+  - Christof M Kramm
+  - Mirjam Blattner-Johnson
+  - Nada Jabado
+  - Maria Tsoli
+  - Orazio Vittorio
+  - Sabine Mueller
+  - Yiran Guo
+  - Katherine Tucker
+  - Sebastian M Waszak
+  - Sebastien Perreault
+  - Chris Jones
+  - Marie Wong-Erasmus
+  - Mark J Cowley
+  - David S Ziegler
+  publisher: Neuro-oncology
+  date: '2025-03-12'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/40072012
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:39992227
   title: Germline pathogenic DROSHA variants are linked to pineoblastoma and Wilms
     tumor predisposition.
