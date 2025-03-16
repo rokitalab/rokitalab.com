@@ -1,10 +1,9 @@
 ---
 name: Filled Position
 image: images/photo.jpg
-description: Postdoctoral Fellow
-role: postdoc
+description: Bioinformatics Scientist
+role: programmer
 links:
   email: 
   twitter: 
 ---
-
