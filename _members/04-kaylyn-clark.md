@@ -1,12 +1,13 @@
 ---
 name: Kaylyn Clark
-image: images/photo.jpg
+image: images/kaylyn_photo.jpg
 description: Postdoctoral Fellow
 role: postdoc
 aliases: 
 links:
-  github: 
-  orcid: 
+  github: [https://github.com/KayCla](url)
+  orcid: [0000-0002-7207-6608](https://orcid.org/0000-0002-7207-6608)
+  LinkedIn: [https://www.linkedin.com/in/kaylyn-clark-phd-766300101/](url) 
 ---
 
 Dr. Kaylyn Clark is a Postdoctoral Fellow in the Rokita Lab at Children’s National Hospital (CNH). 
@@ -14,7 +15,7 @@ Dr. Kaylyn Clark is a Postdoctoral Fellow in the Rokita Lab at Children’s Nati
 During her Ph.D., Dr. Clark performed research to better understand the genetic architecture of Alzheimer’s Disease (AD).
 These studies included collaborating with health economists to model the impact of comorbidities and risk factors on AD by calculating a multi-trait genetic risk score, exploring the shared genetic etiology between AD and multiple autoimmune disorders using polygenic risk scores, and collaborating with an Icelandic research team to run an AD GWAS of an isolated Icelandic population.
 
-Dr. Clark is passionate about ...
+Dr. Clark is passionate about increasing access to science education.
 
-Dr. Clark completed her B.S. at the [University of Maryland](https://umd.edu/) and Ph.D. in Genomics and Computational Biology at [The University of Pennsylvaia](https://www.upenn.edu/).
-Outside of the lab, Kaylyn enjoys ...
+Dr. Clark completed her B.S. at the [University of Maryland, Baltimore County](https://umbc.edu/) and Ph.D. in Genomics and Computational Biology at [The University of Pennsylvaia](https://www.upenn.edu/).
+Outside of the lab, Kaylyn enjoys reading, volunteering at animal shelters, and trying new recipes. 
