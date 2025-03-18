@@ -6,7 +6,7 @@ role: postdoc
 aliases: 
 links:
   github: KayCla
-  orcid: [0000-0002-7207-6608](https://orcid.org/0000-0002-7207-6608)
+  orcid: 0000-0002-7207-6608
   linkedin: kaylyn-clark-phd-766300101 
 ---
 
