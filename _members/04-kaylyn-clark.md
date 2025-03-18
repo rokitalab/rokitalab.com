@@ -7,7 +7,7 @@ aliases:
 links:
   github: [https://github.com/KayCla](url)
   orcid: [0000-0002-7207-6608](https://orcid.org/0000-0002-7207-6608)
-  LinkedIn: [https://www.linkedin.com/in/kaylyn-clark-phd-766300101/](url) 
+  linkedin: kaylyn-clark-phd-766300101 
 ---
 
 Dr. Kaylyn Clark is a Postdoctoral Fellow in the Rokita Lab at Children’s National Hospital (CNH). 
