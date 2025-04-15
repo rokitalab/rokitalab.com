@@ -19,4 +19,3 @@ Please read below to learn more about our teams within the Rokita Lab and the BT
 
 {% include section.html %}
 
-We are actively recruiting a technical project manager for the Brain Tumor Institute Bioinformatics Core. Please reach out!
