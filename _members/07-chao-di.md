@@ -6,7 +6,7 @@ role: programmer
 aliases:
   - Chao Di
 links:
-  github: 
+  github: chaodi51
 ---
 
 Dr. Chao Di is a Senior Bioinformatics Engineer and Scientist in the Rokita Lab and the Brain Tumor Institute Bioinformatics Core at Children’s National Hospital (CNH).
