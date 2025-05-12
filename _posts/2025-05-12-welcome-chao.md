@@ -14,7 +14,7 @@ Before his time in industry, Chao worked at the Children’s Hospital of Philade
 His toolkit spans cutting-edge transcriptomics and proteomics platforms including XLIP-Seq, 4sU-Seq, ChIP-Seq, scRNA-Seq, CyTOF, and Olink — all supported by deep experience in pipeline development with Snakemake, Nextflow, Python, R, and cloud/HPC environments.
 Earlier in his career, he helped build CLIPdb and contributed to foundational ENCODE efforts on RNA-binding proteins and long non-coding RNAs.
 
-Chao is passionate about...
+Chao is passionate about applying data science and engineering to tackle big data challenges in biomedical research. He thrives at the intersection of biology and computation, building scalable pipelines and analytical frameworks to extract insights from single-cell, spatial, and multi-omics datasets. At CNH, he's excited to collaborate across teams to transform complex data into actionable discoveries for pediatric care.
 
 We’re thrilled to have Chao on board as we continue building a robust analytical infrastructure to drive discovery and precision medicine in pediatric brain tumor research here at Children's.
 Welcome, Chao! 👏
