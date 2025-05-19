@@ -2291,57 +2291,6 @@
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422434.v1
-  title: Supplementary Figure S4 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x6c
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422434
-  title: Supplementary Figure S4 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x6h
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1158/0008-5472.22422431.v1
-  title: Supplementary Figure S5 from YAP1 Mediates Resistance to MEK1/2 Inhibition
-    in Neuroblastomas with Hyperactivated RAS Signaling
-  authors:
-  - Grace E. Coggins
-  - Alvin Farrel
-  - Komal S. Rathi
-  - Colin M. Hayes
-  - Laura Scolaro
-  - Jo Lynne Rokita
-  - John M. Maris
-  publisher: American Association for Cancer Research (AACR)
-  date: '2023-03-31'
-  link: https://doi.org/g43x6n
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1158/0008-5472.22422431
   title: Supplementary Figure S5 from YAP1 Mediates Resistance to MEK1/2 Inhibition
     in Neuroblastomas with Hyperactivated RAS Signaling
@@ -3443,7 +3392,7 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1111/gbb.12113
-  title: "Genetic variation within the <i>Chrna7</i> gene modulates nicotine reward\u2010\
+  title: "Genetic variation within the<i>Chrna7</i>gene modulates nicotine reward\u2010\
     like phenotypes in mice"
   authors:
   - J. L. Harenza
@@ -3458,7 +3407,7 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1111/bph.12741
-  title: "The \u03B13\u03B24* nicotinic <scp>ACh</scp> receptor subtype mediates physical\
+  title: "The \u03B13\u03B24* nicotinic<scp>ACh</scp>receptor subtype mediates physical\
     \ dependence to morphine: mouse and human studies"
   authors:
   - P P Muldoon
