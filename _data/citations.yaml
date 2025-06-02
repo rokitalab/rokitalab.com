@@ -49,8 +49,8 @@
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:39992227
-  title: Germline pathogenic DROSHA variants are linked to pineoblastoma and Wilms
-    tumor predisposition.
+  title: Germline Pathogenic DROSHA Variants Are Linked to Pineoblastoma and Wilms
+    Tumor Predisposition.
   authors:
   - Peter N Fiorica
   - Lisa Golmard
@@ -91,7 +91,7 @@
   - Kenan Onel
   publisher: 'Clinical cancer research : an official journal of the American Association
     for Cancer Research'
-  date: '2025-02-24'
+  date: '2025-04-14'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39992227
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
