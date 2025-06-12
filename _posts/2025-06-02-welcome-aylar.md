@@ -6,7 +6,8 @@ tags:
 ---
 
 We are thrilled to announce Aylar Babaei as a Bioinformatics Scientist in the BTI Bioinformatics Core at Children's National Hospital (CNH) 🎉.
-Aylar joins the Core after a productive year right here at CNH, where she contributed to multiple computational workflows, including Ribo-seq analysis, HLA typing, and MHC class I epitope prediction. She brings hands-on experience running large-scale pipelines on the high-performance computing (HPC) environment.
+Aylar joins the Core after a productive year right here at CNH, where she contributed to multiple computational workflows, including Ribo-seq analysis, HLA typing, and MHC class I epitope prediction. 
+She brings hands-on experience running large-scale pipelines on the high-performance computing (HPC) environment.
 
 Aylar is passionate about....
 
