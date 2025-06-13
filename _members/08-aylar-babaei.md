@@ -17,6 +17,6 @@ These included HLA epitope prediction, noncanonical antigen discovery with Ribo-
 Aylar is passionate about learning how complex research workflows are built and used, recognizing problems within them, and finding practical ways to improve them. 
 She's interested in bridging technical work with real-world healthcare impact.
 
-Aylar completed an B.S. in Chemistry at Shiraz University in Iran and an M.S. in Bioinformatics at the [George Washington University](https://gwu.edu/).
+Aylar completed a B.S. in Chemistry at Shiraz University in Iran and an M.S. in Bioinformatics at the [George Washington University](https://gwu.edu/).
 
 Outside of the lab, Aylar enjoys workouts, culinary adventures, and live performances, and loves unwinding with good friends and conversation.
