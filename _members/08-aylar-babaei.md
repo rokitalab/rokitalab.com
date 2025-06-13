@@ -1,6 +1,6 @@
 ---
 name: Aylar Babaei, M.S.
-image: images/picture.jpg
+image: images/aylar_photo.jpg
 description: Bioinformatics Scientist
 role: programmer
 aliases:
