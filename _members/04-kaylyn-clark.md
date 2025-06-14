@@ -1,5 +1,5 @@
 ---
-name: Kaylyn Clark
+name: Kaylyn Clark, Ph.D.
 image: images/kaylyn_photo.jpg
 description: Postdoctoral Fellow
 role: postdoc
