@@ -6,10 +6,6 @@ principal-investigator:
   icon: fa-solid fa-magnifying-glass
   description: Principal Investigator
 
-scientist:
-  icon: fa-solid fa-microscope
-  description: Scientist
-  
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
@@ -20,11 +16,7 @@ phd:
 
 undergrad:
   icon: fa-solid fa-user-graduate
-  description: Undergraduate
-  
-hs-student:
-  icon: fa-solid fa-school
-  description: High School Student
+  description: Undergraduate Student
 
 programmer:
   icon: fa-solid fa-code
