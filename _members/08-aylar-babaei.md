@@ -6,7 +6,7 @@ role: programmer
 aliases:
   - Aylar Babaei
 links:
-  github:[](https://github.com/aylarba)
+  - aylarba
 ---
 
 Aylar Babaei is a Bioinformatics Scientist in the Brain Tumor Institute Bioinformatics Core at Children’s National Hospital (CNH).
