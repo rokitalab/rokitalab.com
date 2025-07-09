@@ -542,6 +542,37 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:37978951
+  title: 'Everolimus for Children With Recurrent or Progressive Low-Grade Glioma:
+    Results From the Phase II PNOC001 Trial.'
+  authors:
+  - Daphne A Haas-Kogan
+  - Mariam S Aboian
+  - Jane E Minturn
+  - Sarah E S Leary
+  - Mohamed S Abdelbaki
+  - Stewart Goldman
+  - Jennifer D Elster
+  - Adam Kraya
+  - Matthew R Lueder
+  - Divya Ramakrishnan
+  - Marc von Reppert
+  - Kevin X Liu
+  - Jo Lynne Rokita
+  - Adam C Resnick
+  - David A Solomon
+  - Joanna J Phillips
+  - Michael Prados
+  - Annette M Molinaro
+  - Sebastian M Waszak
+  - Sabine Mueller
+  publisher: 'Journal of clinical oncology : official journal of the American Society
+    of Clinical Oncology'
+  date: '2023-11-17'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37978951
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:37688570
   title: BARD1 germline variants induce haploinsufficiency and DNA repair defects
     in neuroblastoma.
@@ -867,6 +898,36 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:36167467
+  title: Development of GPC2-directed chimeric antigen receptors using mRNA for pediatric
+    brain tumors.
+  authors:
+  - Jessica B Foster
+  - Crystal Griffin
+  - Jo Lynne Rokita
+  - Allison Stern
+  - Cameron Brimley
+  - Komal Rathi
+  - Maria V Lane
+  - Samantha N Buongervino
+  - Tiffany Smith
+  - Peter J Madsen
+  - Daniel Martinez
+  - Alberto Delaidelli
+  - Poul H Sorensen
+  - Robert J Wechsler-Reya
+  - "Katalin Karik\xF3"
+  - Phillip B Storm
+  - David M Barrett
+  - Adam C Resnick
+  - John M Maris
+  - Kristopher R Bosse
+  publisher: Journal for immunotherapy of cancer
+  date: '2022-09-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36167467
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:35852795
   title: 'Upfront Biology-Guided Therapy in Diffuse Intrinsic Pontine Glioma: Therapeutic,
     Molecular, and Biomarker Outcomes from PNOC003.'
@@ -1001,6 +1062,103 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:33242424
+  title: Integrated Proteogenomic Characterization across Major Histological Types
+    of Pediatric Brain Cancer.
+  authors:
+  - Francesca Petralia
+  - Nicole Tignor
+  - Boris Reva
+  - Mateusz Koptyra
+  - Shrabanti Chowdhury
+  - Dmitry Rykunov
+  - Azra Krek
+  - Weiping Ma
+  - Yuankun Zhu
+  - Jiayi Ji
+  - Anna Calinawan
+  - Jeffrey R Whiteaker
+  - Antonio Colaprico
+  - Vasileios Stathias
+  - Tatiana Omelchenko
+  - Xiaoyu Song
+  - Pichai Raman
+  - Yiran Guo
+  - Miguel A Brown
+  - Richard G Ivey
+  - John Szpyt
+  - Sanjukta Guha Thakurta
+  - Marina A Gritsenko
+  - Karl K Weitz
+  - Gonzalo Lopez
+  - Selim Kalayci
+  - "Zeynep H G\xFCm\xFC\u015F"
+  - Seungyeul Yoo
+  - Felipe da Veiga Leprevost
+  - Hui-Yin Chang
+  - Karsten Krug
+  - Lizabeth Katsnelson
+  - Ying Wang
+  - Jacob J Kennedy
+  - Uliana J Voytovich
+  - Lei Zhao
+  - Krutika S Gaonkar
+  - Brian M Ennis
+  - Bo Zhang
+  - Valerie Baubet
+  - Lamiya Tauhid
+  - Jena V Lilly
+  - Jennifer L Mason
+  - Bailey Farrow
+  - Nathan Young
+  - Sarah Leary
+  - Jamie Moon
+  - Vladislav A Petyuk
+  - Javad Nazarian
+  - Nithin D Adappa
+  - James N Palmer
+  - Robert M Lober
+  - Samuel Rivero-Hinojosa
+  - Liang-Bo Wang
+  - Joshua M Wang
+  - Matilda Broberg
+  - Rosalie K Chu
+  - Ronald J Moore
+  - Matthew E Monroe
+  - Rui Zhao
+  - Richard D Smith
+  - Jun Zhu
+  - Ana I Robles
+  - Mehdi Mesri
+  - Emily Boja
+  - Tara Hiltke
+  - Henry Rodriguez
+  - Bing Zhang
+  - Eric E Schadt
+  - D R Mani
+  - Li Ding
+  - Antonio Iavarone
+  - Maciej Wiznerowicz
+  - "Stephan Sch\xFCrer"
+  - Xi S Chen
+  - Allison P Heath
+  - Jo Lynne Rokita
+  - Alexey I Nesvizhskii
+  - "David Feny\xF6"
+  - Karin D Rodland
+  - Tao Liu
+  - Steven P Gygi
+  - Amanda G Paulovich
+  - Adam C Resnick
+  - Phillip B Storm
+  - Brian R Rood
+  - Pei Wang
+  publisher: Cell
+  date: '2020-11-25'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/33242424
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:33119584
   title: A transcriptome-based classifier to determine molecular subtypes in medulloblastoma.
   authors:
@@ -1117,6 +1275,27 @@
   publisher: Scientific data
   date: '2020-04-14'
   link: https://www.ncbi.nlm.nih.gov/pubmed/32286315
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:32211329
+  title: CAMKV Is a Candidate Immunotherapeutic Target in
+  authors:
+  - Robyn T Sussman
+  - Jo Lynne Rokita
+  - Kevin Huang
+  - Pichai Raman
+  - Komal S Rathi
+  - Daniel Martinez
+  - Kristopher R Bosse
+  - Maria Lane
+  - Lori S Hart
+  - Tricia Bhatti
+  - Bruce Pawel
+  - John M Maris
+  publisher: Frontiers in oncology
+  date: '2020-03-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32211329
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -1249,6 +1428,23 @@
   publisher: Cell reports
   date: '2019-11-05'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31693904
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31672841
+  title: YAP1 Mediates Resistance to MEK1/2 Inhibition in Neuroblastomas with Hyperactivated
+    RAS Signaling.
+  authors:
+  - Grace E Coggins
+  - Alvin Farrel
+  - Komal S Rathi
+  - Colin M Hayes
+  - Laura Scolaro
+  - Jo Lynne Rokita
+  - John M Maris
+  publisher: Cancer research
+  date: '2019-10-31'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31672841
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -1485,6 +1681,25 @@
   publisher: Cancer cell
   date: '2017-09-11'
   link: https://www.ncbi.nlm.nih.gov/pubmed/28898695
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:28350380
+  title: Transcriptomic profiling of 39 commonly-used neuroblastoma cell lines.
+  authors:
+  - Jo Lynne Harenza
+  - Maura A Diamond
+  - Rebecca N Adams
+  - Michael M Song
+  - Heather L Davidson
+  - Lori S Hart
+  - Maiah H Dent
+  - Paolo Fortina
+  - C Patrick Reynolds
+  - John M Maris
+  publisher: Scientific data
+  date: '2017-03-28'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28350380
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
