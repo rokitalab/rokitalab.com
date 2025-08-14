@@ -1,5 +1,45 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:40782352
+  title: NRCAM variant defined by microexon skipping is a targetable cell surface
+    proteoform in high-grade gliomas.
+  authors:
+  - Priyanka Sehgal
+  - Ammar S Naqvi
+  - Makenna Higgins
+  - Jiageng Liu
+  - Kyra Harvey
+  - Julien Jarroux
+  - Taewoo Kim
+  - Berk Mankaliye
+  - Pamela Mishra
+  - Grace Watterson
+  - Justyn Fine
+  - Jacinta Davis
+  - Katharina E Hayer
+  - Annette Castro
+  - Adanna Mogbo
+  - Charles Drummer
+  - Daniel Martinez
+  - Mateusz P Koptyra
+  - Zhiwei Ang
+  - Kai Wang
+  - Alvin Farrel
+  - Mathieu Quesnel-Vallieres
+  - Yoseph Barash
+  - Jamie B Spangler
+  - Jo Lynne Rokita
+  - Adam C Resnick
+  - Hagen U Tilgner
+  - Thomas De Raedt
+  - Daniel J Powell
+  - Andrei Thomas-Tikhonenko
+  publisher: Cell reports
+  date: '2025-08-07'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/40782352
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:40072012
   title: Germline analysis of an international cohort of pediatric diffuse midline
     glioma patients.
@@ -1756,6 +1796,15 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: doi:10.1093/gigascience/giaf093
+  title: pendingpublications
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://doi.org/g9trwd
+  orcid: 0000-0003-2171-3627
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2023.12.06.570390
   title: A proteogenomic surfaceome study identifies DLK1 as an immunotherapeutic
     target in neuroblastoma
