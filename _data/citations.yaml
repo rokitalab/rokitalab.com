@@ -175,7 +175,7 @@
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:39952665
-  title: Imaging Clusters of Pediatric Low-Grade Glioma are Associated with Distinct
+  title: Imaging Clusters of Pediatric Low-Grade Glioma Are Associated with Distinct
     Molecular Characteristics.
   authors:
   - Anahita Fathi Kazerooni
@@ -187,7 +187,8 @@
   - Arastoo Vossough
   - Nastaran Khalili
   - Deep Gandhi
-  - Neda Khalili Ariana M Familiar
+  - Neda Khalili
+  - Ariana M Familiar
   - Run Jin
   - Xiaoyan Huang
   - Yuankun Zhu
@@ -203,7 +204,7 @@
   - Adam C Resnick
   - Ali Nabavizadeh
   publisher: AJNR. American journal of neuroradiology
-  date: '2025-02-14'
+  date: '2025-08-01'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39952665
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
@@ -237,9 +238,8 @@
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:39868324
-  title: Neuronal cell adhesion molecule (NRCAM) variant defined by microexon skipping
-    is an essential, antigenically distinct, and targetable proteoform in high-grade
-    glioma.
+  title: NRCAM variant defined by microexon skipping is a targetable cell surface
+    proteoform in high-grade gliomas.
   authors:
   - Priyanka Sehgal
   - Ammar S Naqvi
@@ -268,18 +268,19 @@
   - Jo Lynne Rokita
   - Adam C Resnick
   - Hagen U Tilgner
-  - Thomas DeRaedt
+  - Thomas De Raedt
   - Daniel J Powell
   - Andrei Thomas-Tikhonenko
   publisher: 'bioRxiv : the preprint server for biology'
-  date: '2025-01-19'
+  date: '2025-08-04'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39868324
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:39847453
   title: Genetic ancestry superpopulations show distinct prevalence and outcomes across
-    pediatric central nervous system tumors from the PBTA and PNOC.
+    pediatric central nervous system tumors from the Pediatric Brain Tumor Atlas and
+    Pediatric Neuro-Oncology Consortium.
   authors:
   - Ryan J Corbett
   - Cricket C Gullickson
@@ -305,7 +306,7 @@
   - Jo Lynne Rokita
   - Cassie Kline
   publisher: Neuro-oncology
-  date: '2025-01-23'
+  date: '2025-06-21'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39847453
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
@@ -3438,7 +3439,7 @@
   file: orcid.yaml
 - id: doi:10.1111/gbb.12289
   title: "Identification of quantitative trait loci and candidate genes for an anxiolytic\u2010\
-    like response to ethanol in <scp>BXD</scp> recombinant inbred strains"
+    like response to ethanol in<scp>BXD</scp>recombinant inbred strains"
   authors:
   - A. H. Putman
   - A. R. Wolen
