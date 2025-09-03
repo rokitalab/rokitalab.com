@@ -14,9 +14,9 @@
   subtitle: The Open Pediatric Cancer Project
   group: featured
   image: images/opc.png
-  link: https://pubmed.ncbi.nlm.nih.gov/39026781/
+  link: https://doi.org/10.1093/gigascience/giaf093
   description: A harmonized open-source multi-omic dataset from > 6,000 pediatric cancer patients with > 7,000 tumor events across more than 100 histologies. 
-  repo: rokitalab/OpenPedCan-analysis
+  repo: rokitalab/OpenPedCan-Project-CNH
   tags:
     - resource
     - preprint
