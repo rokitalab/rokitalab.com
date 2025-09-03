@@ -53,11 +53,26 @@
   - Deanne Taylor
   - Jo Lynne Rokita
   publisher: GigaScience
-  date: '2025-01-06'
+  date: '2024-07-11'
   link: https://www.ncbi.nlm.nih.gov/pubmed/40891528
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  description: The Open Pediatric Cancer Project
+  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11257555/figure/F1/
+  buttons:
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/rokitalab/OpenPedCan-manuscript
+  - type: manubot
+    link: http://manubot.org/
+  tags:
+  - open science
+  - collaboration
+  - pediatric cancer
+  - genomics
+  repo: rokitalab/OpenPedCan-manuscript
 - id: pubmed:40782352
   title: NRCAM variant defined by microexon skipping is a targetable cell surface
     proteoform in high-grade gliomas.
@@ -516,26 +531,11 @@
   - Deanne Taylor
   - Jo Lynne Rokita
   publisher: 'bioRxiv : the preprint server for biology'
-  date: '2024-07-11'
+  date: '2025-06-28'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39026781
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: sources.py
-  file: sources.yaml
-  type: preprint
-  description: The Open Pediatric Cancer Project
-  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11257555/figure/F1/
-  buttons:
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/rokitalab/OpenPedCan-manuscript
-  - type: manubot
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  - pediatric cancer
-  - genomics
-  repo: rokitalab/OpenPedCan-manuscript
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:38426335
   title: 'AutoGVP: a dockerized workflow integrating ClinVar and InterVar germline
     sequence variant classification.'
