@@ -1,5 +1,63 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:40891528
+  title: The Open Pediatric Cancer Project.
+  authors:
+  - Zhuangzhuang Geng
+  - Eric Wafula
+  - Ryan J Corbett
+  - Yuanchao Zhang
+  - Run Jin
+  - Krutika S Gaonkar
+  - Sangeeta Shukla
+  - Komal S Rathi
+  - Dave Hill
+  - Aditya Lahiri
+  - Daniel P Miller
+  - Alex Sickler
+  - Kelsey Keith
+  - Christopher Blackden
+  - Antonia Chroni
+  - Miguel A Brown
+  - Adam A Kraya
+  - Kaylyn L Clark
+  - Brian R Rood
+  - Adam C Resnick
+  - Nicholas Van Kuren
+  - John M Maris
+  - Alvin Farrel
+  - Mateusz P Koptyra
+  - Gerri R Trooskin
+  - Noel Coleman
+  - Yuankun Zhu
+  - Stephanie Stefankiewicz
+  - Zied Abdullaev
+  - Asif T Chinwalla
+  - Mariarita Santi
+  - Ammar S Naqvi
+  - Jennifer L Mason
+  - Carl J Koschmann
+  - Xiaoyan Huang
+  - Sharon J Diskin
+  - Kenneth Aldape
+  - Bailey K Farrow
+  - Weiping Ma
+  - Bo Zhang
+  - Brian M Ennis
+  - Sarah Tasian
+  - Saksham Phul
+  - Matthew R Lueder
+  - Chuwei Zhong
+  - Joseph M Dybas
+  - Pei Wang
+  - Deanne Taylor
+  - Jo Lynne Rokita
+  publisher: GigaScience
+  date: '2025-01-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/40891528
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:40782352
   title: NRCAM variant defined by microexon skipping is a targetable cell surface
     proteoform in high-grade gliomas.
