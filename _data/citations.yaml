@@ -141,7 +141,7 @@
   - Mark J Cowley
   - David S Ziegler
   publisher: Neuro-oncology
-  date: '2025-03-12'
+  date: '2025-09-08'
   link: https://www.ncbi.nlm.nih.gov/pubmed/40072012
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
@@ -422,8 +422,9 @@
     tumors reveals
   authors:
   - Ammar S Naqvi
+  - Patricia J Sullivan
   - Ryan J Corbett
-  - Priyanka Seghal
+  - Priyanka Sehgal
   - Karina L Conkrite
   - Komal S Rathi
   - Brian M Ennis
@@ -431,6 +432,7 @@
   - Bo Zhang
   - Miguel A Brown
   - Daniel P Miller
+  - Alex Sickler
   - Adam A Kraya
   - Kaleem L Coleman
   - Joseph M Dybas
