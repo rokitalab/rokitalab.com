@@ -1,6 +1,6 @@
 ---
 name: Meghali Goswami, Ph.D.
-image: images/photo.jpg
+image: images/meg_photo.jpg
 description: Staff Scientist
 role: scientist
 aliases: 
