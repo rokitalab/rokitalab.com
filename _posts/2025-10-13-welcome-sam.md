@@ -11,5 +11,3 @@ Sam brings extensive experience in developing analytical workflows and integrati
 
 We’re thrilled to have Sam on board as we continue building a robust analytical infrastructure to drive discovery and precision medicine in pediatric research here at Children's.
 Welcome, Sam! 👏
-
-
