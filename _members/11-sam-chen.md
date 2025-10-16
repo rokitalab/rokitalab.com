@@ -22,7 +22,7 @@ Prior to his work at Dyno, Dr. Chen interned at Genentech, where he contributed 
 Dr. Chen completed his Ph.D. in Biomedical Informatics at [Northwestern University](https://www.northwestern.edu/). His dissertation research focused on multi-omics analyses (scRNA-seq, bulk RNA-seq, CITE-seq, ATAC-seq) to characterize
 macrophage heterogeneity and inflammatory pathways in rheumatoid arthritis and liver cholestasis.
 
-Sam is passionate about applying single-cell and multi-omics approaches to advance precision diagnostics and therapies for pediatric cancer and immune diseases. Outside of the lab, Sam enjoys traveling, watching baseball, and searching for good food. 
+Dr. Chen is passionate about applying single-cell and multi-omics approaches to advance precision diagnostics and therapies for pediatric cancer and immune diseases. Outside of the lab, Sam enjoys traveling, watching baseball, and searching for good food. 
 
 
 
