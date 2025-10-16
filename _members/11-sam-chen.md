@@ -1,6 +1,6 @@
 ---
 name: Shang-Yang (Sam) Chen, Ph.D.
-image: images/photo.jpg
+image: images/sam_photo.jpg
 description: Bioinformatics Scientist
 role: programmer
 aliases:
