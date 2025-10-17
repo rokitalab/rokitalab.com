@@ -11,7 +11,7 @@ links:
   
 ---
 
-Dr. Meghali Goswami is a Staff Scientist in the Rokita Lab, housed within the [Rood Lab](https://lnkd.in/erWqs5zN) at Children's National Hospital (CNH). 
+Dr. Meghali Goswami is a Staff Scientist in the Rokita Lab, housed within the [Rood Lab](https://lnkd.in/erWqs5zN), at Children's National Hospital (CNH). 
 
 Prior to starting at CNH, Dr. Goswami worked as a postdoctoral fellow at the National Cancer Institute (NCI) as well as the National Heart, Lung, and Blood Institute (NHLBI).
 
