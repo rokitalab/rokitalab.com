@@ -1,5 +1,48 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:41271695
+  title: Germline pathogenic variation impacts somatic alterations and patient outcomes
+    in pediatric central nervous system tumors.
+  authors:
+  - Ryan J Corbett
+  - Rebecca S Kaufman
+  - Shelly W McQuaid
+  - Zalman Vaksman
+  - Saksham Phul
+  - Miguel A Brown
+  - Jennifer L Mason
+  - Sebastian M Waszak
+  - Bo Zhang
+  - Chuwei Zhong
+  - Emily Blauel
+  - Heena Desai
+  - Ryan Hausler
+  - Ammar S Naqvi
+  - Jessica M Daggett
+  - Alex Sickler
+  - Evan C Cresswell-Clay
+  - Patricia J Sullivan
+  - Antonia Chroni
+  - Zhuangzhuang Geng
+  - Elizabeth M Gonzalez
+  - Yuankun Zhu
+  - Allison P Heath
+  - Marilyn Li
+  - Phillip B Storm
+  - Adam C Resnick
+  - Kara N Maxwell
+  - Kristina A Cole
+  - Angela J Waanders
+  - Miriam Bornhorst
+  - Suzanne P MacFarland
+  - Jo Lynne Rokita
+  - Sharon J Diskin
+  publisher: Nature communications
+  date: '2025-11-21'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/41271695
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:40891528
   title: The Open Pediatric Cancer Project.
   authors:
@@ -268,13 +311,13 @@
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:39907037
-  title: Kinome reprogramming of G2/M kinases and repression of MYCN contribute to
-    superior efficacy of lorlatinib in ALK-driven neuroblastoma.
+  title: Kinome Reprogramming of G2/M Kinases and Repression of MYCN Contribute to
+    Superior Efficacy of Lorlatinib in ALK-Driven Neuroblastoma.
   authors:
   - Smita Matkar
   - Michael P East
   - Timothy J Stuhlmiller
-  - Gabriela Witek
+  - Gabriela M Witek
   - Alvin Farrel
   - Steven Pastor
   - Denis O Okumu
@@ -290,7 +333,7 @@
   - Gary L Johnson
   - "Yael P Moss\xE9"
   publisher: Molecular cancer therapeutics
-  date: '2025-02-05'
+  date: '2025-09-02'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39907037
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
