@@ -251,9 +251,14 @@
   - Sebastian M Waszak
   - Bo Zhang
   - Chuwei Zhong
+  - Emily Blauel
   - Heena Desai
   - Ryan Hausler
   - Ammar S Naqvi
+  - Jessica M Daggett
+  - Alex Sickler
+  - Evan C Cresswell-Clay
+  - Patricia J Sullivan
   - Antonia Chroni
   - Zhuangzhuang Geng
   - Elizabeth M Gonzalez
@@ -270,7 +275,7 @@
   - Jo Lynne Rokita
   - Sharon J Diskin
   publisher: 'medRxiv : the preprint server for health sciences'
-  date: '2025-02-06'
+  date: '2025-07-23'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39974082
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
