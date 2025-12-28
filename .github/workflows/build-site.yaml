@@ -21,24 +21,24 @@ jobs:
 
     steps:
       - name: Debug dump
-        uses: crazy-max/ghaction-dump-context@v2
+        uses: crazy-max/ghaction-dump-context@158bbf4d6158a44a7e13f76295dc55a69e481a6e #v2
 
       - name: Checkout branch contents
-        uses: actions/checkout@v4
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 #v6.01
 
       - name: Install Ruby packages
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@ae195bbe749a7cef685ac729197124a48305c1cb #v1.276.0
         with:
           ruby-version: "3.1"
           bundler-cache: true
 
       - name: Get Pages url
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b #v5
 
       - name: SSH debug
         if: runner.debug == '1'
-        uses: mxschmitt/action-tmate@v3
+        uses: mxschmitt/action-tmate@c0afd6f790e3a5564914980036ebf83216678101 #v3.23
 
       - name: Set root url
         run: |
@@ -49,7 +49,7 @@ jobs:
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
 
       - name: Commit live site to Pages branch
-        uses: JamesIves/github-pages-deploy-action@v4.5.0
+        uses: JamesIves/github-pages-deploy-action@9d877eea73427180ae43cf98e8914934fe157a1a #v4.76
         with:
           folder: _site
           clean-exclude: ${{ env.PREVIEWS_FOLDER }}
