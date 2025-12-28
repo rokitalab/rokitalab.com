@@ -42,7 +42,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b #v5
 
-      - uses: jwalton/gh-find-current-pr@master
+      - uses: jwalton/gh-find-current-pr@89ee5799558265a1e0e31fab792ebb4ee91c016b #v1.3.3
         if: github.event.action != 'closed'
         id: pr
         with:
