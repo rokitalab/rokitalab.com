@@ -29,18 +29,18 @@ jobs:
 
     steps:
       - name: Debug dump
-        uses: crazy-max/ghaction-dump-context@v2
+        uses: crazy-max/ghaction-dump-context@158bbf4d6158a44a7e13f76295dc55a69e481a6e #v2
 
       - name: Checkout branch contents
         if: github.event.action != 'closed'
-        uses: actions/checkout@v4
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 #v6.01
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.head_ref }}
 
       - name: Setup Python
         if: github.event.action != 'closed'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548 #v6.1.0
         with:
           python-version: "3.11"
           cache: "pip"
@@ -53,7 +53,7 @@ jobs:
 
       - name: SSH debug
         if: runner.debug == '1'
-        uses: mxschmitt/action-tmate@v3
+        uses: mxschmitt/action-tmate@c0afd6f790e3a5564914980036ebf83216678101 #v3.23
 
       - name: Build updated citations
         if: github.event.action != 'closed'
@@ -62,7 +62,7 @@ jobs:
 
       - name: Commit cache
         if: failure()
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 #v7.1
         with:
           file_pattern: "**/.cache/**"
           commit_message: "Commit cache"
@@ -70,7 +70,7 @@ jobs:
       - name: Check if citations changed
         if: github.event.action != 'closed'
         id: changed
-        uses: tj-actions/verify-changed-files@v18
+        uses: tj-actions/verify-changed-files@a1c6acee9df209257a246f2cc6ae8cb6581c1edf #v20.04
         with:
           files: |
             _data/citations.yaml
@@ -80,7 +80,7 @@ jobs:
           github.event.action != 'closed' &&
           steps.changed.outputs.files_changed == 'true' &&
           inputs.open-pr != true
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 #v7.1
         with:
           commit_message: "Update citations"
 
@@ -89,7 +89,7 @@ jobs:
           github.event.action != 'closed' &&
           steps.changed.outputs.files_changed == 'true' &&
           inputs.open-pr == true
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@98357b18bf14b5342f975ff684046ec3b2a07725 #v8.0.0
         with:
           branch: citation-update
           title: Periodic citation update
