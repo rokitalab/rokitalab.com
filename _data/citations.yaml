@@ -99,8 +99,23 @@
   date: '2025-01-06'
   link: https://www.ncbi.nlm.nih.gov/pubmed/40891528
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  description: The Open Pediatric Cancer Project
+  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11257555/figure/F1/
+  buttons:
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/rokitalab/OpenPedCan-manuscript
+  - type: manubot
+    link: http://manubot.org/
+  tags:
+  - open science
+  - collaboration
+  - pediatric cancer
+  - genomics
+  repo: rokitalab/OpenPedCan-manuscript
 - id: pubmed:40782352
   title: NRCAM variant defined by microexon skipping is a targetable cell surface
     proteoform in high-grade gliomas.
@@ -500,7 +515,7 @@
   - Adam C Resnick
   - Jo Lynne Rokita
   publisher: 'bioRxiv : the preprint server for biology'
-  date: '2022-08-22'
+  date: '2025-08-19'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39149264
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: sources.py
@@ -566,26 +581,11 @@
   - Deanne Taylor
   - Jo Lynne Rokita
   publisher: 'bioRxiv : the preprint server for biology'
-  date: '2024-07-11'
+  date: '2025-06-28'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39026781
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: sources.py
-  file: sources.yaml
-  type: preprint
-  description: The Open Pediatric Cancer Project
-  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11257555/figure/F1/
-  buttons:
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/rokitalab/OpenPedCan-manuscript
-  - type: manubot
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  - pediatric cancer
-  - genomics
-  repo: rokitalab/OpenPedCan-manuscript
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:38426335
   title: 'AutoGVP: a dockerized workflow integrating ClinVar and InterVar germline
     sequence variant classification.'
@@ -869,8 +869,7 @@
   plugin: pubmed.py
   file: pubmed.yaml
 - id: pubmed:36778420
-  title: BARD1 germline variants induce haploinsufficiency and DNA repair defects
-    in neuroblastoma
+  title: ''
   authors:
   - Michael P Randall
   - Laura E Egolf
@@ -889,9 +888,8 @@
   date: '2023-02-03'
   link: https://www.ncbi.nlm.nih.gov/pubmed/36778420
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: sources.py
-  file: sources.yaml
-  type: preprint
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:36585448
   title: Enhancing childhood cancer targetability.
   authors:
