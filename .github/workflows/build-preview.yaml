@@ -60,7 +60,7 @@ jobs:
           pr: ${{ steps.pr.outputs.pr }}
 
       - name: Commit preview to Pages branch
-        uses: rossjrw/pr-preview-action@3e4ed158ecbf7f58513abc0dc15a4ad3b0e18ee5 #v1.72, prev v1.4.7
+        uses: rossjrw/pr-preview-action@3e4ed158ecbf7f58513abc0dc15a4ad3b0e18ee5 #v1.72
         with:
           source-dir: _site
           umbrella-dir: ${{ env.PREVIEWS_FOLDER }}
