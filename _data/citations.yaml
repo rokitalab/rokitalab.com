@@ -99,22 +99,8 @@
   date: '2025-01-06'
   link: https://www.ncbi.nlm.nih.gov/pubmed/40891528
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: The Open Pediatric Cancer Project
-  buttons:
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/rokitalab/OpenPedCan-manuscript
-  - type: manubot
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  - pediatric cancer
-  - genomics
-  repo: rokitalab/OpenPedCan-manuscript
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:40782352
   title: NRCAM variant defined by microexon skipping is a targetable cell surface
     proteoform in high-grade gliomas.
@@ -1958,8 +1944,22 @@
   date: '2025-01-01'
   link: https://doi.org/g9trwd
   orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  description: The Open Pediatric Cancer Project
+  buttons:
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/rokitalab/OpenPedCan-manuscript
+  - type: manubot
+    link: http://manubot.org/
+  tags:
+  - open science
+  - collaboration
+  - pediatric cancer
+  - genomics
+  repo: rokitalab/OpenPedCan-manuscript
 - id: doi:10.1101/2023.12.06.570390
   title: A proteogenomic surfaceome study identifies DLK1 as an immunotherapeutic
     target in neuroblastoma
