@@ -103,7 +103,6 @@
   file: sources.yaml
   type: paper
   description: The Open Pediatric Cancer Project
-  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11257555/figure/F1/
   buttons:
   - type: source
     text: Manuscript Source
