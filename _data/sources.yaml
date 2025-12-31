@@ -1,13 +1,7 @@
 # manually override specific citation detail
-- id: pubmed:36778420
-  type: preprint
-  title: BARD1 germline variants induce haploinsufficiency and DNA repair defects in neuroblastoma
-
-- id: pubmed:39026781
-  type: preprint
+- id: doi:10.1093/gigascience/giaf093
+  type: paper
   description: The Open Pediatric Cancer Project
-  date: 2024-07-11
-  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11257555/figure/F1/
   buttons:
     - type: source
       text: Manuscript Source
@@ -24,7 +18,6 @@
 - id: pubmed:39149264
   type: preprint
   description: Characterization of aberrant splicing in pediatric central nervous system tumors reveals CLK1 as a candidate oncogenic dependency
-  date: 2022-08-22
   image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11326178/figure/F1/
   tags:
     - pediatric cancer

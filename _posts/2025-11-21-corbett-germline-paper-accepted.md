@@ -6,7 +6,7 @@ tags:
 
 ---
 
-We're thrilled to share the publication of our latest study, “Germline pathogenic variation impacts somatic alterations and patient outcomes in pediatric central nervous system tumors,” now out in [Nature Communications](https://www.nature.com/articles/s41467-025-65190-4). Led by [Dr. Ryan Corbett](https://rokitalab.com/members/02-ryan-corbett.html)] in the Rokita Lab, this work represents a comprehensive multi-omic analysis of germline and somatic data from 830 pediatric brain tumor patients in the #PBTA — truly a _tour de force_ by the team.
+We're thrilled to share the publication of our latest study, “Germline pathogenic variation impacts somatic alterations and patient outcomes in pediatric central nervous system tumors,” now out in [Nature Communications](https://www.nature.com/articles/s41467-025-65190-4). Led by [Dr. Ryan Corbett](https://rokitalab.com/members/02-ryan-corbett.html) in the Rokita Lab, this work represents a comprehensive multi-omic analysis of germline and somatic data from 830 pediatric brain tumor patients in the #PBTA — truly a _tour de force_ by the team.
 
 We highlight the importance of germline testing at diagnosis, identifying rare germline pathogenic (P) or likely pathogenic (LP) variants in 48 patients (5.7%) who had no clinically reported cancer predisposition syndrome. 
 Among all P/LP carriers, 34.6% had putative somatic second hits or loss-of-function tumor alterations, consistent with classical tumor suppressor models.
