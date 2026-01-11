@@ -1,5 +1,5 @@
 ---
-name: Vinay Gujjula
+name: Vinay Gujjula, B.S.
 image: images/photo.jpg
 description: GWU Masters Student
 role: ms-student
