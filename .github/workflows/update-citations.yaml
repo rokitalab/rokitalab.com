@@ -28,8 +28,17 @@ jobs:
     timeout-minutes: 15
 
     steps:
+      - name: Ensure Docker daemon.json exists
+        run: |
+          sudo mkdir -p /etc/docker
+          if [ ! -f /etc/docker/daemon.json ]; then
+            echo '{}' | sudo tee /etc/docker/daemon.json > /dev/null
+          fi
+      
       - name: Debug dump
+        if: runner.debug == '1'
         uses: crazy-max/ghaction-dump-context@158bbf4d6158a44a7e13f76295dc55a69e481a6e #v2
+        continue-on-error: true
 
       - name: Checkout branch contents
         if: github.event.action != 'closed'
