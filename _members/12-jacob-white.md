@@ -1,6 +1,6 @@
 ---
 name: Jacob White, B.A.
-image: images/photo.jpg
+image: images/jacob_photo.jpg
 description: GWU Masters Student
 role: ms-student
 aliases:
