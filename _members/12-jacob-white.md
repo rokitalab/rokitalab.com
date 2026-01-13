@@ -16,4 +16,5 @@ He served as a Clinical Research Coordinator at the UVA Center for Leading Edge 
 
 Jacob completed his B.A. in Chemistry and a minor in Psychology at the [University of Virginia](https://www.virginia.edu/).
 
-Jacob is passionate about using multi-omics data to improve therapeutics. Outside of the lab, he enjoys hiking, spending time with family, and finding new coffee shops. 
+Jacob is passionate about using multi-omics data to improve therapeutics. 
+Outside of the lab, he enjoys hiking, spending time with family, and finding new coffee shops. 
