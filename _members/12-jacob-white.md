@@ -3,9 +3,6 @@ name: Jacob White, B.A.
 image: images/jacob_photo.jpg
 description: GWU Masters Student
 role: ms-student
-aliases:
-  - 
-  - 
 links:
   github: Jacob-White-GWU
   orcid: 0009-0005-1208-2001
