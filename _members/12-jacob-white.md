@@ -7,8 +7,8 @@ aliases:
   - 
   - 
 links:
-  github: 
-  orcid: 
+  github: https://github.com/Jacob-White-GWU
+  orcid: https://orcid.org/0009-0005-1208-2001
   
 ---
 
