@@ -3,7 +3,7 @@ name: Vinay Gujjula, B.S.
 image: images/Vinay_photo.jpg
 description: GWU Masters Student
 role: ms-student
-aliases: Harivinay Prasad Reddy Gujjula (Full name)
+aliases: Harivinay Prasad Reddy Gujjula
   - 
   - 
 links:
