@@ -1835,6 +1835,40 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:28193036
+  title: International Comparison of Enumeration-Based Quantification of DNA Copy-Concentration
+    Using Flow Cytometric Counting and Digital Polymerase Chain Reaction.
+  authors:
+  - Hee-Bong Yoo
+  - Sang-Ryoul Park
+  - Lianhua Dong
+  - Jing Wang
+  - Zhiwei Sui
+  - "Jernej Pav\u0161i\u010D"
+  - Mojca Milavec
+  - Muslum Akgoz
+  - "Erkan Mozio\u011Flu"
+  - Philippe Corbisier
+  - "M\xE1trai Janka"
+  - Bruno Cosme
+  - Janaina J de V Cavalcante
+  - Roberto Becht Flatshart
+  - Daniel Burke
+  - Michael Forbes-Smith
+  - Jacob McLaughlin
+  - Kerry Emslie
+  - Alexandra S Whale
+  - Jim F Huggett
+  - Helen Parkes
+  - Margaret C Kline
+  - Jo Lynne Harenza
+  - Peter M Vallone
+  publisher: Analytical chemistry
+  date: '2016-11-30'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28193036
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:21494628
   title: 'Genetic analysis of the neurosteroid deoxycorticosterone and its relation
     to alcohol phenotypes: identification of QTLs and downstream gene regulation.'
