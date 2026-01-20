@@ -7,7 +7,7 @@ aliases: Harivinay Prasad Reddy Gujjula
   - 
   - 
 links:
-  github: https://github.com/ghvpr
+  github: ghvpr
   orcid: 
   
 ---
