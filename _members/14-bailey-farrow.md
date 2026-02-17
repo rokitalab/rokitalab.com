@@ -1,6 +1,6 @@
 ---
 name: Bailey Farrow, B.S.
-image: images/photo.jpg
+image: images/bailey_photo.jpg
 description: Senior Bioinformatics Program and Operations Manager
 role: programmer
 aliases:
@@ -19,7 +19,7 @@ As Associate Technology Director, she led large-scale genomic and clinical data 
 She partnered closely with clinicians, scientists, engineers, and federal stakeholders to translate complex research requirements into scalable, secure, and sustainable data infrastructure and operational strategy.
 
 Bailey’s expertise spans data governance, technical program management, financial and grant management, platform architecture, regulatory coordination, and cross-functional team leadership. 
-She is passionate about .......(building ethical, patient-centered data ecosystems that accelerate discovery while fostering collaboration, transparency, and long-term sustainability in biomedical research.)
+She is passionate about building ethical, patient-centered data ecosystems that accelerate discovery while fostering collaboration, transparency, and long-term sustainability in biomedical research. She especially enjoys building teams and workflows that bring clarity to complex work, maximize resources, and foster a collaborative, high-trust team culture.
 
 Bailey completed her B.S. in Mathematical and Computer Sciences from the [Colorado School of Mines](https://www.mines.edu/). 
-Outside of the lab, Bailey enjoys... 
+Outside of the lab, Bailey enjoys testing new recipes, building surprisingly elaborate Airtable bases for everyday life, experimenting with creative photography, and tending to her small but enthusiastic home zoo. 
