@@ -1,5 +1,5 @@
 ---
-title: Bailey Farrow joins the Rokita Lab!
+title: Bailey Farrow joins the BTI Bioinformatics Core Leadership!
 author: Jo Lynne Rokita
 tags:
   - team
