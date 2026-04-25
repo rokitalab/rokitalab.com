@@ -2,6 +2,7 @@
 name: Alex Sickler, B.S.
 image: images/alex_photo.jpg
 description: Bioinformatics Engineer
+affiliation: BTI Bioinformatics Core
 role: programmer
 aliases:
   - Alex Sickler

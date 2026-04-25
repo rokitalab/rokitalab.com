@@ -2,6 +2,7 @@
 name: Jessica Daggett, Ph.D.
 image: images/jessica_photo.jpg
 description: Bioinformatics Scientist
+affiliation: BTI Bioinformatics Core
 role: programmer
 aliases:
   - Jessica Daggett

@@ -2,6 +2,7 @@
 name: Aylar Babaei, M.S.
 image: images/aylar_photo.jpg
 description: Bioinformatics Scientist
+affiliation: BTI Bioinformatics Core
 role: programmer
 aliases:
   - Aylar Babaei

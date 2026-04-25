@@ -2,6 +2,7 @@
 name: Chao Di, Ph.D.
 image: images/chaodi_portrait.jpg
 description: Senior Bioinformatics Engineer and Scientist
+affiliation: BTI Bioinformatics Core
 role: programmer
 aliases:
   - Chao Di
