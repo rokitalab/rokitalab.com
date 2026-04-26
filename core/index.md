@@ -5,10 +5,11 @@ nav:
   tooltip: About the Bioinformatics Core
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Our Team
+# {% include icon.html icon="fa-solid fa-users" %}BTI Bioinformatics Core Team
 
-{:.center}
+<p style="text-align: center; font-size: 1.2em; line-height: 1.7;">
 The Brain Tumor Institute Bioinformatics Core at Children's National Hospital is a collaborative team of bioinformatics scientists, engineers, and operations staff dedicated to advancing computational discovery in pediatric brain tumor research.
+</p>
 
 {:.center}
 [Learn more about the BTI Bioinformatics Core](https://innovationdistrict.childrensnational.org/building-bioinformatics-infrastructure-at-the-brain-tumor-institute/)
