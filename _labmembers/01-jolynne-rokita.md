@@ -2,7 +2,7 @@
 name: Jo Lynne Rokita, Ph.D.
 image: images/rokita_photo.jpg
 role: principal-investigator
-affiliation: Principal Investigator
+description: Principal Investigator
 aliases:
   - Rokita
   - Harenza

@@ -2,9 +2,12 @@
 
 # team member roles
 
-principal-investigator:
+pi:
   icon: fa-solid fa-magnifying-glass
-  description: Principal Investigator
+
+ad:
+  icon: fa-solid fa-code
+  description: Assistant Director
 
 scientist:
   icon: fa-solid fa-microscope

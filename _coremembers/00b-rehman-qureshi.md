@@ -1,8 +1,7 @@
 ---
 name: Rehman Qureshi, Ph.D.
 image: images/photo.jpg
-description: Assistant Director
-role: programmer
+role: ad
 aliases:
   - Rehman Qureshi
 links:
