@@ -2,7 +2,6 @@
 name: Ryan Corbett, Ph.D.
 image: images/corbett_photo.jpg
 description: Senior Bioinformatics Scientist
-affiliation: Rokita Lab
 role: programmer
 aliases:
   - Ryan J. Corbett

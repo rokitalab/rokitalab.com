@@ -2,7 +2,6 @@
 name: Vinay Gujjula, B.S.
 image: images/Vinay_photo.jpg
 description: GWU Masters Student
-affiliation: Rokita Lab
 role: ms-student
 aliases: 
   - Harivinay Prasad Reddy Gujjula

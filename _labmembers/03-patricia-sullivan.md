@@ -2,7 +2,6 @@
 name: Patricia Sullivan, Ph.D.
 image: images/patricia_photo.jpg
 description: Bioinformatics Scientist
-affiliation: Rokita Lab
 role: programmer
 aliases:
   - Patricia Sullivan

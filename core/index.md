@@ -7,7 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Please read below to learn more about the BTI Bioinformatics Core!
+Dr. Rokita directs the [Brain Tumor Institute (BTI) Bioinformatics Core](https://innovationdistrict.childrensnational.org/building-bioinformatics-infrastructure-at-the-brain-tumor-institute/) at Children's National Hospital.
+Read more about our BTI Bioinformatics Core team below!
 
 {% include section.html %}
 

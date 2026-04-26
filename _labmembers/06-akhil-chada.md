@@ -2,7 +2,6 @@
 name: Akhil Chada
 image: images/akhil_photo.jpg
 description: Summer High School Student
-affiliation: Rokita Lab
 role: hs-student
 aliases:
   - Akhil Chada

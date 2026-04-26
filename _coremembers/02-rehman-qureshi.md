@@ -2,7 +2,6 @@
 name: Rehman Qureshi, Ph.D.
 image: images/photo.jpg
 description: Assistant Director
-affiliation: BTI Bioinformatics Core
 role: programmer
 aliases:
   - Rehman Qureshi

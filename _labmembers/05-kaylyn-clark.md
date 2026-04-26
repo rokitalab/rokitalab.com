@@ -2,7 +2,7 @@
 name: Kaylyn Clark, Ph.D.
 image: images/kaylyn_photo.jpg
 description: Postdoctoral Fellow
-affiliation: Gilbert & Rokita Labs
+affiliation: (Gilbert Lab funded)
 role: postdoc
 aliases: 
 links:

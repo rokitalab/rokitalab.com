@@ -2,7 +2,6 @@
 name: Bailey Farrow, B.S.
 image: images/bailey_photo.jpg
 description: Senior Bioinformatics Program and Operations Manager
-affiliation: BTI Bioinformatics Core
 role: pm
 aliases:
   - Bailey K Farrow

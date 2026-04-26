@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Please read below to learn more about the Rokita Lab members!
+Please read below to learn more about the members of the Rokita Lab!
 
 {% include section.html %}
 

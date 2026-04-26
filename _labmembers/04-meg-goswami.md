@@ -2,7 +2,6 @@
 name: Meghali Goswami, Ph.D.
 image: images/meg_photo.jpg
 description: Staff Scientist
-affiliation: Rokita Lab
 role: scientist
 aliases: 
   - 

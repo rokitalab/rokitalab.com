@@ -2,7 +2,6 @@
 name: Jacob White, B.A.
 image: images/jacob_photo.jpg
 description: GWU Masters Student
-affiliation: Rokita Lab
 role: ms-student
 links:
   github: Jacob-White-GWU

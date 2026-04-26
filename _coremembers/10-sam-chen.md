@@ -2,7 +2,7 @@
 name: Shang-Yang (Sam) Chen, Ph.D.
 image: images/sam_photo.jpg
 description: Bioinformatics Scientist
-affiliation: BTI Bioinformatics Core (CCIR)
+affiliation: (CCIR)
 role: programmer
 aliases:
   - Shang-Yang Chen
