@@ -25,12 +25,12 @@ defaults:
       layout: default
   # markdown files in /_labmembers
   - scope:
-      type: "members"
+      type: "labmembers"
     values:
       layout: member
   # markdown files in /_coremembers
   - scope:
-    type: "members"
+    type: "coremembers"
   values:
     layout: member
 
