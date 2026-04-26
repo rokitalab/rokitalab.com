@@ -30,9 +30,9 @@ defaults:
       layout: member
   # markdown files in /_coremembers
   - scope:
-    type: "coremembers"
-  values:
-    layout: member
+      type: "coremembers"
+    values:
+      layout: member
 
   # markdown files in /_posts
   - scope:
