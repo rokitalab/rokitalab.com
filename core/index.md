@@ -1,8 +1,8 @@
 ---
-title: CORE TEAM
+title: BIOINFORMATICS CORE TEAM
 nav:
   order: 4
-  tooltip: About our team
+  tooltip: About the Bioinformatics Core
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team

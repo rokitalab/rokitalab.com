@@ -12,7 +12,6 @@ links:
   orcid: 0000-0003-2171-3627
   google-scholar: nQPa7ksAAAAJ
   github: jharenza
-  twitter: jolynnerokita
   bluesky: jolynnerokita.bsky.social
 
 ### jekyll settings
@@ -24,11 +23,17 @@ defaults:
       path: ""
     values:
       layout: default
-  # markdown files in /_members
+  # markdown files in /_labmembers
   - scope:
       type: "members"
     values:
       layout: member
+  # markdown files in /_coremembers
+  - scope:
+    type: "members"
+  values:
+    layout: member
+
   # markdown files in /_posts
   - scope:
       type: "posts"
