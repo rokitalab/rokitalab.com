@@ -25,12 +25,12 @@ defaults:
       layout: default
   # markdown files in /_labmembers
   - scope:
-      type: "members"
+      type: "labmembers"
     values:
       layout: member
   # markdown files in /_coremembers
   - scope:
-    type: "members"
+    type: "coremembers"
   values:
     layout: member
 
@@ -41,8 +41,11 @@ defaults:
       layout: post
 
 collections:
-  # generate page for each member
-  members:
+  # generate page for lab members
+  labmembers:
+    output: true
+  # generate page for core members
+  coremembers:
     output: true
   # generate page for each post
   posts:
