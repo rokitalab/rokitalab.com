@@ -1,6 +1,6 @@
 ---
 name: Rehman Qureshi, Ph.D.
-image: images/photo.jpg
+image: images/rehman_photo.jpg
 role: ad
 aliases:
   - Rehman Qureshi
