@@ -19,9 +19,9 @@ He also developed machine learning models for cancer diagnosis and prognosis and
 Additionally, Dr. Qureshi served as an Adjunct Professor at [Drexel University](https://drexel.edu/), where he designed and taught a bioinformatics coding bootcamp focused on Python, data analysis, and applied computational biology, mentoring students in practical and research-oriented problem solving. 
 
 His expertise spans bioinformatics, machine learning, cloud computing, and large-scale data engineering, with deep experience in RNA-seq, single-cell genomics, and multi-omic integration.
-He is passionate about ...
+He is passionate about using bioinformatics to understand cancer biology and improve outcomes for patients.
 
 Dr. Qureshi earned his Ph.D. in Bioinformatics from [Drexel University](https://drexel.edu/), where his research focused on microRNA biology and computational analysis of gene expression data.
 He also holds M.S. and B.S. degrees in Biomedical Engineering from Drexel.
 
-Outside of work, he ...
+Outside of work, he enjoys working out, riding his bike, and traveling.
