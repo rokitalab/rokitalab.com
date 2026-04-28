@@ -1,7 +1,7 @@
 ---
 title: Code of Conduct
 nav:
-  order: 5
+  order: 6
   tooltip: Code of Conduct
 ---
 
