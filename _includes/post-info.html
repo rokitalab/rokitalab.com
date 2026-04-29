@@ -6,8 +6,9 @@
       | split: ","
       | array_filter
     %}
+    {% assign all_members = site.coremembers | concat: site.labmembers %}
     {% for author in authors %}
-      {% assign member = site.members
+      {% assign member = all_members
         | where_exp: "member", "member.slug == author"
         | first
       %}

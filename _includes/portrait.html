@@ -1,5 +1,6 @@
 {% if include.lookup %}
-  {% assign member = site.members 
+  {% assign all_members = site.coremembers | concat: site.labmembers %}
+  {% assign member = all_members
     | where_exp: "member", "member.slug == include.lookup"
     | first
   %}
