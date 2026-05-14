@@ -26,13 +26,13 @@ jobs:
         uses: mxschmitt/action-tmate@c0afd6f790e3a5564914980036ebf83216678101 #v3.23
 
       - name: Checkout base branch contents
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 #v6.01
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
           ref: main
           path: base
 
       - name: Checkout pr branch contents
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 #v6.01
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
           path: pr
 
@@ -89,7 +89,7 @@ jobs:
         uses: crazy-max/ghaction-dump-context@158bbf4d6158a44a7e13f76295dc55a69e481a6e #v2
 
       - name: Checkout branch contents
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 #v6.01
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
 
       - name: Install packages
         run: npm install yaml semver
