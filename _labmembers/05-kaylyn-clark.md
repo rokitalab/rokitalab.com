@@ -2,6 +2,7 @@
 name: Kaylyn Clark, Ph.D.
 image: images/kaylyn_photo.jpg
 description: Postdoctoral Fellow
+affiliation: (Gilbert Lab funded)
 role: postdoc
 aliases: 
 links:

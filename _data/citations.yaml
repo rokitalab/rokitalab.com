@@ -1,5 +1,33 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:42239754
+  title: Tumor Microenvironmental Regulation of CAR T-Cell Therapy in High Risk Medulloblastoma.
+  authors:
+  - Dalia Haydar
+  - Serge Yaacoub
+  - Mostafa Seblani
+  - Kaleem Coleman
+  - Zhongzhen Yi
+  - Kyoungtea Kim
+  - Shang-Yang Chen
+  - Bicna Song
+  - Chao Di
+  - Leon McSwain
+  - Gage Paul
+  - Olga Rodriguez
+  - Christopher Albanese
+  - Alexander V Kabanov
+  - Timothy Gershon
+  - Jo Lynne Rokita
+  - Christopher Lazarski
+  - Martine Roussel
+  - Marina Sokolsky-Papkov
+  publisher: Research square
+  date: '2026-05-21'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/42239754
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:41908886
   title: Alternative splicing in pediatric central nervous system tumors highlights
     oncofetal candidate
@@ -1928,6 +1956,27 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: doi:10.64898/2026.05.04.26352173
+  title: Specific HLA Class I and II alleles are associated with a higher risk for
+    tumor formation in Neurofibromatosis type 1
+  authors:
+  - Jonathan H. Sussman
+  - Stephanie N. Brosius
+  - Bernat Gel
+  - Peiyao Li
+  - Alvin Farrel
+  - Jo Lynne Rokita
+  - Edu Serra
+  - Kai Tan
+  - Michael J. Fisher
+  - John M. Maris
+  - Thomas De Raedt
+  publisher: openRxiv
+  date: '2026-05-05'
+  link: https://doi.org/hb3d83
+  orcid: 0000-0003-2171-3627
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1093/gigascience/giaf093
   title: The Open Pediatric Cancer Project
   authors:

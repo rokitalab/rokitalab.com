@@ -2,6 +2,7 @@
 name: Bicna Song, Ph.D.
 image: images/bicna_photo.jpg
 description: Bioinformatics Scientist
+affiliation: (BTI)
 role: programmer
 aliases:
   - Bicna Song
