@@ -5,8 +5,6 @@ description: High School Student
 role: hs-student
 aliases: 
   - Deborah Torrico-Pardo
-links:
-  github:
   
 ---
 
