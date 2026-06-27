@@ -46,3 +46,5 @@ Our scientists and engineers bring deep expertise across genomics, multi-omics, 
 [![Rally Foundation for Childhood Cancer](/images/core/rally-20th-logo-white.png)](https://rallyfoundation.org/)
 
 [![Gilbert Family Foundation](/images/core/GFF.png)](https://gilbertfamilyfoundation.org/)
+
+{% endcapture %}

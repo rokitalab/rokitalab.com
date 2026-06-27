@@ -39,3 +39,5 @@ The Rokita Lab is a highly engaged and collaborative team united by a shared pas
 [![Amazon Web Services](/images/team/aws-logo.png)](https://aws.amazon.com/government-education/nonprofits/)
 
 [![Gilbert Family Foundation](/images/team/GFF.png)](https://gilbertfamilyfoundation.org/)
+
+{% endcapture %}
