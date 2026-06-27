@@ -38,13 +38,13 @@ Our scientists and engineers bring deep expertise across genomics, multi-omics, 
 {% capture content %}
 {% include figure.html image="/images/core/BTI-anon-horizontal.png" alt="Brain Tumor Institute Anonymous Donors" %}
 
-{% include figure.html image="/images/core/aws-logo.png" alt="Amazon Web Services" link="https://aws.amazon.com/government-education/nonprofits/" %}
+{% include figure.html image="/images/core/aws-logo.png" alt="Amazon Web Services" link="https://aws.amazon.com/government-education/nonprofits/" newtab=true %}
 
-{% include figure.html image="/images/core/kidsfirst.png" alt="Kids First Data Resource Center" link="https://commonfund.nih.gov/KidsFirst" %}
+{% include figure.html image="/images/core/kidsfirst.png" alt="Kids First Data Resource Center" link="https://commonfund.nih.gov/KidsFirst" newtab=true %}
 
-{% include figure.html image="/images/core/rally-20th-logo-white.png" alt="Rally Foundation for Childhood Cancer" link="https://rallyfoundation.org/" %}
+{% include figure.html image="/images/core/rally-20th-logo-white.png" alt="Rally Foundation for Childhood Cancer" link="https://rallyfoundation.org/" newtab=true %}
 
-{% include figure.html image="/images/core/GFF.png" alt="Gilbert Family Foundation" link="https://gilbertfamilyfoundation.org/" %}
+{% include figure.html image="/images/core/GFF.png" alt="Gilbert Family Foundation" link="https://gilbertfamilyfoundation.org/" newtab=true %}
 
 {% endcapture %}
 
