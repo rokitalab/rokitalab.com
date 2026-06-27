@@ -30,3 +30,19 @@ Our scientists and engineers bring deep expertise across genomics, multi-omics, 
 {% include section.html %}
 
 {% include list.html data="coremembers" component="portrait" filter="role != 'pi' and role != 'ad' and role != 'pm'" %}
+
+{% include section.html %}
+
+## Funding
+
+{% capture content %}
+
+![Brain Tumor Institute Anonymous Donors](/images/core/BTI-anon-horizontal.png)
+
+[![Amazon Web Services](/images/core/aws-logo.png)](https://aws.amazon.com/government-education/nonprofits/)
+
+[![Kids First Data Resource Center](/images/core/kidsfirst.png)](https://commonfund.nih.gov/KidsFirst)
+
+[![Rally Foundation for Childhood Cancer](/images/core/rally-20th-logo-white.png)](https://rallyfoundation.org/)
+
+[![Gilbert Family Foundation](/images/core/GFF.png)](https://gilbertfamilyfoundation.org/)
