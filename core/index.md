@@ -29,8 +29,6 @@ The Brain Tumor Institute Bioinformatics Core at Children's National Hospital is
 {:.center}
 Our scientists and engineers bring deep expertise across genomics, multi-omics, cloud computing, and data engineering — working collaboratively to support research and clinical initiatives across Children's National Hospital.
 
-{% include section.html %}
-
 {% include list.html data="coremembers" component="portrait" filter="role != 'pi' and role != 'ad' and role != 'pm'" %}
 
 {% include section.html %}
@@ -38,7 +36,6 @@ Our scientists and engineers bring deep expertise across genomics, multi-omics, 
 ## Funding
 
 {% capture content %}
-
 ![Brain Tumor Institute Anonymous Donors](/images/core/BTI-anon-horizontal.png)
 
 [![Amazon Web Services](/images/core/aws-logo.png)](https://aws.amazon.com/government-education/nonprofits/)

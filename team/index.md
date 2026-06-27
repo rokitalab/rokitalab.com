@@ -23,7 +23,6 @@ The Rokita Lab is a highly engaged and collaborative team united by a shared pas
 ## Funding
 
 {% capture content %}
-
 [![National Cancer Institute](/images/team/National_Cancer_Institute_logo.png)](https://www.cancer.gov/)
 
 [![NIH Common Fund Data Ecosystem](/images/team/NIH-CFDElogo.png)](https://commonfund.nih.gov/dataecosystem)
