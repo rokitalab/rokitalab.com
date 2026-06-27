@@ -22,6 +22,8 @@ The Brain Tumor Institute Bioinformatics Core at Children's National Hospital is
 {% include list.html data="coremembers" component="portrait" filter="role == 'ad'" %}
 {% include list.html data="coremembers" component="portrait" filter="role == 'pm'" %}
 
+{% include section.html %}
+
 ## {% include icon.html icon="fa-solid fa-code" %}Core Team
 
 {:.center}
@@ -48,3 +50,6 @@ Our scientists and engineers bring deep expertise across genomics, multi-omics, 
 [![Gilbert Family Foundation](/images/core/GFF.png)](https://gilbertfamilyfoundation.org/)
 
 {% endcapture %}
+
+{% include grid.html content=content %}
+

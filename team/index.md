@@ -13,6 +13,8 @@ The Rokita Lab is a highly engaged and collaborative team united by a shared pas
 
 {% include section.html %}
 
+## Current Lab Members
+
 {% include list.html data="labmembers" component="portrait" filter="role == 'pi'" %}
 {% include list.html data="labmembers" component="portrait" filter="role != 'pi'" %}
 
@@ -41,3 +43,6 @@ The Rokita Lab is a highly engaged and collaborative team united by a shared pas
 [![Gilbert Family Foundation](/images/team/GFF.png)](https://gilbertfamilyfoundation.org/)
 
 {% endcapture %}
+
+{% include grid.html content=content %}
+
