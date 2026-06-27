@@ -8,8 +8,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-users" %}Rokita Lab Team
 
 {:.center}
-The Rokita Lab is a highly engaged and collaborative team united by a shared passion for using genomics and computational biology to improve outcomes for children with brain tumors. We are committed to fostering an inclusive environment where diverse perspectives are valued and all team members can thrive.
-
+The Rokita Lab is a highly engaged and collaborative team united by a shared passion for using genomics and computational biology to improve outcomes for children with brain tumors. We are committed to fostering an environment where every member is valued, respected, and empowered to do their best work. Our team spans a rich mix of expertise and backgrounds — including bioinformatics scientists, bench scientists, postdocs, students, and engineers — all working together toward a common mission.
 
 {% include section.html %}
 
