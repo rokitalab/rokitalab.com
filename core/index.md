@@ -42,7 +42,7 @@ Our scientists and engineers bring deep expertise across genomics, multi-omics, 
 
 {% include figure.html image="/images/core/kidsfirst.png" alt="Kids First Data Resource Center" link="https://commonfund.nih.gov/KidsFirst" newtab=true %}
 
-{% include figure.html image="/images/core/rally-20th-logo-white.png" alt="Rally Foundation for Childhood Cancer" link="https://rallyfoundation.org/" newtab=true %}
+{% include figure.html image="/images/core/rally-full-logo.png" alt="Rally Foundation for Childhood Cancer" link="https://rallyfoundation.org/" newtab=true %}
 
 {% include figure.html image="/images/core/GFF.png" alt="Gilbert Family Foundation" link="https://gilbertfamilyfoundation.org/" newtab=true %}
 
