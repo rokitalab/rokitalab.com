@@ -1,7 +1,7 @@
 ---
 ---
 
-We are thrilled to announce the opening of the Rokita Lab at Children's National Hospital within the Brain Tumor Institute (BTI) and Center for Cancer and Immunology Research (CCIR)! Situated within a leading pediatric institution, our lab is equipped with cutting-edge technology and resources, fostering a collaborative environment for groundbreaking discoveries. We are also a part of the Department of Pediatrics within the George Washington University School of Medicine and Health Sciences. We’re excited to accelerate our research and expand our efforts to improve outcomes for children with brain cancer.
+Welcome to the Rokita Lab at [Children's National Hospital](https://research.childrensnational.org/people/rokita-jo-lynne)! Our lab is a part of both the [Brain Tumor Institute (BTI)](https://www.childrensnational.org/get-care/departments/brain-tumor-institute-neurooncology-program) and the [Center for Cancer and Immunology Research (CCIR)](https://research.childrensnational.org/center-for-cancer-and-immunology). Situated within a leading pediatric institution, we are equipped with cutting-edge technology and resources, fostering a collaborative environment for groundbreaking discoveries. We are also a part of the [Department of Pediatrics](https://pediatrics.smhs.gwu.edu/) within the School of Medicine and Health Sciences and the [Computational Biology Institute](https://cbi.gwu.edu/) within the Milken Institute of Public Heath at The George Washington University. We’re excited to accelerate our research and expand our efforts to improve outcomes for children with brain cancer.
 
 
 {% include section.html %}
