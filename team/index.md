@@ -8,7 +8,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-users" %}Rokita Lab Team
 
 {:.center}
-The Rokita Lab is a highly engaged and collaborative team united by a shared passion for using genomics and computational biology to improve outcomes for children with brain tumors. We are committed to fostering an environment where every member is valued, respected, and empowered to do their best work. Our team spans a rich mix of expertise and backgrounds — including bioinformatics scientists, bench scientists, postdocs, students, and engineers — all working together toward a common mission.
+The Rokita Lab is a highly engaged and collaborative team united by a shared passion for using genomics and computational biology to improve outcomes for children with brain tumors. We are committed to fostering an inclusive environment where diverse perspectives are valued and all team members can thrive.
 
 
 {% include section.html %}
@@ -23,25 +23,24 @@ The Rokita Lab is a highly engaged and collaborative team united by a shared pas
 ## Funding
 
 {% capture content %}
-[![National Cancer Institute](/images/team/National_Cancer_Institute_logo.png)](https://www.cancer.gov/)
+{% include figure.html image="/images/team/National_Cancer_Institute_logo.png" alt="National Cancer Institute" link="https://www.cancer.gov/" %}
 
-[![NIH Common Fund Data Ecosystem](/images/team/NIH-CFDElogo.png)](https://commonfund.nih.gov/dataecosystem)
+{% include figure.html image="/images/team/NIH-CFDElogo.png" alt="NIH Common Fund Data Ecosystem" link="https://commonfund.nih.gov/dataecosystem" %}
 
-[![Kids First Data Resource Center](/images/team/kidsfirst.png)](https://commonfund.nih.gov/KidsFirst)
+{% include figure.html image="/images/team/kidsfirst.png" alt="Kids First Data Resource Center" link="https://commonfund.nih.gov/KidsFirst" %}
 
-[![The Children's Cancer Foundation](/images/team/BEST-CCF-logo-compressed.png)](https://childrenscancerfoundation.org/)
+{% include figure.html image="/images/team/BEST-CCF-logo-compressed.png" alt="The Children's Cancer Foundation" link="https://childrenscancerfoundation.org/" %}
 
-[![Alex's Lemonade Stand Foundation for Childhood Cancer](/images/team/ALSFhorizontal.png)](https://www.alexslemonade.org/)
+{% include figure.html image="/images/team/ALSFhorizontal.png" alt="Alex's Lemonade Stand Foundation for Childhood Cancer" link="https://www.alexslemonade.org/" %}
 
-[![St. Baldrick's Foundation](/images/team/SBF_Conquer-Logo_rgb.png)](https://www.stbaldricks.org/)
+{% include figure.html image="/images/team/SBF_Conquer-Logo_rgb.png" alt="St. Baldrick's Foundation" link="https://www.stbaldricks.org/" %}
 
-![Brain Tumor Institute Anonymous Donors](/images/team/BTI-anon-horizontal.png)
+{% include figure.html image="/images/team/BTI-anon-horizontal.png" alt="Brain Tumor Institute Anonymous Donors" %}
 
-[![Amazon Web Services](/images/team/aws-logo.png)](https://aws.amazon.com/government-education/nonprofits/)
+{% include figure.html image="/images/team/aws-logo.png" alt="Amazon Web Services" link="https://aws.amazon.com/government-education/nonprofits/" %}
 
-[![Gilbert Family Foundation](/images/team/GFF.png)](https://gilbertfamilyfoundation.org/)
+{% include figure.html image="/images/team/GFF.png" alt="Gilbert Family Foundation" link="https://gilbertfamilyfoundation.org/" %}
 
 {% endcapture %}
 
 {% include grid.html content=content %}
-

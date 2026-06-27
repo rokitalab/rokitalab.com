@@ -8,7 +8,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-users" %}BTI Bioinformatics Core Team
 
 <p style="text-align: center; font-size: 1.2em; line-height: 1.7;">
-The Brain Tumor Institute Bioinformatics Core at Children's National Hospital is a collaborative team of bioinformatics scientists, engineers, and operations staff dedicated to advancing computational discovery in pediatric brain tumor research.
+The Brain Tumor Institute Bioinformatics Core at Children's National Hospital is a collaborative team of bioinformatics scientists, engineers, and operations staff dedicated to advancing computational methods, developing open-source tools, and providing bioinformatics expertise to support research and clinical initiatives across Children's National Hospital.
 </p>
 
 {:.center}
@@ -36,17 +36,16 @@ Our scientists and engineers bring deep expertise across genomics, multi-omics, 
 ## Funding
 
 {% capture content %}
-![Brain Tumor Institute Anonymous Donors](/images/core/BTI-anon-horizontal.png)
+{% include figure.html image="/images/core/BTI-anon-horizontal.png" alt="Brain Tumor Institute Anonymous Donors" %}
 
-[![Amazon Web Services](/images/core/aws-logo.png)](https://aws.amazon.com/government-education/nonprofits/)
+{% include figure.html image="/images/core/aws-logo.png" alt="Amazon Web Services" link="https://aws.amazon.com/government-education/nonprofits/" %}
 
-[![Kids First Data Resource Center](/images/core/kidsfirst.png)](https://commonfund.nih.gov/KidsFirst)
+{% include figure.html image="/images/core/kidsfirst.png" alt="Kids First Data Resource Center" link="https://commonfund.nih.gov/KidsFirst" %}
 
-[![Rally Foundation for Childhood Cancer](/images/core/rally-20th-logo-white.png)](https://rallyfoundation.org/)
+{% include figure.html image="/images/core/rally-20th-logo-white.png" alt="Rally Foundation for Childhood Cancer" link="https://rallyfoundation.org/" %}
 
-[![Gilbert Family Foundation](/images/core/GFF.png)](https://gilbertfamilyfoundation.org/)
+{% include figure.html image="/images/core/GFF.png" alt="Gilbert Family Foundation" link="https://gilbertfamilyfoundation.org/" %}
 
 {% endcapture %}
 
 {% include grid.html content=content %}
-
