@@ -26,9 +26,9 @@ The Rokita Lab is a highly engaged and collaborative team united by a shared pas
 
 {% include figure.html image="/images/team/aws-logo.png" alt="Amazon Web Services" link="https://aws.amazon.com/government-education/nonprofits/" newtab=true %}
 
-{% include figure.html image="/images/team/BEST-CCF-logo-compressed.png" alt="The Children's Cancer Foundation" link="https://childrenscancerfoundation.org/" newtab=true %}
-
 {% include figure.html image="/images/team/kidsfirst.png" alt="Kids First Data Resource Center" link="https://commonfund.nih.gov/KidsFirst" newtab=true %}
+
+{% include figure.html image="/images/team/BEST-CCF-logo-compressed.png" alt="The Children's Cancer Foundation" link="https://childrenscancerfoundation.org/" newtab=true %}
 
 {% include figure.html image="/images/team/ALSFsquare.png" alt="Alex's Lemonade Stand Foundation for Childhood Cancer" link="https://www.alexslemonade.org/" newtab=true %}
 
