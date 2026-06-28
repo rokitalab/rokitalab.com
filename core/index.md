@@ -33,6 +33,18 @@ Our scientists and engineers bring deep expertise across genomics, multi-omics, 
 
 {% include section.html %}
 
+## {% include icon.html icon="fa-solid fa-envelope" %}Contact
+If you are interested in working with the bioinformatics core, please submit a [ticket](https://bti-bio-tickets.streamlit.app/) or reach out directly to Ms. Bailey Farrow.
+
+{%
+  include button.html
+  type="email"
+  text="Email Bailey"
+  link="bfarrow@childrensnational.org"
+%}
+
+{% include section.html %}
+
 ## Funding
 
 {% capture content %}
