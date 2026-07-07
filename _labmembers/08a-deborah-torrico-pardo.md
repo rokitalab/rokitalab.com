@@ -1,6 +1,6 @@
 ---
 name: Deborah Torrico-Pardo
-image: images/photo.jpg
+image: images/deborah_photo.jpg
 description: High School Student
 role: hs-student
 aliases: 
