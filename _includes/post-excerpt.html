@@ -24,6 +24,9 @@
           src="{{ image }}"
           alt="{{ title | default: "excerpt image" | regex_strip }}"
           loading="lazy"
+          {% if post.image-position %}
+            style="object-position: {{ post.image-position }};"
+          {% endif %}
           {% include fallback.html %}
         >
       </a>

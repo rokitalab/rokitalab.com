@@ -1,3 +1,9 @@
-<div class="grid" data-style="{{ include.style }}">
+<div
+  class="grid"
+  data-style="{{ include.style }}"
+  {% if include.columns %}
+    style="--repeat: {{ include.columns }};"
+  {% endif %}
+>
   {{ include.content | strip | markdownify }}
 </div>
