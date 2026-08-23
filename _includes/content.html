@@ -22,6 +22,10 @@
     | regex_scan: "<size>(.*?)</size>"
     | default: "page"
   %}
+  {% assign position = section
+    | regex_scan: "<position>(.*?)</position>"
+    | default: nil
+  %}
 
   <section
     class="background"
@@ -30,7 +34,10 @@
       data-dark="{{ dark }}"
     {% endif %}
     {% if image %}
-      style="--image: url('{{ image | relative_url | uri_escape }}')"
+      style="
+        --image: url('{{ image | relative_url | uri_escape }}');
+        {% if position %} --position: {{ position }}; {% endif %}
+      "
     {% endif %}
   >
     {{ section }}

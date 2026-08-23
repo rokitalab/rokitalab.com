@@ -3,6 +3,7 @@ title: Alex Sickler joins the Rokita Lab!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/alex_photo.jpg
 ---
 
 We are thrilled to welcome Alex Sickler as a Bioinformatics Engineer in the Rokita Lab and Brain Tumor Institute (BTI) Bioinformatics Core at Children's National Hospital (CNH) 🎉. 

@@ -3,6 +3,7 @@ title: Our integrative analysis of PBTA host-tumor genomes has been published in
 author: Jo Lynne Rokita
 tags:
   - publication
+  - media
 
 ---
 

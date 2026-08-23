@@ -9,6 +9,7 @@ proofer: false
 # site social media and other links
 links:
   email: jrokita@childrensnational.org
+  docs: https://childrens-bti.github.io/bti-bfx-docs/
   orcid: 0000-0003-2171-3627
   google-scholar: nQPa7ksAAAAJ
   github: jharenza

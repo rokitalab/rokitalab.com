@@ -3,6 +3,7 @@ title: Dr. Meghali Goswami joins the Rokita Lab!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/meg_photo.jpg
 ---
 
 

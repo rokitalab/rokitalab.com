@@ -3,6 +3,7 @@ title: Our study of RNA splicing across pediatric brain tumors is now published 
 author: Patricia Sullivan
 tags:
   - publication
+  - media
 
 ---
 

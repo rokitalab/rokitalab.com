@@ -3,6 +3,7 @@ title: Dr. Rehman Qureshi joins the Brain Tumor Institute Bioinformatics Core as
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/rehman_photo.jpg
 ---
 
 We are thrilled to welcome Dr. Rehman Qureshi as Assistant Director of the Brain Tumor Institute Bioinformatics Core at Children's National Hospital (CNH) 🎉.

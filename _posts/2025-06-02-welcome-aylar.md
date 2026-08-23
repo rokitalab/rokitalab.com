@@ -3,6 +3,7 @@ title: Aylar Babaei joins the BTI Bioinformatics Core!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/aylar_photo.jpg
 ---
 
 We are thrilled to announce Aylar Babaei as a Bioinformatics Scientist in the BTI Bioinformatics Core at Children's National Hospital (CNH) 🎉.

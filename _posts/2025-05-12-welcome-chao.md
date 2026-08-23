@@ -3,6 +3,7 @@ title: Dr. Chao Di joins the Rokita Lab and Brain Tumor Institute Bioinformatics
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/chaodi_portrait.jpg
 ---
 
 We are excited to welcome Dr. Chao Di as a Senior Bioinformatics Engineer and Scientist in the Rokita Lab and the Brain Tumor Institute Bioinformatics Core at Children’s National Hospital (CNH) 🎉.

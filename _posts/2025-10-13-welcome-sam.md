@@ -3,6 +3,7 @@ title: Dr. Shang-Yang (Sam) Chen joins the Brain Tumor Institute Bioinformatics 
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/sam_photo.jpg
 ---
 
 We are excited to welcome Dr. Shang-Yang (Sam) Chen as a Bioinformatics Scientist in the Brain Tumor Institute Bioinformatics Core at Children’s National Hospital (CNH) 🎉.

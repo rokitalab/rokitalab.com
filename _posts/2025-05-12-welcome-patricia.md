@@ -3,6 +3,7 @@ title: Dr. Patricia Sullivan joins the Rokita Lab!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/patricia_photo.jpg
 ---
 
 We are excited to announce the arrival of Dr. Patricia Sullivan as a Bioinformatics Scientist in the Rokita Lab at Children's National Hospital (CNH) 🎉.

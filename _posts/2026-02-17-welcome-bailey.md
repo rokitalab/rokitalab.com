@@ -3,6 +3,7 @@ title: Bailey Farrow joins the BTI Bioinformatics Core Leadership!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/bailey_photo.jpg
 ---
 
 We are thrilled to welcome Bailey Farrow to Children’s National Hospital (CNH) as our new Senior Bioinformatics Program and Operations Manager for the Brain Tumor Institute (BTI) Bioinformatics Core! 🎉

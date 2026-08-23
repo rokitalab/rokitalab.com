@@ -3,6 +3,7 @@ title: Dr. Kaylyn Clark selected to participate in TEAMS program!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/kaylyn_photo.jpg
 ---
 
 Congratulations to [Dr. Kaylyn Clark](https://rokitalab.com/labmembers/05-kaylyn-clark.html) on being selected for the [TEAMS](https://www.urmc.rochester.edu/teams-program) training program.

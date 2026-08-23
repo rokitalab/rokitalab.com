@@ -3,6 +3,7 @@ title: Jacob White joins the Rokita Lab!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/jacob_photo.jpg
 ---
 
 We are excited to welcome masters student, Jacob White, to the Rokita Lab at Children's National Hospital (CNH) 🎉.
