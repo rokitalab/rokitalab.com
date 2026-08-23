@@ -23,4 +23,4 @@ Excited to keep sharing our work and TAPESTRY as it grows!
 {% include figure.html image="images/news/ispno-sydney-2026-5.jpg" %}
 {% include figure.html image="images/news/ispno-sydney-2026-6.jpg" %}
 {% endcapture %}
-{% include grid.html style="square" content=content %}
+{% include grid.html content=content %}

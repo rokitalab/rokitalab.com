@@ -24,4 +24,4 @@ Big thanks to the organizers for putting it all together!
 {% include figure.html image="images/news/ccir-retreat-2026-4.jpg" %}
 {% include figure.html image="images/news/ccir-retreat-2026-5.jpg" %}
 {% endcapture %}
-{% include grid.html style="square" content=content %}
+{% include grid.html content=content %}

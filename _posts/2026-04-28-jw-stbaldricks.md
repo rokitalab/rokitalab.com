@@ -3,6 +3,7 @@ title: Jacob White awarded a St. Baldrick's Summer Fellowship!
 author: Ryan Corbett
 tags:
   - team
+image: images/jacob_photo.jpg
 ---
 
 Congratulations to [Jacob White](https://rokitalab.com/labmembers/07-jacob-white.md) for being awarded a summer fellowship from [St. Baldrick's Foundation](https://www.linkedin.com/company/st-baldricks-foundation)! Jacob's project "Association of genetic ancestry with pediatric CNS tumor splicing" will support the lab's pediatric brain tumor research by identifying genetic determinants of alternative splicing and their contributions to disease.

@@ -3,6 +3,7 @@ title: Deborah Torrico-Pardo joins the Rokita Lab!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/deborah_photo.jpg
 ---
 
 We are excited to welcome high school summer student, Deborah Torrico-Pardo, to the Rokita Lab at Children's National Hospital (CNH) 🎉.

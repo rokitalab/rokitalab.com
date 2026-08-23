@@ -11,3 +11,5 @@ At this year's [Center for Cancer and Immunology Research (CCIR)](https://resear
 Her presentation reflected on the Core's earliest months — how the team has grown, the rising demand for our support across the BTI and CCIR, and our vision for what comes next.
 
 Thank you to everyone who has been part of building the Core so far, and to CCIR for the chance to share our story!
+
+{% include figure.html image="images/news/ccir-retreat-2025.jpg" %}

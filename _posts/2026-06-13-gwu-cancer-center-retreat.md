@@ -17,4 +17,4 @@ Thank you, Jacob, Kaylyn, and Meg, for representing our teams so well!
 {% include figure.html image="images/news/gwu-retreat-2026-2.jpg" %}
 {% include figure.html image="images/news/gwu-retreat-2026-3.jpg" %}
 {% endcapture %}
-{% include grid.html style="square" content=content %}
+{% include grid.html content=content %}

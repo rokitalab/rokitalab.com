@@ -14,4 +14,4 @@ Here's to renewed inspiration and fruitful collaboration in the fight against pe
 {% include figure.html image="images/news/aacr-peds-2025.jpg" %}
 {% include figure.html image="images/news/aacr-peds-2025-2.jpg" %}
 {% endcapture %}
-{% include grid.html style="square" content=content %}
+{% include grid.html content=content %}

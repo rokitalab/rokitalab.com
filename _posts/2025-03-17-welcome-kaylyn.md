@@ -3,6 +3,7 @@ title: Dr. Kaylyn Clark joins the Rokita Lab and Brain Tumor Institute!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/kaylyn_photo.jpg
 ---
 
 We are happy to announce our recruitment of Dr. Kaylyn Clark as a Postdoctoral Fellow in the Rokita Lab and Brain Tumor Institute (BTI) at Children's National Hospital (CNH) 🎉. 

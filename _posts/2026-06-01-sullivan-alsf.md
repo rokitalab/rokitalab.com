@@ -3,6 +3,7 @@ title: Dr. Patricia Sullivan awarded an ALSF Young Investigator Award!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/patricia_photo.jpg
 ---
 
 Congratulations to [Dr. Patricia Sullivan](https://rokitalab.com/labmembers/03-patricia-sullivan.html) on being awarded a prestigious [Young Investigator Grant](https://www.alexslemonade.org/grant-categories/young-investigator) from Alex’s Lemonade Stand Foundation (ALSF)!

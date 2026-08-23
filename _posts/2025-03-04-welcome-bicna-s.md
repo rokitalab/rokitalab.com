@@ -3,6 +3,7 @@ title: Dr. Bicna Song joins the Brain Tumor Institute Bioinformatics Core!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/bicna_photo.jpg
 ---
 
 We are happy to announce our recruitment of Dr. Bicna Song as a Bioinformatics Scientist in the Brain Tumor Institute (BTI) Bioinformatics Core at Children's National Hospital (CNH) 🎉. 

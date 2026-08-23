@@ -4,6 +4,7 @@ author: Jo Lynne Rokita
 tags:
   - team
 image: images/news/meteor-2026.jpg
+image-position: center top
 ---
 
 Congratulations to [Deborah Torrico-Pardo](https://rokitalab.com/labmembers/08a-deborah-torrico-pardo.html) on wrapping up a successful summer internship in the Rokita Lab, mentored by [Dr. Meg Goswami](https://rokitalab.com/labmembers/04-meg-goswami.html)!
@@ -17,4 +18,4 @@ Well done, Deborah — we're proud of you!
 {% include figure.html image="images/news/meteor-2026.jpg" %}
 {% include figure.html image="images/news/meteor-2026-2.jpg" %}
 {% endcapture %}
-{% include grid.html style="square" content=content %}
+{% include grid.html content=content %}

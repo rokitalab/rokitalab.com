@@ -3,6 +3,7 @@ title: Dr. Jessica Daggett joins the Brain Tumor Institute Bioinformatics Core!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/jessica_photo.jpg
 ---
 
 We are happy to announce our recruitment of Dr. Jessica Daggett as a Bioinformatics Scientist in the Brain Tumor Institute (BTI) Bioinformatics Core at Children's National Hospital (CNH) 🎉. 

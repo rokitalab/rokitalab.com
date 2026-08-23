@@ -3,6 +3,7 @@ title: Dr. Corbett named as 2025 CCF NextGen Awardee!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/corbett_photo.jpg
 ---
 
 We are thrilled to announce that Dr. Ryan Corbett has been selected as the 2025 NextGen Awardee by the Children's Cancer Foundation for his grant entitled, "Identification and functional targeting of alternative splice site usage in pediatric high-grade gliomas". 

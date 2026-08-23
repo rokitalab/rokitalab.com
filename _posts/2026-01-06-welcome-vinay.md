@@ -3,6 +3,7 @@ title: Vinay Gujjula joins the Rokita Lab!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/Vinay_photo.jpg
 ---
 
 We are excited to welcome masters student, Vinay Gujjula, to the Rokita Lab at Children's National Hospital (CNH) 🎉.

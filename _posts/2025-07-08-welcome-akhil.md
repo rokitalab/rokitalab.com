@@ -3,6 +3,7 @@ title: Akhil Chada joins the Rokita Lab!
 author: Jo Lynne Rokita
 tags:
   - team
+image: images/akhil_photo.jpg
 ---
 
 We are excited to welcome Akhil Chada to the Rokita Lab at Children's National Hospital (CNH) 🎉.
