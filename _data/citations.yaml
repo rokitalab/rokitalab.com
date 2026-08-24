@@ -305,49 +305,6 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:39974082
-  title: Germline pathogenic variation impacts somatic alterations and patient outcomes
-    in pediatric CNS tumors.
-  authors:
-  - Ryan J Corbett
-  - Rebecca S Kaufman
-  - Shelly W McQuaid
-  - Zalman Vaksman
-  - Saksham Phul
-  - Miguel A Brown
-  - Jennifer L Mason
-  - Sebastian M Waszak
-  - Bo Zhang
-  - Chuwei Zhong
-  - Emily Blauel
-  - Heena Desai
-  - Ryan Hausler
-  - Ammar S Naqvi
-  - Jessica M Daggett
-  - Alex Sickler
-  - Evan C Cresswell-Clay
-  - Patricia J Sullivan
-  - Antonia Chroni
-  - Zhuangzhuang Geng
-  - Elizabeth M Gonzalez
-  - Yuankun Zhu
-  - Allison P Heath
-  - Marilyn Li
-  - Phillip B Storm
-  - Adam C Resnick
-  - Kara N Maxwell
-  - Kristina A Cole
-  - Angela J Waanders
-  - Miriam Bornhorst
-  - Suzanne P MacFarland
-  - Jo Lynne Rokita
-  - Sharon J Diskin
-  publisher: 'medRxiv : the preprint server for health sciences'
-  date: '2025-07-23'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39974082
-  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:39952665
   title: Imaging Clusters of Pediatric Low-Grade Glioma Are Associated with Distinct
     Molecular Characteristics.
@@ -674,52 +631,6 @@
   - type: tool
     link: https://github.com/diskin-lab-chop/AutoGVP
   repo: diskin-lab-chop/AutoGVP
-- id: pubmed:38106022
-  title: A proteogenomic surfaceome study identifies DLK1 as an immunotherapeutic
-    target in neuroblastoma.
-  authors:
-  - Amber K Weiner
-  - Alexander B Radaoui
-  - Matthew Tsang
-  - Daniel Martinez
-  - Simone Sidoli
-  - Karina L Conkrite
-  - Alberto Delaidelli
-  - Apexa Modi
-  - Jo Lynne Rokita
-  - Khushbu Patel
-  - Maria V Lane
-  - Bo Zhang
-  - Chuwei Zhong
-  - Brian Ennis
-  - Daniel P Miller
-  - Miguel A Brown
-  - Komal S Rathi
-  - Pichai Raman
-  - Jennifer Pogoriler
-  - Tricia Bhatti
-  - Bruce Pawel
-  - Tina Glisovic-Aplenc
-  - Beverly Teicher
-  - Stephen W Erickson
-  - Eric J Earley
-  - Kristopher R Bosse
-  - Poul H Sorensen
-  - Kateryna Krytska
-  - Yael P Mosse
-  - Karin E Havenith
-  - Francesca Zammarchi
-  - Patrick H van Berkel
-  - Malcolm A Smith
-  - Benjamin A Garcia
-  - John M Maris
-  - Sharon J Diskin
-  publisher: 'bioRxiv : the preprint server for biology'
-  date: '2024-01-07'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/38106022
-  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:38076939
   title: 'AutoGVP: a dockerized workflow integrating ClinVar and InterVar germline
     sequence variant classification.'
@@ -795,81 +706,6 @@
   publisher: Journal of the National Cancer Institute
   date: '2024-01-10'
   link: https://www.ncbi.nlm.nih.gov/pubmed/37688570
-  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:37492101
-  title: 'OpenPBTA: The Open Pediatric Brain Tumor Atlas.'
-  authors:
-  - Joshua A Shapiro
-  - Krutika S Gaonkar
-  - Stephanie J Spielman
-  - Candace L Savonen
-  - Chante J Bethell
-  - Run Jin
-  - Komal S Rathi
-  - Yuankun Zhu
-  - Laura E Egolf
-  - Bailey K Farrow
-  - Daniel P Miller
-  - Yang Yang
-  - Tejaswi Koganti
-  - Nighat Noureen
-  - Mateusz P Koptyra
-  - Nhat Duong
-  - Mariarita Santi
-  - Jung Kim
-  - Shannon Robins
-  - Phillip B Storm
-  - Stephen C Mack
-  - Jena V Lilly
-  - Hongbo M Xie
-  - Payal Jain
-  - Pichai Raman
-  - Brian R Rood
-  - Rishi R Lulla
-  - Javad Nazarian
-  - Adam A Kraya
-  - Zalman Vaksman
-  - Allison P Heath
-  - Cassie Kline
-  - Laura Scolaro
-  - Angela N Viaene
-  - Xiaoyan Huang
-  - Gregory P Way
-  - Steven M Foltz
-  - Bo Zhang
-  - Anna R Poetsch
-  - Sabine Mueller
-  - Brian M Ennis
-  - Michael Prados
-  - Sharon J Diskin
-  - Siyuan Zheng
-  - Yiran Guo
-  - Shrivats Kannan
-  - Angela J Waanders
-  - Ashley S Margol
-  - Meen Chul Kim
-  - Derek Hanson
-  - Nicholas Van Kuren
-  - Jessica Wong
-  - Rebecca S Kaufman
-  - Noel Coleman
-  - Christopher Blackden
-  - Kristina A Cole
-  - Jennifer L Mason
-  - Peter J Madsen
-  - Carl J Koschmann
-  - Douglas R Stewart
-  - Eric Wafula
-  - Miguel A Brown
-  - Adam C Resnick
-  - Casey S Greene
-  - Jo Lynne Rokita
-  - Jaclyn N Taroni
-  publisher: Cell genomics
-  date: '2023-05-31'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/37492101
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -951,40 +787,6 @@
   publisher: Nature cancer
   date: '2023-02-01'
   link: https://www.ncbi.nlm.nih.gov/pubmed/36585448
-  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:36541551
-  title: Alternative lengthening of telomeres (ALT) in pediatric high-grade gliomas
-    can occur without ATRX mutation and is enriched in patients with pathogenic germline
-    mismatch repair (MMR) variants.
-  authors:
-  - Jennifer L Stundon
-  - Heba Ijaz
-  - Krutika S Gaonkar
-  - Rebecca S Kaufman
-  - Run Jin
-  - Anastasios Karras
-  - Zalman Vaksman
-  - Jung Kim
-  - Ryan J Corbett
-  - Matthew R Lueder
-  - Daniel P Miller
-  - Yiran Guo
-  - Mariarita Santi
-  - Marilyn Li
-  - Gonzalo Lopez
-  - Phillip B Storm
-  - Adam C Resnick
-  - Angela J Waanders
-  - Suzanne P MacFarland
-  - Douglas R Stewart
-  - Sharon J Diskin
-  - Jo Lynne Rokita
-  - Kristina A Cole
-  publisher: Neuro-oncology
-  date: '2023-07-06'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/36541551
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -1164,38 +966,6 @@
     for Cancer Research'
   date: '2022-09-15'
   link: https://www.ncbi.nlm.nih.gov/pubmed/35852795
-  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:33789113
-  title: Macrophages in SHH subgroup medulloblastoma display dynamic heterogeneity
-    that varies with treatment modality.
-  authors:
-  - Mai T Dang
-  - Michael V Gonzalez
-  - Krutika S Gaonkar
-  - Komal S Rathi
-  - Patricia Young
-  - Sherjeel Arif
-  - Li Zhai
-  - Zahidul Alam
-  - Samir Devalaraja
-  - Tsun Ki Jerrick To
-  - Ian W Folkert
-  - Pichai Raman
-  - Jo Lynne Rokita
-  - Daniel Martinez
-  - Jaclyn N Taroni
-  - Joshua A Shapiro
-  - Casey S Greene
-  - Candace Savonen
-  - Fernanda Mafra
-  - Hakon Hakonarson
-  - Tom Curran
-  - Malay Haldar
-  publisher: Cell reports
-  date: '2021-03-30'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/33789113
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -1402,31 +1172,6 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:32307821
-  title: Limited antitumor activity of combined BET and MEK inhibition in neuroblastoma.
-  authors:
-  - Jason R Healy
-  - Lori S Hart
-  - Alexander L Shazad
-  - Maria E Gagliardi
-  - Matthew Tsang
-  - Jimmy Elias
-  - Jacob Ruden
-  - Alvin Farrel
-  - Jo Lynne Rokita
-  - Yimei Li
-  - Anastasia Wyce
-  - Olena Barbash
-  - Vandana Batra
-  - Minu Samanta
-  - John M Maris
-  - Robert W Schnepp
-  publisher: Pediatric blood & cancer
-  date: '2020-04-19'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/32307821
-  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:32291317
   title: Telomere Maintenance Mechanisms Define Clinical Outcome in High-Risk Neuroblastoma.
   authors:
@@ -1552,85 +1297,6 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:31693904
-  title: Genomic Profiling of Childhood Tumor Patient-Derived Xenograft Models to
-    Enable Rational Clinical Trial Design.
-  authors:
-  - Jo Lynne Rokita
-  - Komal S Rathi
-  - Maria F Cardenas
-  - Kristen A Upton
-  - Joy Jayaseelan
-  - Katherine L Cross
-  - Jacob Pfeil
-  - Laura E Egolf
-  - Gregory P Way
-  - Alvin Farrel
-  - Nathan M Kendsersky
-  - Khushbu Patel
-  - Krutika S Gaonkar
-  - Apexa Modi
-  - Esther R Berko
-  - Gonzalo Lopez
-  - Zalman Vaksman
-  - Chelsea Mayoh
-  - Jonas Nance
-  - Kristyn McCoy
-  - Michelle Haber
-  - Kathryn Evans
-  - Hannah McCalmont
-  - Katerina Bendak
-  - "Julia W B\xF6hm"
-  - Glenn M Marshall
-  - Vanessa Tyrrell
-  - Karthik Kalletla
-  - Frank K Braun
-  - Lin Qi
-  - Yunchen Du
-  - Huiyuan Zhang
-  - Holly B Lindsay
-  - Sibo Zhao
-  - Jack Shu
-  - Patricia Baxter
-  - Christopher Morton
-  - Dias Kurmashev
-  - Siyuan Zheng
-  - Yidong Chen
-  - Jay Bowen
-  - Anthony C Bryan
-  - Kristen M Leraas
-  - Sara E Coppens
-  - HarshaVardhan Doddapaneni
-  - Zeineen Momin
-  - Wendong Zhang
-  - Gregory I Sacks
-  - Lori S Hart
-  - Kateryna Krytska
-  - Yael P Mosse
-  - Gregory J Gatto
-  - Yolanda Sanchez
-  - Casey S Greene
-  - Sharon J Diskin
-  - Olena Morozova Vaske
-  - David Haussler
-  - Julie M Gastier-Foster
-  - E Anders Kolb
-  - Richard Gorlick
-  - Xiao-Nan Li
-  - C Patrick Reynolds
-  - Raushan T Kurmasheva
-  - Peter J Houghton
-  - Malcolm A Smith
-  - Richard B Lock
-  - Pichai Raman
-  - David A Wheeler
-  - John M Maris
-  publisher: Cell reports
-  date: '2019-11-05'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/31693904
-  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:31672841
   title: YAP1 Mediates Resistance to MEK1/2 Inhibition in Neuroblastomas with Hyperactivated
     RAS Signaling.
@@ -1699,89 +1365,6 @@
   publisher: American journal of human genetics
   date: '2019-08-29'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31474320
-  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:30930166
-  title: 'The Pediatric Cell Atlas: Defining the Growth Phase of Human Development
-    at Single-Cell Resolution.'
-  authors:
-  - Deanne M Taylor
-  - Bruce J Aronow
-  - Kai Tan
-  - Kathrin Bernt
-  - Nathan Salomonis
-  - Casey S Greene
-  - Alina Frolova
-  - Sarah E Henrickson
-  - Andrew Wells
-  - Liming Pei
-  - Jyoti K Jaiswal
-  - Jeffrey Whitsett
-  - Kathryn E Hamilton
-  - Sonya A MacParland
-  - Judith Kelsen
-  - Robert O Heuckeroth
-  - S Steven Potter
-  - Laura A Vella
-  - Natalie A Terry
-  - Louis R Ghanem
-  - Benjamin C Kennedy
-  - Ingo Helbig
-  - Kathleen E Sullivan
-  - Leslie Castelo-Soccio
-  - Arnold Kreigstein
-  - Florian Herse
-  - Martijn C Nawijn
-  - Gerard H Koppelman
-  - Melissa Haendel
-  - Nomi L Harris
-  - Jo Lynne Rokita
-  - Yuanchao Zhang
-  - Aviv Regev
-  - Orit Rozenblatt-Rosen
-  - Jennifer E Rood
-  - Timothy L Tickle
-  - Roser Vento-Tormo
-  - Saif Alimohamed
-  - Monkol Lek
-  - Jessica C Mar
-  - Kathleen M Loomes
-  - David M Barrett
-  - Prech Uapinyoying
-  - Alan H Beggs
-  - Pankaj B Agrawal
-  - Yi-Wen Chen
-  - Amanda B Muir
-  - Lana X Garmire
-  - Scott B Snapper
-  - Javad Nazarian
-  - Steven H Seeholzer
-  - Hossein Fazelinia
-  - Larry N Singh
-  - Robert B Faryabi
-  - Pichai Raman
-  - Noor Dawany
-  - Hongbo Michael Xie
-  - Batsal Devkota
-  - Sharon J Diskin
-  - Stewart A Anderson
-  - Eric F Rappaport
-  - William Peranteau
-  - Kathryn A Wikenheiser-Brokamp
-  - Sarah Teichmann
-  - Douglas Wallace
-  - Tao Peng
-  - Yang-Yang Ding
-  - Man S Kim
-  - Yi Xing
-  - Sek Won Kong
-  - "Carsten G B\xF6nnemann"
-  - Kenneth D Mandl
-  - Peter S White
-  publisher: Developmental cell
-  date: '2019-03-28'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/30930166
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
