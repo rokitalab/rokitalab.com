@@ -8,11 +8,8 @@ links:
   
 ---
 
-TODO: Dylan, please replace this text with your bio.
+Dylan Mach is a second-year undergraduate student at The George Washington University, majoring in Biology and minoring in Statistics. Dylan joined the Rokita Lab in August 2026. Dylan is part of The George Washington University's Seven-Year BA/MD program.
 
-A few things to cover:
-- Your program/major at GWU and when you joined the Rokita Lab
-- Your research interests
-- Relevant background/experience before joining the lab
-- Your education
-- Interests outside of the lab
+Dylan is interested in research in bioinformatics. He previously worked on a personal project where he utilized hierarchical generalized additive models to find relationships between urban planning and public health, and used those models to develop an urban health index. Dylan also has wet-lab experience in biology and is seeking to approach medicine from a dry-lab approach through working in the Rokita Lab.
+
+Dylan is passionate about using quantitative methods to tackle challenges faced in medicine today. Outside of the lab, Dylan likes to play the violin, read books, and watch baseball games at Nationals Park.
