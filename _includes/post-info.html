@@ -2,18 +2,18 @@
   {% if include.author %}
     {% assign authors = include.author
       | join: ","
-      | downcase
       | split: ","
       | array_filter
     %}
     {% assign all_members = site.coremembers | concat: site.labmembers %}
     {% for author in authors %}
+      {% assign author_downcase = author | downcase %}
       {% assign member = all_members
-        | where_exp: "member", "member.slug == author"
+        | where_exp: "member", "member.slug == author_downcase"
         | first
       %}
       {% if member %}
-        {% include portrait.html lookup=author style="tiny" %}
+        {% include portrait.html lookup=author_downcase style="tiny" %}
       {% else %}
         <span data-tooltip="Author">
           {% include icon.html icon="fa-solid fa-feather-pointed" %}

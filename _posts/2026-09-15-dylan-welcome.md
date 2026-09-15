@@ -1,6 +1,6 @@
 ---
 title: Dylan Mach joins the Rokita Lab!
-author: Jo Lynne Rokita
+author: Patricia Sullivan
 tags:
   - team
 image: images/Dylan_Photo.jpg
