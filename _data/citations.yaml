@@ -203,6 +203,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
+  category: biology
   description: Alternative splicing in pediatric central nervous system tumors highlights
     oncofetal candidate CLK1 exon 4
   image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11326178/figure/F1/
@@ -210,7 +211,6 @@
   - pediatric cancer
   - splicing
   repo: rokitalab/clk1-splicing
-  category: biology
 - id: pubmed:41271695
   title: Germline pathogenic variation impacts somatic alterations and patient outcomes
     in pediatric central nervous system tumors.
@@ -293,9 +293,9 @@
   date: '2025-08-07'
   link: https://www.ncbi.nlm.nih.gov/pubmed/40782352
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-  category: target
+  plugin: sources.py
+  file: sources.yaml
+  category: biology
 - id: pubmed:40072012
   title: Germline analysis of an international cohort of pediatric diffuse midline
     glioma patients.
@@ -491,9 +491,9 @@
   date: '2025-06-21'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39847453
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-  category: resource
+  plugin: sources.py
+  file: sources.yaml
+  category: biology
 - id: pubmed:39454577
   title: A proteogenomic surfaceome study identifies DLK1 as an immunotherapeutic
     target in neuroblastoma.
@@ -568,6 +568,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
+  category: tool
   description: AutoGVP
   tags:
   - open science
@@ -578,7 +579,6 @@
   - type: tool
     link: https://github.com/diskin-lab-chop/AutoGVP
   repo: diskin-lab-chop/AutoGVP
-  category: tool
 - id: pubmed:37978951
   title: 'Everolimus for Children With Recurrent or Progressive Low-Grade Glioma:
     Results From the Phase II PNOC001 Trial.'

@@ -17,6 +17,7 @@
 
 - id: pubmed:41908886
   type: paper
+  category: biology
   # published version of the bioRxiv preprint (pubmed:39149264)
   replaces:
     - pubmed:39149264
@@ -29,6 +30,7 @@
 
 - id: pubmed:38426335
   type: paper
+  category: tool
   description: AutoGVP
   date: 2024-02-29
   tags:
@@ -61,3 +63,10 @@
 - id: pubmed:41271695
   replaces:
     - pubmed:39974082
+
+# categories set manually, overriding the keyword guess
+- id: pubmed:40782352
+  category: biology
+
+- id: pubmed:39847453
+  category: biology
