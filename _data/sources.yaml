@@ -65,7 +65,7 @@
 
 # categories set manually, overriding the keyword guess
 - id: pubmed:40782352
-  category: biology
+  category: target
 
 - id: pubmed:39847453
   category: biology

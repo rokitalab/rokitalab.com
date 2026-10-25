@@ -294,7 +294,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: sources.py
   file: sources.yaml
-  category: biology
+  category: target
 - id: pubmed:40072012
   title: Germline analysis of an international cohort of pediatric diffuse midline
     glioma patients.
