@@ -68,16 +68,6 @@ $wrap: 800px;
   font-weight: var(--semi-bold);
 }
 
-.citation-text > .icon {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  color: var(--light-gray);
-  opacity: 0.5;
-  font-size: 30px;
-  z-index: -1;
-}
-
 .citation-publisher {
   text-transform: capitalize;
 }
