@@ -74,3 +74,7 @@
 
 - id: pubmed:42753723
   category: biology
+
+# remove abstract from publications list
+- id: doi:10.1158/1538-7445.am2015-1077
+  remove: true

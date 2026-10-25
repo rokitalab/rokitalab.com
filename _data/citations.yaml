@@ -1876,27 +1876,6 @@
   plugin: orcid.py
   file: orcid.yaml
   category: biology
-- id: doi:10.1158/1538-7445.am2015-1077
-  title: 'Abstract 1077: Use of the SVClassify algorithm to classify pediatric solid
-    tumor translocation variant calls as likely true or false positives'
-  authors:
-  - Jo Lynne Harenza
-  - Hemang M. Parikh
-  - Jun S. Wei
-  - Xinyu Wen
-  - Sivasish Sindiri
-  - Rajesh Patidar
-  - Marc Salit
-  - Paul S. Meltzer
-  - Javed Khan
-  - Justin Zook
-  publisher: Cancer Research
-  date: '2015-08-01'
-  link: https://doi.org/g43x95
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-  category: tool
 - id: doi:10.1111/bph.12948
   title: Inhibition of monoacylglycerol lipase reduces nicotine withdrawal
   authors:
