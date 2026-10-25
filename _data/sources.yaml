@@ -45,3 +45,11 @@
 - id: pubmed:37492101
   replaces:
     - doi:10.1101/2022.09.13.507832
+
+- id: pubmed:31613963
+  replaces:
+    - doi:10.1101/656587
+
+- id: pubmed:36541551
+  replaces:
+    - doi:10.1101/2022.08.05.502870

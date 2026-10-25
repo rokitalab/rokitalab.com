@@ -791,8 +791,8 @@
   date: '2023-07-06'
   link: https://www.ncbi.nlm.nih.gov/pubmed/36541551
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: pubmed:36335802
   title: The children's brain tumor network (CBTN) - Accelerating research in pediatric
     central nervous system tumors through collaboration and open science.
@@ -1487,8 +1487,8 @@
   date: '2020-01-11'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31613963
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: pubmed:31474320
   title: Germline 16p11.2 Microdeletion Predisposes to Neuroblastoma.
   authors:
@@ -1885,75 +1885,6 @@
   publisher: Genes, Brain and Behavior
   date: '2023-02-13'
   link: https://doi.org/g43x2k
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.08.05.502870
-  title: ALT in Pediatric High-Grade Gliomas Can Occur without <i>ATRX</i> Mutation
-    and is Enriched in Patients with Pathogenic Germline MMR Variants
-  authors:
-  - Jennifer L. Stundon
-  - Heba Ijaz
-  - Krutika S. Gaonkar
-  - Rebecca S. Kaufman
-  - Run Jin
-  - Anastasios Karras
-  - Zalman Vaksman
-  - Jung Kim
-  - Ryan J. Corbett
-  - Matthew R. Lueder
-  - Daniel P. Miller
-  - Yiran Guo
-  - Mariarita Santi
-  - Marilyn Li
-  - Gonzalo Lopez
-  - Phillip B. Storm
-  - Adam C. Resnick
-  - Angela J. Waanders
-  - Suzanne P. MacFarland
-  - Douglas R. Stewart
-  - Sharon J. Diskin
-  - Jo Lynne Rokita
-  - Kristina A. Cole
-  publisher: openRxiv
-  date: '2022-08-06'
-  link: https://doi.org/g43x8n
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/656587
-  title: "Pediatric High Grade Glioma Resources From the Children\u2019s Brain Tumor\
-    \ Tissue Consortium (CBTTC) and Pediatric Brain Tumor Atlas (PBTA)"
-  authors:
-  - Heba Ijaz
-  - Mateusz Koptyra
-  - Krutika S. Gaonkar
-  - Jo Lynne Rokita
-  - Valerie P. Baubet
-  - Lamiya Tauhid
-  - Yankun Zhu
-  - Miguel Brown
-  - Gonzalo Lopez
-  - Bo Zhang
-  - Sharon J. Diskin
-  - Zalman Vaksman
-  - Jennifer L. Mason
-  - Elizabeth Appert
-  - Jena Lilly
-  - Rishi Lulla
-  - Thomas De Raedt
-  - Allison P. Heath
-  - Alex Felmeister
-  - Pichai Raman
-  - Javad Nazarian
-  - Maria Rita Santi
-  - Phillip B. Storm
-  - Adam Resnick
-  - Angela J. Waanders
-  - Kristina A. Cole
-  publisher: openRxiv
-  date: '2019-05-31'
-  link: https://doi.org/gf66qt
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml
