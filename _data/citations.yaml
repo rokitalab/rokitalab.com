@@ -191,8 +191,16 @@
   date: '2026-02-16'
   link: https://www.ncbi.nlm.nih.gov/pubmed/41908886
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  description: Alternative splicing in pediatric central nervous system tumors highlights
+    oncofetal candidate CLK1 exon 4
+  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11326178/figure/F1/
+  tags:
+  - pediatric cancer
+  - splicing
+  repo: rokitalab/clk1-splicing
 - id: pubmed:41271695
   title: Germline pathogenic variation impacts somatic alterations and patient outcomes
     in pediatric central nervous system tumors.
@@ -560,54 +568,6 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:39149264
-  title: Characterization of aberrant splicing in pediatric central nervous system
-    tumors reveals
-  authors:
-  - Ammar S Naqvi
-  - Patricia J Sullivan
-  - Ryan J Corbett
-  - Priyanka Sehgal
-  - Karina L Conkrite
-  - Komal S Rathi
-  - Brian M Ennis
-  - Katharina E Hayer
-  - Bo Zhang
-  - Miguel A Brown
-  - Daniel P Miller
-  - Alex Sickler
-  - Adam A Kraya
-  - Kaleem L Coleman
-  - Joseph M Dybas
-  - Zhuangzhuang Geng
-  - Christopher Blackden
-  - Shehbeel Arif
-  - Antonia Chroni
-  - Aditya Lahiri
-  - Madison L Hollawell
-  - Phillip B Storm
-  - Dalia Haydar
-  - Jessica B Foster
-  - Mateusz Koptyra
-  - Peter J Madsen
-  - Sharon J Diskin
-  - Andrei Thomas-Tikhonenko
-  - Adam C Resnick
-  - Jo Lynne Rokita
-  publisher: 'bioRxiv : the preprint server for biology'
-  date: '2025-08-19'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39149264
-  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: sources.py
-  file: sources.yaml
-  type: preprint
-  description: Characterization of aberrant splicing in pediatric central nervous
-    system tumors reveals CLK1 as a candidate oncogenic dependency
-  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11326178/figure/F1/
-  tags:
-  - pediatric cancer
-  - splicing
-  repo: rokitalab/clk1-splicing
 - id: pubmed:38426335
   title: 'AutoGVP: a dockerized workflow integrating ClinVar and InterVar germline
     sequence variant classification.'
@@ -770,8 +730,8 @@
   date: '2023-05-31'
   link: https://www.ncbi.nlm.nih.gov/pubmed/37492101
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: pubmed:36781202
   title: "Identification of candidate genes for nicotine withdrawal in C57BL/6J \xD7\
     \ DBA/2J recombinant inbred mice."
@@ -1925,77 +1885,6 @@
   publisher: Genes, Brain and Behavior
   date: '2023-02-13'
   link: https://doi.org/g43x2k
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.09.13.507832
-  title: 'OpenPBTA: An Open Pediatric Brain Tumor Atlas'
-  authors:
-  - Joshua A. Shapiro
-  - Krutika S. Gaonkar
-  - Candace L. Savonen
-  - Stephanie J. Spielman
-  - Chante J. Bethell
-  - Run Jin
-  - Komal S. Rathi
-  - Yuankun Zhu
-  - Laura E. Egolf
-  - Bailey K. Farrow
-  - Daniel P. Miller
-  - Yang Yang
-  - Tejaswi Koganti
-  - Nighat Noureen
-  - Mateusz P. Koptyra
-  - Nhat Duong
-  - Adam A. Kraya
-  - Cassie Kline
-  - Yiran Guo
-  - Phillip B. Storm
-  - Javad Nazarian
-  - Stephen C. Mack
-  - Pichai Raman
-  - Siyuan Zheng
-  - Peter J. Madsen
-  - Nicholas Van Kuren
-  - Shannon Robins
-  - Xiaoyan Huang
-  - Angela J. Waanders
-  - Jung Kim
-  - Derek Hanson
-  - Carl J. Koschmann
-  - Sharon J. Diskin
-  - Rishi R. Lulla
-  - Miguel A. Brown
-  - Jessica Wong
-  - Jennifer L. Mason
-  - Laura Scolaro
-  - Meen Chul Kim
-  - Hongbo M. Xie
-  - Brian R. Rood
-  - Kristina A. Cole
-  - Ashley S. Margol
-  - Zalman Vaksman
-  - Rebecca S. Kaufman
-  - Allison P. Heath
-  - Brian M. Ennis
-  - Mariarita Santi
-  - Anna R. Poetsch
-  - Angela N. Viaene
-  - Douglas R. Stewart
-  - Steven M. Foltz
-  - Payal Jain
-  - Bo Zhang
-  - Shrivats Kannan
-  - Michael Prados
-  - Jena V. Lilly
-  - Sabine Mueller
-  - Adam C. Resnick
-  - Casey S. Greene
-  - Jo Lynne Rokita
-  - Jaclyn N. Taroni
-  publisher: openRxiv
-  date: '2022-09-16'
-  link: https://doi.org/gqvf99
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml

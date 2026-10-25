@@ -15,9 +15,12 @@
     - genomics
   repo: rokitalab/OpenPedCan-manuscript
 
-- id: pubmed:39149264
-  type: preprint
-  description: Characterization of aberrant splicing in pediatric central nervous system tumors reveals CLK1 as a candidate oncogenic dependency
+- id: pubmed:41908886
+  type: paper
+  # published version of the bioRxiv preprint (pubmed:39149264)
+  replaces:
+    - pubmed:39149264
+  description: Alternative splicing in pediatric central nervous system tumors highlights oncofetal candidate CLK1 exon 4
   image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11326178/figure/F1/
   tags:
     - pediatric cancer
@@ -37,3 +40,8 @@
     - type: tool
       link: https://github.com/diskin-lab-chop/AutoGVP
   repo: diskin-lab-chop/AutoGVP
+
+# preprint and published titles differ, so match them explicitly
+- id: pubmed:37492101
+  replaces:
+    - doi:10.1101/2022.09.13.507832

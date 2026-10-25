@@ -310,6 +310,20 @@ def dedupe_citations(citations):
             get_safe(citation, "date", "") or "9999",
         )
 
+    # drop citations explicitly replaced by another (e.g. a preprint whose published title differs)
+    dropped = []
+    for citation in citations:
+        for replaced_id in citation.pop("replaces", []) or []:
+            replaced = next((c for c in citations if c["id"] == replaced_id), None)
+            if replaced is None or replaced is citation:
+                continue
+            for field in carry:
+                if field in replaced and not citation.get(field):
+                    citation[field] = replaced[field]
+            dropped.append((replaced_id, citation["id"]))
+    replaced_ids = [replaced_id for replaced_id, _ in dropped]
+    citations = [c for c in citations if c["id"] not in replaced_ids]
+
     # group citations by title, leaving untitled citations alone
     groups = {}
     for index, citation in enumerate(citations):
@@ -317,7 +331,6 @@ def dedupe_citations(citations):
         groups.setdefault(key, []).append(citation)
 
     result = []
-    dropped = []
     for group in groups.values():
         group = sorted(group, key=rank)
         kept = group[0]
