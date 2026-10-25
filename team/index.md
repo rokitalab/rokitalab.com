@@ -19,6 +19,12 @@ The Rokita Lab is a highly engaged and collaborative team united by a shared pas
 
 {% include section.html %}
 
+## Past Trainees
+
+{% include list.html data="pastmembers" component="portrait" %}
+
+{% include section.html %}
+
 ## Funding
 
 {% capture content %}
