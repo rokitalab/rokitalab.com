@@ -206,7 +206,6 @@
   category: biology
   description: Alternative splicing in pediatric central nervous system tumors highlights
     oncofetal candidate CLK1 exon 4
-  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11326178/figure/F1/
   tags:
   - pediatric cancer
   - splicing
@@ -574,7 +573,6 @@
   - open science
   - germline
   - cancer
-  image: https://academic.oup.com/view-large/figure/445059631/btae114f1.tif
   buttons:
   - type: tool
     link: https://github.com/diskin-lab-chop/AutoGVP
