@@ -127,9 +127,9 @@
   date: '2026-09-17'
   link: https://www.ncbi.nlm.nih.gov/pubmed/42753723
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-  category: target
+  plugin: sources.py
+  file: sources.yaml
+  category: biology
 - id: pubmed:42239754
   title: Tumor Microenvironmental Regulation of CAR T-Cell Therapy in High Risk Medulloblastoma.
   authors:
