@@ -1429,9 +1429,9 @@
   date: '2019-11-05'
   link: https://www.ncbi.nlm.nih.gov/pubmed/31693904
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-  category: biology
+  plugin: sources.py
+  file: sources.yaml
+  category: resource
 - id: pubmed:31672841
   title: YAP1 Mediates Resistance to MEK1/2 Inhibition in Neuroblastomas with Hyperactivated
     RAS Signaling.

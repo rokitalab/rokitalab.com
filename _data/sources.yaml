@@ -82,3 +82,6 @@
 
 - id: doi:10.1038/npp.2011.123
   category: biology
+
+- id: pubmed:31693904
+  category: resource
