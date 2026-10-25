@@ -4,7 +4,7 @@ author: Jo Lynne Rokita
 tags:
   - team
 image: images/news/gwu-bioinformatics-2026.jpg
-image-position: center 25%
+image-position: center 33%
 ---
 
 What a day at the [GW Bioinformatics Symposium](https://publichealth.gwu.edu/gw-bioinformatics-symposium)! 🎉
