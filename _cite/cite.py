@@ -173,6 +173,36 @@ for index, source in enumerate(sources):
 
 log()
 
+log("Removing duplicate citations")
+
+# fill in missing pubmed titles
+for citation in citations:
+    _id = get_safe(citation, "id", "")
+    if _id.startswith("pubmed:") and not get_safe(citation, "title", "").strip():
+        try:
+            citation["title"] = pubmed_title(_id.split(":")[1])
+        except Exception as e:
+            log(e, indent=1, level="WARNING")
+            warnings.append(f"Couldn't get title for {_id}")
+
+# tidy titles, and drop supplementary material cited as its own record
+for citation in citations:
+    if get_safe(citation, "title", ""):
+        citation["title"] = clean_title(citation["title"])
+supplements = [c for c in citations if is_supplement(c)]
+citations = [c for c in citations if c not in supplements]
+log(f"Removed {len(supplements)} supplementary record(s)", indent=1)
+
+# merge citations of the same work, preferring published over preprint
+citations, dropped = dedupe_citations(citations)
+for dropped_id, kept_id in dropped:
+    log(f"Dropped {dropped_id} (duplicate of {kept_id})", indent=1)
+
+log(f"{len(citations)} citation(s) remaining")
+
+
+log()
+
 log("Saving updated citations")
 
 
