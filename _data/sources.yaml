@@ -85,3 +85,9 @@
 
 - id: pubmed:31693904
   category: resource
+
+- id: doi:10.1111/gbb.12113
+  category: target
+
+- id: doi:10.1111/bph.12741
+  category: target
