@@ -20,3 +20,6 @@ Prior to joining CHOP, Dr. Rokita led the development and validation of clinical
 
 Dr. Rokita completed her B.S. at [the Pennsylvania State University](https://www.psu.edu/) (We are!), M.S. at [Arcadia University](https://www.arcadia.edu/), and Ph.D. in [pharmacology and toxicology at Virginia Commonwealth University](https://pharmtox.vcu.edu/). 
 She is passionate about, and committed to, using genomics to improve survival and quality of life for children with brain tumors.
+
+Dr. Rokita is also committed to service and mentoring in the pediatric oncology community.
+She volunteers as a postdoctoral [mentor at the Children's Hospital of Philadelphia (CHOP)](https://www.research.chop.edu/mentors/academia-mentor-jo-lynne-rokita-phd) and is a member of the [Pediatric Brain Tumor Foundation (PBTF)](https://www.curethekids.org/) Technology Advisory Network.
