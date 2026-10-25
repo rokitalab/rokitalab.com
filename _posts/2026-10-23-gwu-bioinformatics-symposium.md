@@ -25,6 +25,6 @@ So proud of this team! ✨
 {% include figure.html image="images/news/gwu-bioinformatics-2026-4.jpg" %}
 {% include figure.html image="images/news/gwu-bioinformatics-2026-5.jpg" %}
 {% include figure.html image="images/news/gwu-bioinformatics-2026-6.jpg" %}
-{% include figure.html image="images/news/gwu-bioinformatics-2026-7.jpg" %}
+{% include figure.html image="images/news/gwu-bioinformatics-2026-7.jpg" position="left center" %}
 {% endcapture %}
 {% include grid.html style="square" content=content %}
