@@ -1,5 +1,30 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:42926505
+  title: 'MOSAIC: Learning Graph Node Embeddings from Spectrally Isolated Dominant
+    Subspaces of Accumulated Diffusion Operators.'
+  authors:
+  - Taha Mohseni Ahooyi
+  - Benjamin J Stear
+  - Yuanchao Zhang
+  - Aditya Lahiri
+  - James Terry
+  - Shiping Zhang
+  - Alan Simmons
+  - Ryan Corbett
+  - Patricia J Sullivan
+  - Asif Chinwalla
+  - Christopher Nemarich
+  - Jo Lynne Rokita
+  - Sharon Diskin
+  - Jonathan C Silverstein
+  - Deanne M Taylor
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2026-10-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/42926505
+  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:42753723
   title: Proteogenomic analysis of pediatric and AYA high-grade glioma reveals age-dependent
     biology, female-male differences, and kinase targets.
@@ -2056,6 +2081,24 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: doi:10.64898/2026.10.21.760687
+  title: Pan-pediatric brain tumor microRNA networks define immune microenvironment
+    states and responses to CAR T-cell therapy
+  authors:
+  - Kaleem Coleman
+  - Ryan J Corbett
+  - Zhongzhen Yi
+  - Bicna Song
+  - Alex Sickler
+  - Aylar Babaei
+  - Jo Lynne Rokita
+  - Dalia Haydar
+  publisher: openRxiv
+  date: '2026-10-23'
+  link: https://doi.org/hcpvpz
+  orcid: 0000-0003-2171-3627
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.64898/2026.05.04.26352173
   title: Specific HLA Class I and II alleles are associated with a higher risk for
     tumor formation in Neurofibromatosis type 1
