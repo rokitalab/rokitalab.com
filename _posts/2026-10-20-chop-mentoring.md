@@ -14,6 +14,4 @@ Dr. Rokita knows how transformative strong mentorship can be, especially for stu
 Having benefited from exceptional mentors throughout her career, she is passionate about paying that forward.
 As a first-generation college graduate from a disadvantaged background, she is particularly committed to helping young women and others from underrepresented backgrounds build confidence, navigate challenges, and recognize their potential.
 
-Her mentoring style is direct, honest, and supportive.
-She believes in candid feedback, encouraging independence, and helping people recognize their strengths.
 Mentoring is one of the most rewarding parts of her role, and she values the chance to support others as they pursue ambitious goals and build fulfilling careers.
