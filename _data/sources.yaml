@@ -57,3 +57,7 @@
 - id: doi:10.3389/fimmu.2026.1966259
   replaces:
     - doi:10.64898/2026.05.04.26352173
+
+- id: pubmed:41271695
+  replaces:
+    - pubmed:39974082
