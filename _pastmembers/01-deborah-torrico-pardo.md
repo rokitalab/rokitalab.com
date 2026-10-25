@@ -8,7 +8,7 @@ aliases:
   
 ---
 
-Deborah Torrico-Pardo is a rising senior at Thomas Jefferson High School for Science and Technology in Alexandria, Virginia. She performed preclinical research studying RNA splicing in pediatric brain tumors in the Rokita Lab during the summer of 2026.
+Deborah Torrico-Pardo is a student at Thomas Jefferson High School for Science and Technology in Alexandria, Virginia. She performed preclinical research studying RNA splicing in pediatric brain tumors in the Rokita Lab during the summer of 2026.
 
 Deborah co-founded Next In Research, a mentorship program connecting high school students with middle schoolers. 
 She also founded a mentoring initiative at Katherine Johnson Middle School, supporting underrepresented students as they prepare for high school and standardized exams.
