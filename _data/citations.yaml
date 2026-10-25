@@ -772,7 +772,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: sources.py
   file: sources.yaml
-  category: germline
+  category: biology
 - id: pubmed:36335802
   title: The children's brain tumor network (CBTN) - Accelerating research in pediatric
     central nervous system tumors through collaboration and open science.
@@ -1952,9 +1952,9 @@
   date: '2011-07-27'
   link: https://doi.org/bh396p
   orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-  category: germline
+  plugin: sources.py
+  file: sources.yaml
+  category: biology
 - id: doi:10.3389/fimmu.2026.1966259
   title: Human leucocyte antigen class I and II alleles are associated with tumor
     susceptibility in neurofibromatosis type 1
