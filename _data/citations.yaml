@@ -25,6 +25,9 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  type: preprint
+  tags:
+  - preprint
 - id: pubmed:42753723
   title: Proteogenomic analysis of pediatric and AYA high-grade glioma reveals age-dependent
     biology, female-male differences, and kinase targets.
@@ -153,6 +156,9 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  type: preprint
+  tags:
+  - preprint
 - id: pubmed:41908886
   title: Alternative splicing in pediatric central nervous system tumors highlights
     oncofetal candidate
@@ -1736,6 +1742,9 @@
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml
+  type: preprint
+  tags:
+  - preprint
 - id: doi:10.1093/gigascience/giaf093
   title: The Open Pediatric Cancer Project
   authors:

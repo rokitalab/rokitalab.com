@@ -200,6 +200,14 @@ for dropped_id, kept_id in dropped:
 
 log(f"{len(citations)} citation(s) remaining")
 
+# flag remaining (unpublished) preprints with preprint icon and tag
+for citation in citations:
+    if is_preprint(citation):
+        citation.setdefault("type", "preprint")
+        tags = get_safe(citation, "tags", []) or []
+        if "preprint" not in tags:
+            citation["tags"] = tags + ["preprint"]
+
 
 log()
 
