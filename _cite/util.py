@@ -247,8 +247,9 @@ def cite_with_manubot(_id):
 preprint_publishers = r"rxiv|research square|ssrn|preprints"
 preprint_doi_prefixes = ["10.1101/", "10.64898/", "10.48550/", "10.21203/", "10.2139/"]
 
-# titles of supplementary material deposited as its own record, e.g. "Supplementary Figure S1 from ..."
-supplement_title = r"^(data|supplement(al|ary)\b.*?) from "
+# titles of records that aren't works themselves: supplementary material deposited as its own
+# record (e.g. "Supplementary Figure S1 from ..."), and corrections to other works
+supplement_title = r"^((data|supplement(al|ary)\b.*?) from |(correction|corrigendum|erratum)\b)"
 
 
 def clean_title(title):
@@ -282,7 +283,7 @@ def is_preprint(citation):
 
 def is_supplement(citation):
     """
-    check if citation is supplementary material rather than a work itself
+    check if citation is supplementary material or a correction rather than a work itself
     """
 
     return bool(re.search(supplement_title, clean_title(get_safe(citation, "title", "")), re.I))
@@ -358,3 +359,24 @@ def pubmed_title(pmid):
     url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id={pmid}&retmode=json"
     response = json.loads(urlopen(Request(url=url)).read())
     return clean_title(get_safe(response, "result", {}).get(str(pmid), {}).get("title", "")).rstrip(".")
+
+
+# keyword rules to guess a publication category from its title, first match wins
+category_rules = [
+    ("tool", r"package|workflow|algorithm|classif|pipeline|software|toolkit|annofuse|autogvp|mosaic"),
+    ("resource", r"atlas|resource|tumor network|open pediatric|cell lines|consortium"),
+    ("target", r"target|immunotherap|car t|chimeric|inhibit|therap|everolimus|lorlatinib|kinome"),
+    ("germline", r"germline|variant|microdeletion"),
+]
+
+
+def categorize(citation):
+    """
+    guess publication category from title, defaulting to general biology
+    """
+
+    title = clean_title(get_safe(citation, "title", "")).lower()
+    for category, pattern in category_rules:
+        if re.search(pattern, title):
+            return category
+    return "biology"

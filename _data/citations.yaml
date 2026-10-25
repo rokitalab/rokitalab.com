@@ -25,6 +25,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: tool
   type: preprint
   tags:
   - preprint
@@ -128,6 +129,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:42239754
   title: Tumor Microenvironmental Regulation of CAR T-Cell Therapy in High Risk Medulloblastoma.
   authors:
@@ -156,6 +158,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
   type: preprint
   tags:
   - preprint
@@ -207,6 +210,7 @@
   - pediatric cancer
   - splicing
   repo: rokitalab/clk1-splicing
+  category: biology
 - id: pubmed:41271695
   title: Germline pathogenic variation impacts somatic alterations and patient outcomes
     in pediatric central nervous system tumors.
@@ -250,6 +254,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: sources.py
   file: sources.yaml
+  category: germline
 - id: pubmed:40782352
   title: NRCAM variant defined by microexon skipping is a targetable cell surface
     proteoform in high-grade gliomas.
@@ -290,6 +295,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:40072012
   title: Germline analysis of an international cohort of pediatric diffuse midline
     glioma patients.
@@ -338,6 +344,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: germline
 - id: pubmed:39992227
   title: Germline Pathogenic DROSHA Variants Are Linked to Pineoblastoma and Wilms
     Tumor Predisposition.
@@ -386,6 +393,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: germline
 - id: pubmed:39952665
   title: Imaging Clusters of Pediatric Low-Grade Glioma Are Associated with Distinct
     Molecular Characteristics.
@@ -421,6 +429,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: biology
 - id: pubmed:39907037
   title: Kinome Reprogramming of G2/M Kinases and Repression of MYCN Contribute to
     Superior Efficacy of Lorlatinib in ALK-Driven Neuroblastoma.
@@ -449,6 +458,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:39847453
   title: Genetic ancestry superpopulations show distinct prevalence and outcomes across
     pediatric central nervous system tumors from the Pediatric Brain Tumor Atlas and
@@ -483,6 +493,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: resource
 - id: pubmed:39454577
   title: A proteogenomic surfaceome study identifies DLK1 as an immunotherapeutic
     target in neuroblastoma.
@@ -531,6 +542,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:38426335
   title: 'AutoGVP: a dockerized workflow integrating ClinVar and InterVar germline
     sequence variant classification.'
@@ -566,6 +578,7 @@
   - type: tool
     link: https://github.com/diskin-lab-chop/AutoGVP
   repo: diskin-lab-chop/AutoGVP
+  category: tool
 - id: pubmed:37978951
   title: 'Everolimus for Children With Recurrent or Progressive Low-Grade Glioma:
     Results From the Phase II PNOC001 Trial.'
@@ -597,6 +610,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:37688570
   title: BARD1 germline variants induce haploinsufficiency and DNA repair defects
     in neuroblastoma.
@@ -620,6 +634,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: germline
 - id: pubmed:37492101
   title: 'OpenPBTA: The Open Pediatric Brain Tumor Atlas.'
   authors:
@@ -695,6 +710,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: sources.py
   file: sources.yaml
+  category: resource
 - id: pubmed:36781202
   title: "Identification of candidate genes for nicotine withdrawal in C57BL/6J \xD7\
     \ DBA/2J recombinant inbred mice."
@@ -711,6 +727,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: biology
 - id: pubmed:36585448
   title: Enhancing childhood cancer targetability.
   authors:
@@ -722,6 +739,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:36541551
   title: Alternative lengthening of telomeres (ALT) in pediatric high-grade gliomas
     can occur without ATRX mutation and is enriched in patients with pathogenic germline
@@ -756,6 +774,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: sources.py
   file: sources.yaml
+  category: germline
 - id: pubmed:36335802
   title: The children's brain tumor network (CBTN) - Accelerating research in pediatric
     central nervous system tumors through collaboration and open science.
@@ -866,6 +885,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: resource
 - id: pubmed:36167467
   title: Development of GPC2-directed chimeric antigen receptors using mRNA for pediatric
     brain tumors.
@@ -896,6 +916,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:35852795
   title: 'Upfront Biology-Guided Therapy in Diffuse Intrinsic Pontine Glioma: Therapeutic,
     Molecular, and Biomarker Outcomes from PNOC003.'
@@ -935,6 +956,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:33789113
   title: Macrophages in SHH subgroup medulloblastoma display dynamic heterogeneity
     that varies with treatment modality.
@@ -967,6 +989,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: biology
 - id: pubmed:33602789
   title: GAS7 Deficiency Promotes Metastasis in MYCN-Driven Neuroblastoma.
   authors:
@@ -1004,6 +1027,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: biology
 - id: pubmed:33317447
   title: 'annoFuse: an R Package to annotate, prioritize, and interactively explore
     putative oncogenic RNA fusions.'
@@ -1030,6 +1054,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: tool
 - id: pubmed:33242424
   title: Integrated Proteogenomic Characterization across Major Histological Types
     of Pediatric Brain Cancer.
@@ -1127,6 +1152,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: biology
 - id: pubmed:33119584
   title: A transcriptome-based classifier to determine molecular subtypes in medulloblastoma.
   authors:
@@ -1145,6 +1171,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: tool
 - id: pubmed:32339949
   title: LIN28B promotes neuroblastoma metastasis and regulates PDZ binding kinase.
   authors:
@@ -1170,6 +1197,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: biology
 - id: pubmed:32307821
   title: Limited antitumor activity of combined BET and MEK inhibition in neuroblastoma.
   authors:
@@ -1195,6 +1223,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:32291317
   title: Telomere Maintenance Mechanisms Define Clinical Outcome in High-Risk Neuroblastoma.
   authors:
@@ -1224,6 +1253,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: biology
 - id: pubmed:32286315
   title: Epigenomic profiling of neuroblastoma cell lines.
   authors:
@@ -1246,6 +1276,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: resource
 - id: pubmed:32211329
   title: CAMKV Is a Candidate Immunotherapeutic Target in
   authors:
@@ -1267,6 +1298,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:31819055
   title: ASCL1 is a MYCN- and LMO1-dependent member of the adrenergic neuroblastoma
     core regulatory circuitry.
@@ -1292,6 +1324,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: biology
 - id: pubmed:31810498
   title: Combined innate and adaptive immunotherapy overcomes resistance of immunologically
     cold syngeneic murine neuroblastoma to checkpoint inhibition.
@@ -1320,6 +1353,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:31693904
   title: Genomic Profiling of Childhood Tumor Patient-Derived Xenograft Models to
     Enable Rational Clinical Trial Design.
@@ -1399,6 +1433,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: biology
 - id: pubmed:31672841
   title: YAP1 Mediates Resistance to MEK1/2 Inhibition in Neuroblastomas with Hyperactivated
     RAS Signaling.
@@ -1416,6 +1451,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:31613963
   title: Pediatric high-grade glioma resources from the Children's Brain Tumor Tissue
     Consortium.
@@ -1452,6 +1488,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: sources.py
   file: sources.yaml
+  category: resource
 - id: pubmed:31474320
   title: Germline 16p11.2 Microdeletion Predisposes to Neuroblastoma.
   authors:
@@ -1470,6 +1507,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: germline
 - id: pubmed:30930166
   title: 'The Pediatric Cell Atlas: Defining the Growth Phase of Human Development
     at Single-Cell Resolution.'
@@ -1553,6 +1591,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: resource
 - id: pubmed:29510988
   title: Cross-Cohort Analysis Identifies a TEAD4-MYCN Positive Feedback Loop as the
     Core Regulatory Element of High-Risk Neuroblastoma.
@@ -1593,26 +1632,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:29206221
-  title: 'Corrigendum: Transcriptomic profiling of 39 commonly-used neuroblastoma
-    cell lines.'
-  authors:
-  - Jo Lynne Harenza
-  - Maura A Diamond
-  - Rebecca N Adams
-  - Michael M Song
-  - Heather L Davidson
-  - Lori S Hart
-  - Maiah H Dent
-  - Paolo Fortina
-  - C Patrick Reynolds
-  - John M Maris
-  publisher: Scientific data
-  date: '2017-12-05'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/29206221
-  term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  category: biology
 - id: pubmed:28898695
   title: Identification of GPC2 as an Oncoprotein and Candidate Immunotherapeutic
     Target in High-Risk Neuroblastoma.
@@ -1652,6 +1672,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: target
 - id: pubmed:28350380
   title: Transcriptomic profiling of 39 commonly-used neuroblastoma cell lines.
   authors:
@@ -1671,6 +1692,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: resource
 - id: pubmed:28193036
   title: International Comparison of Enumeration-Based Quantification of DNA Copy-Concentration
     Using Flow Cytometric Counting and Digital Polymerase Chain Reaction.
@@ -1705,6 +1727,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: biology
 - id: pubmed:21494628
   title: 'Genetic analysis of the neurosteroid deoxycorticosterone and its relation
     to alcohol phenotypes: identification of QTLs and downstream gene regulation.'
@@ -1724,6 +1747,7 @@
   term: Rokita Jo[Author] OR Rokita JL[Author] OR Harenza Jo[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+  category: biology
 - id: doi:10.64898/2026.10.21.760687
   title: Pan-pediatric brain tumor microRNA networks define immune microenvironment
     states and responses to CAR T-cell therapy
@@ -1742,6 +1766,7 @@
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml
+  category: target
   type: preprint
   tags:
   - preprint
@@ -1817,6 +1842,7 @@
   - pediatric cancer
   - genomics
   repo: rokitalab/OpenPedCan-manuscript
+  category: resource
 - id: doi:10.1111/gbb.12844
   title: "Identification of candidate genes for nicotine withdrawal in <scp>C57BL</scp>/<scp>6J</scp>\
     \ \xD7 <scp>DBA</scp>/<scp>2J</scp> recombinant inbred mice"
@@ -1833,26 +1859,7 @@
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1038/sdata.2017.183
-  title: 'Correction: Corrigendum: Transcriptomic profiling of 39 commonly-used neuroblastoma
-    cell lines'
-  authors:
-  - Jo Lynne Harenza
-  - Maura A. Diamond
-  - Rebecca N. Adams
-  - Michael M. Song
-  - Heather L. Davidson
-  - Lori S. Hart
-  - Maiah H. Dent
-  - Paolo Fortina
-  - C. Patrick Reynolds
-  - John M. Maris
-  publisher: Scientific Data
-  date: '2017-12-05'
-  link: https://doi.org/g43x9s
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
+  category: biology
 - id: doi:10.1111/gbb.12289
   title: "Identification of quantitative trait loci and candidate genes for an anxiolytic\u2010\
     like response to ethanol in<scp>BXD</scp>recombinant inbred strains"
@@ -1870,6 +1877,7 @@
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml
+  category: biology
 - id: doi:10.1158/1538-7445.am2015-1077
   title: 'Abstract 1077: Use of the SVClassify algorithm to classify pediatric solid
     tumor translocation variant calls as likely true or false positives'
@@ -1890,6 +1898,7 @@
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml
+  category: tool
 - id: doi:10.1111/bph.12948
   title: Inhibition of monoacylglycerol lipase reduces nicotine withdrawal
   authors:
@@ -1909,6 +1918,7 @@
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml
+  category: target
 - id: doi:10.1111/gbb.12113
   title: "Genetic variation within the<i>Chrna7</i>gene modulates nicotine reward\u2010\
     like phenotypes in mice"
@@ -1924,6 +1934,7 @@
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml
+  category: biology
 - id: doi:10.1111/bph.12741
   title: "The \u03B13\u03B24* nicotinic<scp>ACh</scp>receptor subtype mediates physical\
     \ dependence to morphine: mouse and human studies"
@@ -1950,41 +1961,7 @@
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1038/npp.2012.95
-  title: 'Erratum: The Neuropeptide Galanin and Variants in the GalR1 Gene are Associated
-    with Nicotine Dependence'
-  authors:
-  - Kia J Jackson
-  - Xiangning Chen
-  - Michael F Miles
-  - JoLynne Harenza
-  - M Imad Damaj
-  publisher: Neuropsychopharmacology
-  date: '2012-08-16'
-  link: https://doi.org/g43zbh
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/annotation/ce7007ca-506f-4b54-b7ff-1e0a93d689f7
-  title: 'Correction: Genetic Analysis of the Neurosteroid Deoxycorticosterone and
-    Its Relation to Alcohol Phenotypes: Identification of QTLs and Downstream Gene
-    Regulation'
-  authors:
-  - Patrizia Porcu
-  - Todd K. O'Buckley
-  - Soomin C. Song
-  - Jo Lynne Harenza
-  - Lu Lu
-  - Xusheng Wang
-  - Robert W. Williams
-  - Michael F. Miles
-  - A. Leslie Morrow
-  publisher: PLoS ONE
-  date: '2011-06-30'
-  link: https://doi.org/b8kjgv
-  orcid: 0000-0003-2171-3627
-  plugin: orcid.py
-  file: orcid.yaml
+  category: biology
 - id: doi:10.1038/npp.2011.123
   title: The Neuropeptide Galanin and Variants in the GalR1 Gene are Associated with
     Nicotine Dependence
@@ -2000,6 +1977,7 @@
   orcid: 0000-0003-2171-3627
   plugin: orcid.py
   file: orcid.yaml
+  category: germline
 - id: doi:10.3389/fimmu.2026.1966259
   title: Human leucocyte antigen class I and II alleles are associated with tumor
     susceptibility in neurofibromatosis type 1
@@ -2020,3 +1998,4 @@
   link: https://doi.org/hcpvp7
   plugin: sources.py
   file: sources.yaml
+  category: biology

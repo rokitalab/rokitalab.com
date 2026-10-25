@@ -239,3 +239,30 @@ package:
   icon: fa-solid fa-box
   text: Package
   tooltip: Package
+
+# publication categories (icon shown in place of a thumbnail when a citation has no image)
+
+category-tool:
+  icon: fa-solid fa-code
+  text: Tool
+  tooltip: Tool or computational method
+
+category-resource:
+  icon: fa-solid fa-database
+  text: Resource
+  tooltip: Data resource
+
+category-target:
+  icon: fa-solid fa-bullseye
+  text: Therapeutic target
+  tooltip: Therapeutic target or therapy
+
+category-germline:
+  icon: fa-solid fa-dna
+  text: Germline
+  tooltip: Germline genetics
+
+category-biology:
+  icon: fa-solid fa-flask
+  text: Biology
+  tooltip: Tumor biology

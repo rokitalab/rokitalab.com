@@ -185,13 +185,13 @@ for citation in citations:
             log(e, indent=1, level="WARNING")
             warnings.append(f"Couldn't get title for {_id}")
 
-# tidy titles, and drop supplementary material cited as its own record
+# tidy titles, and drop supplementary material and corrections cited as their own records
 for citation in citations:
     if get_safe(citation, "title", ""):
         citation["title"] = clean_title(citation["title"])
 supplements = [c for c in citations if is_supplement(c)]
 citations = [c for c in citations if c not in supplements]
-log(f"Removed {len(supplements)} supplementary record(s)", indent=1)
+log(f"Removed {len(supplements)} supplementary/correction record(s)", indent=1)
 
 # merge citations of the same work, preferring published over preprint
 citations, dropped = dedupe_citations(citations)
@@ -199,6 +199,10 @@ for dropped_id, kept_id in dropped:
     log(f"Dropped {dropped_id} (duplicate of {kept_id})", indent=1)
 
 log(f"{len(citations)} citation(s) remaining")
+
+# categorize citations (for icon in place of thumbnail), unless set manually in sources
+for citation in citations:
+    citation.setdefault("category", categorize(citation))
 
 # flag remaining (unpublished) preprints with preprint icon and tag
 for citation in citations:

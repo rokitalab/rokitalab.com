@@ -32,6 +32,16 @@ $wrap: 800px;
   object-fit: contain;
 }
 
+.citation-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: $thumb-size * 0.6;
+  background: var(--background-alt);
+  color: var(--secondary);
+  font-size: 4rem;
+}
+
 .citation-text {
   position: relative;
   display: inline-flex;
