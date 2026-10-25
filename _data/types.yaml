@@ -253,9 +253,9 @@ category-resource:
   tooltip: Data resource
 
 category-target:
-  icon: fa-solid fa-bullseye
-  text: Therapeutic target
-  tooltip: Therapeutic target or therapy
+  icon: fa-solid fa-pills
+  text: Therapy
+  tooltip: Therapy or therapeutic target
 
 category-germline:
   icon: fa-solid fa-dna
@@ -263,6 +263,6 @@ category-germline:
   tooltip: Germline genetics
 
 category-biology:
-  icon: fa-solid fa-flask
-  text: Biology
-  tooltip: Tumor biology
+  icon: fa-solid fa-circle-nodes
+  text: Mechanism
+  tooltip: Tumor biology and mechanism
