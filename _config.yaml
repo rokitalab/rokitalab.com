@@ -36,6 +36,12 @@ defaults:
     values:
       layout: member
 
+  # markdown files in /_pastmembers
+  - scope:
+      type: "pastmembers"
+    values:
+      layout: member
+
   # markdown files in /_posts
   - scope:
       type: "posts"
@@ -48,6 +54,9 @@ collections:
     output: true
   # generate page for core members
   coremembers:
+    output: true
+  # generate page for past members
+  pastmembers:
     output: true
   # generate page for each post
   posts:

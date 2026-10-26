@@ -5,7 +5,7 @@
       | split: ","
       | array_filter
     %}
-    {% assign all_members = site.coremembers | concat: site.labmembers %}
+    {% assign all_members = site.coremembers | concat: site.labmembers | concat: site.pastmembers %}
     {% for author in authors %}
       {% assign author_downcase = author | downcase %}
       {% assign member = all_members

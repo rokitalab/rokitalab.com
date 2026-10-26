@@ -14,6 +14,7 @@
       style="
         width: {{ include.width | default: "auto" }};
         max-height: {{ include.height | default: "unset" }};
+        {% if include.position %}object-position: {{ include.position }};{% endif %}
       "
       alt="{{ include.caption | default: "figure image" | regex_strip }}"
       loading="lazy"
