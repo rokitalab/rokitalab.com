@@ -15,10 +15,13 @@
     - genomics
   repo: rokitalab/OpenPedCan-manuscript
 
-- id: pubmed:39149264
-  type: preprint
-  description: Characterization of aberrant splicing in pediatric central nervous system tumors reveals CLK1 as a candidate oncogenic dependency
-  image: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11326178/figure/F1/
+- id: pubmed:41908886
+  type: paper
+  category: biology
+  # published version of the bioRxiv preprint (pubmed:39149264)
+  replaces:
+    - pubmed:39149264
+  description: Alternative splicing in pediatric central nervous system tumors highlights oncofetal candidate CLK1 exon 4
   tags:
     - pediatric cancer
     - splicing
@@ -26,14 +29,65 @@
 
 - id: pubmed:38426335
   type: paper
+  category: tool
   description: AutoGVP
   date: 2024-02-29
   tags:
   - open science
   - germline
   - cancer
-  image: https://academic.oup.com/view-large/figure/445059631/btae114f1.tif
   buttons:
     - type: tool
       link: https://github.com/diskin-lab-chop/AutoGVP
   repo: diskin-lab-chop/AutoGVP
+
+# preprint and published titles differ, so match them explicitly
+- id: pubmed:37492101
+  replaces:
+    - doi:10.1101/2022.09.13.507832
+
+- id: pubmed:31613963
+  replaces:
+    - doi:10.1101/656587
+
+- id: pubmed:36541551
+  category: biology
+  replaces:
+    - doi:10.1101/2022.08.05.502870
+
+- id: doi:10.3389/fimmu.2026.1966259
+  replaces:
+    - doi:10.64898/2026.05.04.26352173
+
+- id: pubmed:41271695
+  replaces:
+    - pubmed:39974082
+
+# categories set manually, overriding the keyword guess
+- id: pubmed:40782352
+  category: target
+
+- id: pubmed:39847453
+  category: biology
+
+- id: doi:10.64898/2026.10.21.760687
+  category: biology
+
+- id: pubmed:42753723
+  category: biology
+
+# remove abstract from publications list
+- id: doi:10.1158/1538-7445.am2015-1077
+  remove: true
+
+- id: doi:10.1038/npp.2011.123
+  category: biology
+
+- id: pubmed:31693904
+  category: resource
+
+- id: doi:10.1111/gbb.12113
+  category: target
+
+- id: doi:10.1111/bph.12741
+  category: target

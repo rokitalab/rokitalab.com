@@ -2,8 +2,10 @@
 utility functions for cite process and plugins
 """
 
+import re
 import subprocess
 import json
+from urllib.request import Request, urlopen
 import yaml
 from yaml.loader import SafeLoader
 from pathlib import Path
@@ -239,3 +241,142 @@ def cite_with_manubot(_id):
 
     # return citation data
     return citation
+
+
+# publisher names and doi prefixes of preprint servers
+preprint_publishers = r"rxiv|research square|ssrn|preprints"
+preprint_doi_prefixes = ["10.1101/", "10.64898/", "10.48550/", "10.21203/", "10.2139/"]
+
+# titles of records that aren't works themselves: supplementary material deposited as its own
+# record (e.g. "Supplementary Figure S1 from ..."), and corrections to other works
+supplement_title = r"^((data|supplement(al|ary)\b.*?) from |(correction|corrigendum|erratum)\b)"
+
+
+def clean_title(title):
+    """
+    trim and collapse whitespace in title
+    """
+
+    return re.sub(r"\s+", " ", str(title or "")).strip()
+
+
+def title_key(title):
+    """
+    normalized title for finding the same work cited from different sources
+    """
+
+    return re.sub(r"[^a-z0-9]", "", clean_title(title).lower())
+
+
+def is_preprint(citation):
+    """
+    check if citation is a preprint, from explicit type, publisher, or doi
+    """
+
+    if get_safe(citation, "type", "") == "preprint":
+        return True
+    if re.search(preprint_publishers, str(get_safe(citation, "publisher", "")), re.I):
+        return True
+    _id = str(get_safe(citation, "id", ""))
+    return any(_id.startswith(f"doi:{prefix}") for prefix in preprint_doi_prefixes)
+
+
+def is_supplement(citation):
+    """
+    check if citation is supplementary material or a correction rather than a work itself
+    """
+
+    return bool(re.search(supplement_title, clean_title(get_safe(citation, "title", "")), re.I))
+
+
+def dedupe_citations(citations):
+    """
+    merge citations of the same work (matched by title) into one, preferring
+    manually defined entries, then published works over preprints,
+    then pubmed records, then the earliest date
+    returns deduped citations and list of (dropped id, kept id) pairs
+    """
+
+    # fields to carry over from dropped duplicates if the kept citation lacks them
+    carry = ["tags", "repo", "image", "buttons", "description"]
+
+    def rank(citation):
+        manual = get_safe(citation, "plugin", "") == "sources.py"
+        pubmed = get_safe(citation, "plugin", "") == "pubmed.py"
+        # then prefer pubmed records, then the earliest date (the original, not a later correction)
+        return (
+            not manual,
+            is_preprint(citation),
+            not pubmed,
+            get_safe(citation, "date", "") or "9999",
+        )
+
+    # drop citations explicitly replaced by another (e.g. a preprint whose published title differs)
+    dropped = []
+    for citation in citations:
+        for replaced_id in citation.pop("replaces", []) or []:
+            replaced = next((c for c in citations if c["id"] == replaced_id), None)
+            if replaced is None or replaced is citation:
+                continue
+            for field in carry:
+                if field in replaced and not citation.get(field):
+                    citation[field] = replaced[field]
+            dropped.append((replaced_id, citation["id"]))
+    replaced_ids = [replaced_id for replaced_id, _ in dropped]
+    citations = [c for c in citations if c["id"] not in replaced_ids]
+
+    # group citations by title, leaving untitled citations alone
+    groups = {}
+    for index, citation in enumerate(citations):
+        key = title_key(get_safe(citation, "title", "")) or f"untitled-{index}"
+        groups.setdefault(key, []).append(citation)
+
+    result = []
+    for group in groups.values():
+        group = sorted(group, key=rank)
+        kept = group[0]
+        for other in group[1:]:
+            for field in carry:
+                if field in other and not kept.get(field):
+                    kept[field] = other[field]
+            dropped.append((other["id"], kept["id"]))
+        result.append(kept)
+
+    # restore original order
+    order = {id(citation): index for index, citation in enumerate(citations)}
+    result.sort(key=lambda citation: order[id(citation)])
+
+    return result, dropped
+
+
+@log_cache
+@cache.memoize(name="pubmed-title", expire=90 * (60 * 60 * 24))
+def pubmed_title(pmid):
+    """
+    get title of pubmed record, for when Manubot returns none
+    """
+
+    url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id={pmid}&retmode=json"
+    response = json.loads(urlopen(Request(url=url)).read())
+    return clean_title(get_safe(response, "result", {}).get(str(pmid), {}).get("title", "")).rstrip(".")
+
+
+# keyword rules to guess a publication category from its title, first match wins
+category_rules = [
+    ("tool", r"package|workflow|algorithm|classif|pipeline|software|toolkit|annofuse|autogvp|mosaic"),
+    ("resource", r"atlas|resource|tumor network|open pediatric|cell lines|consortium"),
+    ("target", r"target|immunotherap|car t|chimeric|inhibit|therap|everolimus|lorlatinib|kinome"),
+    ("germline", r"germline|variant|microdeletion"),
+]
+
+
+def categorize(citation):
+    """
+    guess publication category from title, defaulting to general biology
+    """
+
+    title = clean_title(get_safe(citation, "title", "")).lower()
+    for category, pattern in category_rules:
+        if re.search(pattern, title):
+            return category
+    return "biology"

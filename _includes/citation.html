@@ -15,22 +15,25 @@
         {% if citation.link %}
           href="{{ citation.link | relative_url | uri_escape }}"
         {% endif %}
-        class="citation-image"
+        class="citation-image{% unless citation.image %} citation-icon{% endunless %}"
         aria-label="{{ citation.title | default: "citation link" | regex_strip }}"
       >
-        <img
-          src="{{ citation.image | relative_url | uri_escape }}"
-          alt="{{ citation.title | default: "citation image" | regex_strip }}"
-          loading="lazy"
-          {% include fallback.html %}
-        >
+        {% if citation.image %}
+          <img
+            src="{{ citation.image | relative_url | uri_escape }}"
+            alt="{{ citation.title | default: "citation image" | regex_strip }}"
+            loading="lazy"
+            {% include fallback.html %}
+          >
+        {% else %}
+          {% assign category_key = citation.category | default: "biology" | prepend: "category-" %}
+          {% assign category = site.data.types[category_key] %}
+          {% include icon.html icon=category.icon %}
+        {% endif %}
       </a>
     {% endif %}
 
     <div class="citation-text">
-      {% assign type = site.data.types[citation.type] %}
-      {% include icon.html icon=type.icon %}
-
       <a
         {% if citation.link %}
           href="{{ citation.link | relative_url | xml_escape }}"
