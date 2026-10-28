@@ -6,6 +6,7 @@ tags:
   - tool
   - resource
 image: images/news/tapestry-logo.svg
+image-position: center 46%
 ---
 
 We are excited to share our preprint, "TAPESTRY: an interactive resource for exploring tumor-enriched splice junctions in pediatric brain tumors," now on [arXiv](https://arxiv.org/abs/2610.31816)!
