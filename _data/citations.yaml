@@ -1976,3 +1976,23 @@
   plugin: sources.py
   file: sources.yaml
   category: biology
+- id: arxiv:2610.31816
+  title: 'TAPESTRY: an interactive resource for exploring tumor-enriched splice junctions
+    in pediatric brain tumors'
+  authors:
+  - Patricia J. Sullivan
+  - Ryan J. Corbett
+  - Chao Di
+  - Alex Sickler
+  - Aylar Babaei
+  - Meghali Goswami
+  - Jo Lynne Rokita
+  publisher: arXiv
+  date: '2026-10-26'
+  link: https://arxiv.org/abs/2610.31816
+  category: tool
+  plugin: sources.py
+  file: sources.yaml
+  type: preprint
+  tags:
+  - preprint
