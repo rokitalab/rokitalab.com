@@ -94,3 +94,8 @@
 
 - id: doi:10.1111/bph.12741
   category: target
+
+# consortium author paper (CFDE), not found by the PubMed author search
+- id: doi:10.1016/j.patter.2026.101714
+  category: resource
+  description: Rokita Lab as CFDE consortium members

@@ -79,10 +79,12 @@ jobs:
       - name: Check if citations changed
         if: github.event.action != 'closed'
         id: changed
-        uses: tj-actions/verify-changed-files@a1c6acee9df209257a246f2cc6ae8cb6581c1edf #v20.04
-        with:
-          files: |
-            _data/citations.yaml
+        run: |
+          if [ -n "$(git status --porcelain -- _data/citations.yaml)" ]; then
+            echo "files_changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "files_changed=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Commit updated citations to branch
         if: |
