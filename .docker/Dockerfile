@@ -1,5 +1,5 @@
 # start with official ruby docker image as base
-FROM ruby:3.1.2
+FROM ruby:3.4
 
 # set working directory within container
 WORKDIR /usr/src/app
@@ -14,6 +14,9 @@ RUN VERSION=$(grep -A 1 'BUNDLED WITH' Gemfile.lock | tail -n 1 | xargs); \
 
 # install python
 RUN apt update && apt install -y python3 python3-pip
+
+# allow pip to install into system python (debian marks it externally managed)
+ENV PIP_BREAK_SYSTEM_PACKAGES=1
 
 # install python packages
 RUN python3 -m pip install --no-cache-dir --upgrade --requirement requirements.txt
