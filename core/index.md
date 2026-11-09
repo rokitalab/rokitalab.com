@@ -7,12 +7,15 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}BTI Bioinformatics Core Team
 
-<p style="text-align: center; font-size: 1.2em; line-height: 1.7;">
-The Brain Tumor Institute Bioinformatics Core at Children's National Hospital is a collaborative team of bioinformatics scientists, engineers, and operations staff dedicated to advancing computational methods, developing open-source tools, and providing bioinformatics expertise to support research and clinical initiatives across Children's National Hospital.
-</p>
-
 {:.center}
-[Learn more about the BTI Bioinformatics Core](https://innovationdistrict.childrensnational.org/building-bioinformatics-infrastructure-at-the-brain-tumor-institute/)
+The Brain Tumor Institute Bioinformatics Core at Children's National Hospital is a collaborative team of bioinformatics scientists, engineers, and operations staff dedicated to advancing computational methods, developing open-source tools, and providing bioinformatics expertise to support research and clinical initiatives across Children's National Hospital.
+
+{%
+  include button.html
+  text="Learn more about the BTI Bioinformatics Core"
+  icon="fa-solid fa-newspaper"
+  link="https://innovationdistrict.childrensnational.org/building-bioinformatics-infrastructure-at-the-brain-tumor-institute/"
+%}
 
 {% include section.html %}
 
@@ -33,22 +36,15 @@ Our scientists and engineers bring deep expertise across genomics, multi-omics, 
 
 {% include section.html %}
 
-## {% include icon.html icon="fa-solid fa-book" %}Documentation
-
-{:.center}
-New to the Lab, Core, or looking for onboarding guides, workflows, and best practices? 
-Visit our [documentation site](https://childrens-bti.github.io/bti-bfx-docs/).
-
-{% include section.html %}
-
 ## {% include icon.html icon="fa-solid fa-envelope" %}Contact
-If you are interested in working with the bioinformatics core, please submit a [ticket](https://bti-bio-tickets.streamlit.app/) or reach out directly to Ms. Bailey Farrow.
+Interested in working with the bioinformatics core?
+Our documentation site has everything PIs need to get started, including our services and how to submit a project.
 
 {%
   include button.html
-  type="email"
-  text="Email Bailey"
-  link="bfarrow@childrensnational.org"
+  type="docs"
+  text="Work with the Core"
+  link="https://childrens-bti.github.io/bti-bfx-docs/"
 %}
 
 {% include section.html %}

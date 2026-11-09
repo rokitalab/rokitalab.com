@@ -1,0 +1,32 @@
+---
+---
+
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #ffffff !important;
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition), background var(--transition);
+}
+
+.back-to-top[data-show="true"] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.back-to-top:hover {
+  background: var(--text);
+  color: var(--background) !important;
+}
