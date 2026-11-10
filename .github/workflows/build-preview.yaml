@@ -33,11 +33,12 @@ jobs:
         uses: crazy-max/ghaction-dump-context@158bbf4d6158a44a7e13f76295dc55a69e481a6e #v2
         continue-on-error: true
 
+      # on close, the pr branch may already be deleted, so check out the base repo instead
       - name: Checkout branch contents
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
         with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.head_ref }}
+          repository: ${{ github.event.action != 'closed' && github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.event.action != 'closed' && github.head_ref || '' }}
 
       - name: Install Ruby packages
         if: github.event.action != 'closed'
