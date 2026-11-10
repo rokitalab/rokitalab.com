@@ -123,6 +123,10 @@
   
 
   
+    <link href="/_styles/back-to-top.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/background.css" rel="stylesheet">
   
 
@@ -340,6 +344,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -354,6 +360,8 @@
 
 
   <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/back-to-top.js"></script>
 
   <script src="/_scripts/dark-mode.js"></script>
 
@@ -447,6 +455,7 @@
         </a>
       
     
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </nav>
 </header>
 
@@ -472,11 +481,16 @@
     <h1 id="bti-bioinformatics-core-team">
 <i class="icon fa-solid fa-users"></i>BTI Bioinformatics Core Team</h1>
 
-<p style="text-align: center; font-size: 1.2em; line-height: 1.7;">
-The Brain Tumor Institute Bioinformatics Core at Children's National Hospital is a collaborative team of bioinformatics scientists, engineers, and operations staff dedicated to advancing computational methods, developing open-source tools, and providing bioinformatics expertise to support research and clinical initiatives across Children's National Hospital.
-</p>
+<p class="center">The Brain Tumor Institute Bioinformatics Core at Children’s National Hospital is a collaborative team of bioinformatics scientists, engineers, and operations staff dedicated to advancing computational methods, developing open-source tools, and providing bioinformatics expertise to support research and clinical initiatives across Children’s National Hospital.</p>
 
-<p class="center"><a href="https://innovationdistrict.childrensnational.org/building-bioinformatics-infrastructure-at-the-brain-tumor-institute/">Learn more about the BTI Bioinformatics Core</a></p>
+<div class="button-wrapper">
+    <a class="button" href="https://innovationdistrict.childrensnational.org/building-bioinformatics-infrastructure-at-the-brain-tumor-institute/" data-style="" aria-label="fa-solid fa-newspaper">
+      <i class="icon fa-solid fa-newspaper"></i>
+      
+        <span>Learn more about the BTI Bioinformatics Core</span>
+      
+    </a>
+  </div>
   </section>
 
   
@@ -756,35 +770,16 @@ The Brain Tumor Institute Bioinformatics Core at Children's National Hospital is
   <position></position>
 -->
 
-<h2 id="documentation">
-<i class="icon fa-solid fa-book"></i>Documentation</h2>
-
-<p class="center">New to the Lab, Core, or looking for onboarding guides, workflows, and best practices? 
-Visit our <a href="https://childrens-bti.github.io/bti-bfx-docs/">documentation site</a>.</p>
-  </section>
-
-  
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
-  <position></position>
--->
-
 <h2 id="contact">
 <i class="icon fa-solid fa-envelope"></i>Contact</h2>
-<p>If you are interested in working with the bioinformatics core, please submit a <a href="https://bti-bio-tickets.streamlit.app/">ticket</a> or reach out directly to Ms. Bailey Farrow.</p>
+<p>Interested in working with the bioinformatics core?
+Our documentation site has everything PIs need to get started, including our services and how to submit a project.</p>
 
 <div class="button-wrapper">
-    <a class="button" href="mailto:bfarrow@childrensnational.org" data-tooltip="Email" data-style="" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
+    <a class="button" href="https://childrens-bti.github.io/bti-bfx-docs/" data-tooltip="Documentation" data-style="" aria-label="Documentation">
+      <i class="icon fa-solid fa-book"></i>
       
-        <span>Email Bailey</span>
+        <span>Work with the Core</span>
       
     </a>
   </div>
@@ -993,9 +988,10 @@ Visit our <a href="https://childrens-bti.github.io/bti-bfx-docs/">documentation 
       Lab Website Template
     </a>
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
+    <a href="#top" class="back-to-top" data-tooltip="Back to top" aria-label="back to top">
+      <i class="icon fa-solid fa-arrow-up"></i>
+    </a>
   </body>
 </html>

@@ -123,6 +123,10 @@
   
 
   
+    <link href="/_styles/back-to-top.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/background.css" rel="stylesheet">
   
 
@@ -340,6 +344,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -354,6 +360,8 @@
 
 
   <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/back-to-top.js"></script>
 
   <script src="/_scripts/dark-mode.js"></script>
 
@@ -447,6 +455,7 @@
         </a>
       
     
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </nav>
 </header>
 
@@ -488,7 +497,8 @@
   <position></position>
 -->
 
-<h2 id="current-lab-members">Current Lab Members</h2>
+<h2 id="current-lab-members">
+<i class="icon fa-solid fa-brain"></i>Current Lab Members</h2>
 
 <div class="portrait-wrapper">
   <a href="/labmembers/01-jolynne-rokita.html" class="portrait" data-style="" aria-label="Jo Lynne Rokita, Ph.D.">
@@ -778,7 +788,8 @@
   <position></position>
 -->
 
-<h2 id="past-trainees">Past Trainees</h2>
+<h2 id="past-trainees">
+<i class="icon fa-solid fa-graduation-cap"></i>Past Trainees</h2>
 
 <div class="portrait-wrapper">
   <a href="/pastmembers/01-deborah-torrico-pardo.html" class="portrait" data-style="" aria-label="Deborah Torrico-Pardo">
@@ -1052,9 +1063,10 @@
       Lab Website Template
     </a>
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
+    <a href="#top" class="back-to-top" data-tooltip="Back to top" aria-label="back to top">
+      <i class="icon fa-solid fa-arrow-up"></i>
+    </a>
   </body>
 </html>

@@ -123,6 +123,10 @@
   
 
   
+    <link href="/_styles/back-to-top.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/background.css" rel="stylesheet">
   
 
@@ -340,6 +344,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -354,6 +360,8 @@
 
 
   <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/back-to-top.js"></script>
 
   <script src="/_scripts/dark-mode.js"></script>
 
@@ -447,6 +455,7 @@
         </a>
       
     
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </nav>
 </header>
 
@@ -513,7 +522,7 @@
 
 <div class="feature" data-flip="">
   <a href="/research" class="feature-image" aria-label="Our Projects">
-    <img src="/images/openpbta.jpg" loading="lazy" alt="Our Projects" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/tapestry.jpg" loading="lazy" alt="Our Projects" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
@@ -537,14 +546,14 @@
 
 <div class="feature">
   <a href="/team" class="feature-image" aria-label="Our Team">
-    <img src="/images/connections.jpg" loading="lazy" alt="Our Team" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/news/ccir-retreat-2026.jpg" loading="lazy" alt="Our Team" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
       <p class="feature-title">Our Team</p>
     
     
-<p>We are deeply committed to fostering the next generation of scientific leaders through comprehensive training and mentorship. We believe that diversity drives innovation, and we actively promote an inclusive and supportive team culture where individuals from all backgrounds feel valued and empowered to contribute. Together, we strive to create a future where every voice is heard, and all researchers have the opportunity to make an impact. (Image designed with <a href="www.freepik.com">www.freepik.com</a>).</p>
+<p>We are deeply committed to fostering the next generation of scientific leaders through comprehensive training and mentorship. We believe that diversity drives innovation, and we actively promote an inclusive and supportive team culture where individuals from all backgrounds feel valued and empowered to contribute. Together, we strive to create a future where every voice is heard, and all researchers have the opportunity to make an impact.</p>
 
 <div class="button-wrapper">
     <a class="button" href="/team" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
@@ -689,9 +698,10 @@
       Lab Website Template
     </a>
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
+    <a href="#top" class="back-to-top" data-tooltip="Back to top" aria-label="back to top">
+      <i class="icon fa-solid fa-arrow-up"></i>
+    </a>
   </body>
 </html>

@@ -123,6 +123,10 @@
   
 
   
+    <link href="/_styles/back-to-top.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/background.css" rel="stylesheet">
   
 
@@ -370,6 +374,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -384,6 +390,8 @@
 
 
   <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/back-to-top.js"></script>
 
   <script src="/_scripts/dark-mode.js"></script>
 
@@ -478,6 +486,7 @@
         </a>
       
     
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </nav>
 </header>
 
@@ -2660,24 +2669,24 @@ It was the spring of hope, it was the winter of despair.</p>
 <h3 id="list-projects">List projects</h3>
 
 <div class="card" data-style="">
-  <a href="https://doi.org/10.1093/bioinformatics/btae114" aria-label="AutoGVP" class="card-image">
-    <img src="/images/autogvp.jpg" alt="AutoGVP" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="https://arxiv.org/abs/2610.31816" aria-label="TAPESTRY" class="card-image">
+    <img src="/images/tapestry.jpg" alt="TAPESTRY" loading="lazy" style="object-position: 15% 50%" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
-      <a href="https://doi.org/10.1093/bioinformatics/btae114" class="card-title">
-        AutoGVP
+      <a href="https://arxiv.org/abs/2610.31816" class="card-title">
+        TAPESTRY
     </a>
     
 
     
-      <span class="card-subtitle">Automated Germline Variant Pathogenicity</span>
+      <span class="card-subtitle">Tumor Alternative PEdiatric Splicing visualizaTion and queRYing</span>
     
 
     
       <p>
-        A dockerized workflow integrating ClinVar and InterVar germline sequence variant classification
+        An interactive web application and API for exploring tumor-enriched splice junctions across pediatric brain tumors. Explore it at <a href="https://tapestry.rokitalab.com/">tapestry.rokitalab.com</a>.
 
       </p>
     
@@ -2686,14 +2695,70 @@ It was the spring of hope, it was the winter of despair.</p>
       
 
 
-  <div class="tags" data-repo="diskin-lab-chop/AutoGVP" data-link="/">
+  <div class="tags" data-repo="rokitalab/TAPESTRY" data-link="/">
     
       <a href='/?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
         tool
       </a>
     
-      <a href='/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
-        publication
+      <a href='/?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
+        resource
+      </a>
+    
+      <a href='/?search="tag:%20preprint"' class="tag" data-tooltip='Show items with the tag "preprint"'>
+        preprint
+      </a>
+    
+      <a href='/?search="tag:%20open-source"' class="tag" data-tooltip='Show items with the tag "open-source"'>
+        open-source
+      </a>
+    
+      <a href='/?search="tag:%20splicing"' class="tag" data-tooltip='Show items with the tag "splicing"'>
+        splicing
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://rokitalab.github.io/OpenPedCanExpress/" aria-label="OpenPedCanExpress" class="card-image">
+    <img src="/images/news/GPC2_expression_web.jpg" alt="OpenPedCanExpress" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://rokitalab.github.io/OpenPedCanExpress/" class="card-title">
+        OpenPedCanExpress
+    </a>
+    
+
+    
+      <span class="card-subtitle">Pediatric tumor vs. normal expression explorer</span>
+    
+
+    
+      <p>
+        A lightweight web application for comparing gene expression in pediatric tumors against normal tissue controls, with publication-ready plot export.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-repo="rokitalab/OpenPedCanExpress" data-link="/">
+    
+      <a href='/?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
+        tool
+      </a>
+    
+      <a href='/?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
+        resource
       </a>
     
       <a href='/?search="tag:%20open-source"' class="tag" data-tooltip='Show items with the tag "open-source"'>
@@ -2708,13 +2773,13 @@ It was the spring of hope, it was the winter of despair.</p>
 </div>
 
 <div class="card" data-style="">
-  <a href="https://pubmed.ncbi.nlm.nih.gov/39026781/" aria-label="OpenPedCan" class="card-image">
+  <a href="https://doi.org/10.1093/gigascience/giaf093" aria-label="OpenPedCan" class="card-image">
     <img src="/images/opc.png" alt="OpenPedCan" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
-      <a href="https://pubmed.ncbi.nlm.nih.gov/39026781/" class="card-title">
+      <a href="https://doi.org/10.1093/gigascience/giaf093" class="card-title">
         OpenPedCan
     </a>
     
@@ -2740,8 +2805,8 @@ It was the spring of hope, it was the winter of despair.</p>
         resource
       </a>
     
-      <a href='/?search="tag:%20preprint"' class="tag" data-tooltip='Show items with the tag "preprint"'>
-        preprint
+      <a href='/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+        publication
       </a>
     
       <a href='/?search="tag:%20open-source"' class="tag" data-tooltip='Show items with the tag "open-source"'>
@@ -2773,7 +2838,7 @@ It was the spring of hope, it was the winter of despair.</p>
 
     
       <p>
-        A global open science initiative characterizing over 1,000 pediatric brain tumors.
+        A global open science initiative, co-led with the <a href="https://www.alexslemonade.org/childhood-cancer-data-lab">Childhood Cancer Data Lab</a>, characterizing over 1,000 pediatric brain tumors.
 
       </p>
     
@@ -2804,19 +2869,307 @@ It was the spring of hope, it was the winter of despair.</p>
 </div>
 
 <div class="card" data-style="">
-  <a href="https://www.medrxiv.org/content/10.1101/2024.06.14.24308885v1" aria-label="Genetic ancestry associated disparities" class="card-image">
+  <a href="https://doi.org/10.1093/bioinformatics/btae114" aria-label="AutoGVP" class="card-image">
+    <img src="/images/autogvp.jpg" alt="AutoGVP" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://doi.org/10.1093/bioinformatics/btae114" class="card-title">
+        AutoGVP
+    </a>
+    
+
+    
+      <span class="card-subtitle">Automated Germline Variant Pathogenicity</span>
+    
+
+    
+      <p>
+        A dockerized workflow integrating ClinVar and InterVar germline sequence variant classification, with a companion <a href="https://cavatica.sbgenomics.com/public/apps/cavatica/apps-publisher/d3b-diskin-pathogenicity-preprocess-wf">CAVATICA preprocessing app</a>.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-repo="diskin-lab-chop/AutoGVP" data-link="/">
+    
+      <a href='/?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
+        tool
+      </a>
+    
+      <a href='/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+        publication
+      </a>
+    
+      <a href='/?search="tag:%20open-source"' class="tag" data-tooltip='Show items with the tag "open-source"'>
+        open-source
+      </a>
+    
+      <a href='/?search="tag:%20germline"' class="tag" data-tooltip='Show items with the tag "germline"'>
+        germline
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://pubmed.ncbi.nlm.nih.gov/33317447/" aria-label="annoFuse" class="card-image">
+    <img src="/images/annofuse.jpg" alt="annoFuse" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://pubmed.ncbi.nlm.nih.gov/33317447/" class="card-title">
+        annoFuse
+    </a>
+    
+
+    
+      <span class="card-subtitle">BMC Bioinformatics, 2020</span>
+    
+
+    
+      <p>
+        An R package and companion RShiny application to annotate, prioritize, and interactively explore putative oncogenic RNA fusions.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-repo="d3b-center/annoFuse" data-link="/">
+    
+      <a href='/?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
+        tool
+      </a>
+    
+      <a href='/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+        publication
+      </a>
+    
+      <a href='/?search="tag:%20open-source"' class="tag" data-tooltip='Show items with the tag "open-source"'>
+        open-source
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://pubmed.ncbi.nlm.nih.gov/33119584/" aria-label="Medulloblastoma subtype classifier" class="card-image">
+    <img src="/images/medullo-classifier.jpg" alt="Medulloblastoma subtype classifier" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://pubmed.ncbi.nlm.nih.gov/33119584/" class="card-title">
+        Medulloblastoma subtype classifier
+    </a>
+    
+
+    
+      <span class="card-subtitle">PLOS Computational Biology, 2020</span>
+    
+
+    
+      <p>
+        A transcriptome-based classifier that assigns medulloblastoma samples to WNT, SHH, Group 3, and Group 4 subtypes using gene expression ratios.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-repo="d3b-center/medullo-classifier-package" data-link="/">
+    
+      <a href='/?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
+        tool
+      </a>
+    
+      <a href='/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+        publication
+      </a>
+    
+      <a href='/?search="tag:%20open-source"' class="tag" data-tooltip='Show items with the tag "open-source"'>
+        open-source
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://pubmed.ncbi.nlm.nih.gov/41908886/" aria-label="CLK1 splicing as a target in pediatric CNS tumors" class="card-image">
+    <img src="/images/cluster-heat.jpg" alt="CLK1 splicing as a target in pediatric CNS tumors" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://pubmed.ncbi.nlm.nih.gov/41908886/" class="card-title">
+        CLK1 splicing as a target in pediatric CNS tumors
+    </a>
+    
+
+    
+      <span class="card-subtitle">Neuro-Oncology Pediatrics, 2026</span>
+    
+
+    
+      <p>
+        Alternative splicing in pediatric central nervous system tumors highlights oncofetal candidate CLK1 exon 4.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-repo="rokitalab/clk1-splicing" data-link="/">
+    
+      <a href='/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+        publication
+      </a>
+    
+      <a href='/?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
+        resource
+      </a>
+    
+      <a href='/?search="tag:%20splicing"' class="tag" data-tooltip='Show items with the tag "splicing"'>
+        splicing
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://pubmed.ncbi.nlm.nih.gov/41271695/" aria-label="Germline variation in pediatric CNS tumors" class="card-image">
+    <img src="/images/germline.jpg" alt="Germline variation in pediatric CNS tumors" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://pubmed.ncbi.nlm.nih.gov/41271695/" class="card-title">
+        Germline variation in pediatric CNS tumors
+    </a>
+    
+
+    
+      <span class="card-subtitle">Nature Communications, 2025</span>
+    
+
+    
+      <p>
+        Germline pathogenic variation impacts somatic alterations and patient outcomes in pediatric central nervous system tumors.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-repo="diskin-lab-chop/pbta-germline-somatic" data-link="/">
+    
+      <a href='/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+        publication
+      </a>
+    
+      <a href='/?search="tag:%20germline"' class="tag" data-tooltip='Show items with the tag "germline"'>
+        germline
+      </a>
+    
+      <a href='/?search="tag:%20open-source"' class="tag" data-tooltip='Show items with the tag "open-source"'>
+        open-source
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://pubmed.ncbi.nlm.nih.gov/40782352/" aria-label="NRCAM microexon skipping in high-grade gliomas" class="card-image">
+    <img src="/images/nrcam.jpg" alt="NRCAM microexon skipping in high-grade gliomas" loading="lazy" style="object-position: top" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://pubmed.ncbi.nlm.nih.gov/40782352/" class="card-title">
+        NRCAM microexon skipping in high-grade gliomas
+    </a>
+    
+
+    
+      <span class="card-subtitle">Cell Reports, 2025</span>
+    
+
+    
+      <p>
+        An NRCAM variant defined by microexon skipping is a targetable cell surface proteoform in high-grade gliomas.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-link="/">
+    
+      <a href='/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+        publication
+      </a>
+    
+      <a href='/?search="tag:%20splicing"' class="tag" data-tooltip='Show items with the tag "splicing"'>
+        splicing
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://pubmed.ncbi.nlm.nih.gov/39847453/" aria-label="Genetic ancestry associated disparities" class="card-image">
     <img src="/images/anc-trt.jpg" alt="Genetic ancestry associated disparities" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
-      <a href="https://www.medrxiv.org/content/10.1101/2024.06.14.24308885v1" class="card-title">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/39847453/" class="card-title">
         Genetic ancestry associated disparities
     </a>
     
 
     
-      <span class="card-subtitle">a study across PBTA and PNOC</span>
+      <span class="card-subtitle">Neuro-Oncology, 2025</span>
     
 
     
@@ -2832,8 +3185,8 @@ It was the spring of hope, it was the winter of despair.</p>
 
   <div class="tags" data-repo="rokitalab/pbta-genetic-ancestry" data-link="/">
     
-      <a href='/?search="tag:%20preprint"' class="tag" data-tooltip='Show items with the tag "preprint"'>
-        preprint
+      <a href='/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+        publication
       </a>
     
       <a href='/?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
@@ -2842,54 +3195,6 @@ It was the spring of hope, it was the winter of despair.</p>
     
       <a href='/?search="tag:%20disparities"' class="tag" data-tooltip='Show items with the tag "disparities"'>
         disparities
-      </a>
-    
-  </div>
-
-
-    
-  </div>
-</div>
-
-<div class="card" data-style="">
-  <a href="https://pubmed.ncbi.nlm.nih.gov/39149264/" aria-label="CLK1 as an oncogenic dependency" class="card-image">
-    <img src="/images/cluster-heat.jpg" alt="CLK1 as an oncogenic dependency" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://pubmed.ncbi.nlm.nih.gov/39149264/" class="card-title">
-        CLK1 as an oncogenic dependency
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Characterization of aberrant splicing in pediatric central nervous system tumors reveals CLK1 as a candidate oncogenic dependency
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="rokitalab/clk1-splicing" data-link="/">
-    
-      <a href='/?search="tag:%20preprint"' class="tag" data-tooltip='Show items with the tag "preprint"'>
-        preprint
-      </a>
-    
-      <a href='/?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-      <a href='/?search="tag:%20splicing"' class="tag" data-tooltip='Show items with the tag "splicing"'>
-        splicing
       </a>
     
   </div>
@@ -2962,9 +3267,9 @@ It was the spring of hope, it was the winter of despair.</p>
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -3037,17 +3342,17 @@ It was the spring of hope, it was the winter of despair.</p>
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
-      <a href='blog?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
+      <a href='/news/?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
         tool
       </a>
     
-      <a href='blog?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
+      <a href='/news/?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
         resource
       </a>
     
@@ -3121,9 +3426,9 @@ This work was spearheaded by Dr. Patricia Sullivan, with underlying data generat
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -3196,9 +3501,9 @@ This work was spearheaded by Dr. Patricia Sullivan, with underlying data generat
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -3272,13 +3577,13 @@ As a former CHOP postdoc herself, she is excited to give back by supporting the 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
+      <a href='/news/?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
         tool
       </a>
     
-      <a href='blog?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
+      <a href='/news/?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
         resource
       </a>
     
@@ -3352,9 +3657,9 @@ Search any gene and instantly compare its expression in pediatric brain tumors a
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -3427,9 +3732,9 @@ Search any gene and instantly compare its expression in pediatric brain tumors a
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -3504,9 +3809,9 @@ He was four years old.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -3579,9 +3884,9 @@ He was four years old.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -3655,9 +3960,9 @@ Dylan is majoring in Biology and minoring in Statistics, and is part of GWUâ€™s 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -3730,9 +4035,9 @@ Dylan is majoring in Biology and minoring in Statistics, and is part of GWUâ€™s 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -3805,9 +4110,9 @@ Dylan is majoring in Biology and minoring in Statistics, and is part of GWUâ€™s 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -3880,9 +4185,9 @@ Dylan is majoring in Biology and minoring in Statistics, and is part of GWUâ€™s 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -3955,9 +4260,9 @@ Dylan is majoring in Biology and minoring in Statistics, and is part of GWUâ€™s 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -4030,9 +4335,9 @@ Dylan is majoring in Biology and minoring in Statistics, and is part of GWUâ€™s 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -4106,9 +4411,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -4181,9 +4486,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -4256,9 +4561,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -4331,9 +4636,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -4406,9 +4711,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -4481,9 +4786,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -4556,9 +4861,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -4627,13 +4932,13 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
-      <a href='blog?search="tag:%20media"' class="tag" data-tooltip='Show items with the tag "media"'>
+      <a href='/news/?search="tag:%20media"' class="tag" data-tooltip='Show items with the tag "media"'>
         media
       </a>
     
@@ -4707,9 +5012,9 @@ Led by co-first authors Dr. Ammar Naqvi and Dr. Patricia Sullivan, this work rep
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -4782,9 +5087,9 @@ Led by co-first authors Dr. Ammar Naqvi and Dr. Patricia Sullivan, this work rep
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -4858,9 +5163,9 @@ Jacob will begin his research by studying both mechanisms of RNA splicing in ped
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -4932,13 +5237,13 @@ Vinay will begin his research by investigating the inheritance of pathogenic or 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
-      <a href='blog?search="tag:%20media"' class="tag" data-tooltip='Show items with the tag "media"'>
+      <a href='/news/?search="tag:%20media"' class="tag" data-tooltip='Show items with the tag "media"'>
         media
       </a>
     
@@ -5011,9 +5316,9 @@ Vinay will begin his research by investigating the inheritance of pathogenic or 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -5087,9 +5392,9 @@ Meg joins us from the National Cancer Institute, where she became a leading expe
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -5162,9 +5467,9 @@ Meg joins us from the National Cancer Institute, where she became a leading expe
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -5237,9 +5542,9 @@ Meg joins us from the National Cancer Institute, where she became a leading expe
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -5312,9 +5617,9 @@ Meg joins us from the National Cancer Institute, where she became a leading expe
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -5387,9 +5692,9 @@ Meg joins us from the National Cancer Institute, where she became a leading expe
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -5460,9 +5765,9 @@ He brings expertise in several coding languages (Python, C++, R, and Java) and a
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -5533,9 +5838,9 @@ Read the preprint here.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -5610,9 +5915,9 @@ Read the preprint here.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -5687,9 +5992,9 @@ She brings hands-on experience running large-scale pipelines on the high-perform
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -5762,9 +6067,9 @@ She brings hands-on experience running large-scale pipelines on the high-perform
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -5838,9 +6143,9 @@ Patricia joins us from the Childrenâ€™s Cancer Institute in Sydney, where she be
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -5913,9 +6218,9 @@ Patricia joins us from the Childrenâ€™s Cancer Institute in Sydney, where she be
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -5984,9 +6289,9 @@ Patricia joins us from the Childrenâ€™s Cancer Institute in Sydney, where she be
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -6061,9 +6366,9 @@ Read more about it here.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -6136,9 +6441,9 @@ Read more about it here.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20media"' class="tag" data-tooltip='Show items with the tag "media"'>
+      <a href='/news/?search="tag:%20media"' class="tag" data-tooltip='Show items with the tag "media"'>
         media
       </a>
     
@@ -6207,9 +6512,9 @@ Read more about it here.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -6282,9 +6587,9 @@ Read more about it here.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -6354,9 +6659,9 @@ Alex joins us after many productive years of bioinformatics engineering and infr
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -6425,9 +6730,9 @@ Alex joins us after many productive years of bioinformatics engineering and infr
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -6496,9 +6801,9 @@ Alex joins us after many productive years of bioinformatics engineering and infr
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -6567,9 +6872,9 @@ Alex joins us after many productive years of bioinformatics engineering and infr
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -6642,9 +6947,9 @@ Alex joins us after many productive years of bioinformatics engineering and infr
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -6716,9 +7021,9 @@ Ryan joins us after two years of outstanding work under the mentorship of Dr. Ro
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -6787,9 +7092,9 @@ Ryan joins us after two years of outstanding work under the mentorship of Dr. Ro
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20lab"' class="tag" data-tooltip='Show items with the tag "lab"'>
+      <a href='/news/?search="tag:%20lab"' class="tag" data-tooltip='Show items with the tag "lab"'>
         lab
       </a>
     
@@ -10003,9 +10308,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -10078,17 +10383,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
-      <a href='blog?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
+      <a href='/news/?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
         tool
       </a>
     
-      <a href='blog?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
+      <a href='/news/?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
         resource
       </a>
     
@@ -10162,9 +10467,9 @@ This work was spearheaded by Dr. Patricia Sullivan, with underlying data generat
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -10237,9 +10542,9 @@ This work was spearheaded by Dr. Patricia Sullivan, with underlying data generat
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -10313,13 +10618,13 @@ As a former CHOP postdoc herself, she is excited to give back by supporting the 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
+      <a href='/news/?search="tag:%20tool"' class="tag" data-tooltip='Show items with the tag "tool"'>
         tool
       </a>
     
-      <a href='blog?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
+      <a href='/news/?search="tag:%20resource"' class="tag" data-tooltip='Show items with the tag "resource"'>
         resource
       </a>
     
@@ -10393,9 +10698,9 @@ Search any gene and instantly compare its expression in pediatric brain tumors a
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -10468,9 +10773,9 @@ Search any gene and instantly compare its expression in pediatric brain tumors a
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -10545,9 +10850,9 @@ He was four years old.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -10620,9 +10925,9 @@ He was four years old.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -10696,9 +11001,9 @@ Dylan is majoring in Biology and minoring in Statistics, and is part of GWUâ€™s 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -10771,9 +11076,9 @@ Dylan is majoring in Biology and minoring in Statistics, and is part of GWUâ€™s 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -10846,9 +11151,9 @@ Dylan is majoring in Biology and minoring in Statistics, and is part of GWUâ€™s 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -10921,9 +11226,9 @@ Dylan is majoring in Biology and minoring in Statistics, and is part of GWUâ€™s 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -10996,9 +11301,9 @@ Dylan is majoring in Biology and minoring in Statistics, and is part of GWUâ€™s 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -11071,9 +11376,9 @@ Dylan is majoring in Biology and minoring in Statistics, and is part of GWUâ€™s 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -11147,9 +11452,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -11222,9 +11527,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -11297,9 +11602,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -11372,9 +11677,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -11447,9 +11752,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -11522,9 +11827,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -11597,9 +11902,9 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -11668,13 +11973,13 @@ Deborah was selected through the prestigious METEOR Summer Program at Childrenâ€
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
-      <a href='blog?search="tag:%20media"' class="tag" data-tooltip='Show items with the tag "media"'>
+      <a href='/news/?search="tag:%20media"' class="tag" data-tooltip='Show items with the tag "media"'>
         media
       </a>
     
@@ -11748,9 +12053,9 @@ Led by co-first authors Dr. Ammar Naqvi and Dr. Patricia Sullivan, this work rep
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -11823,9 +12128,9 @@ Led by co-first authors Dr. Ammar Naqvi and Dr. Patricia Sullivan, this work rep
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -11899,9 +12204,9 @@ Jacob will begin his research by studying both mechanisms of RNA splicing in ped
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -11973,13 +12278,13 @@ Vinay will begin his research by investigating the inheritance of pathogenic or 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
-      <a href='blog?search="tag:%20media"' class="tag" data-tooltip='Show items with the tag "media"'>
+      <a href='/news/?search="tag:%20media"' class="tag" data-tooltip='Show items with the tag "media"'>
         media
       </a>
     
@@ -12052,9 +12357,9 @@ Vinay will begin his research by investigating the inheritance of pathogenic or 
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -12128,9 +12433,9 @@ Meg joins us from the National Cancer Institute, where she became a leading expe
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -12203,9 +12508,9 @@ Meg joins us from the National Cancer Institute, where she became a leading expe
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -12278,9 +12583,9 @@ Meg joins us from the National Cancer Institute, where she became a leading expe
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -12353,9 +12658,9 @@ Meg joins us from the National Cancer Institute, where she became a leading expe
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -12428,9 +12733,9 @@ Meg joins us from the National Cancer Institute, where she became a leading expe
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -12501,9 +12806,9 @@ He brings expertise in several coding languages (Python, C++, R, and Java) and a
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -12574,9 +12879,9 @@ Read the preprint here.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -12651,9 +12956,9 @@ Read the preprint here.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -12728,9 +13033,9 @@ She brings hands-on experience running large-scale pipelines on the high-perform
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -12803,9 +13108,9 @@ She brings hands-on experience running large-scale pipelines on the high-perform
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -12879,9 +13184,9 @@ Patricia joins us from the Childrenâ€™s Cancer Institute in Sydney, where she be
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -12954,9 +13259,9 @@ Patricia joins us from the Childrenâ€™s Cancer Institute in Sydney, where she be
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -13025,9 +13330,9 @@ Patricia joins us from the Childrenâ€™s Cancer Institute in Sydney, where she be
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -13102,9 +13407,9 @@ Read more about it here.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -13177,9 +13482,9 @@ Read more about it here.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20media"' class="tag" data-tooltip='Show items with the tag "media"'>
+      <a href='/news/?search="tag:%20media"' class="tag" data-tooltip='Show items with the tag "media"'>
         media
       </a>
     
@@ -13248,9 +13553,9 @@ Read more about it here.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -13323,9 +13628,9 @@ Read more about it here.
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -13395,9 +13700,9 @@ Alex joins us after many productive years of bioinformatics engineering and infr
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -13466,9 +13771,9 @@ Alex joins us after many productive years of bioinformatics engineering and infr
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -13537,9 +13842,9 @@ Alex joins us after many productive years of bioinformatics engineering and infr
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -13608,9 +13913,9 @@ Alex joins us after many productive years of bioinformatics engineering and infr
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -13683,9 +13988,9 @@ Alex joins us after many productive years of bioinformatics engineering and infr
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
+      <a href='/news/?search="tag:%20team"' class="tag" data-tooltip='Show items with the tag "team"'>
         team
       </a>
     
@@ -13757,9 +14062,9 @@ Ryan joins us after two years of outstanding work under the mentorship of Dr. Ro
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href='/news/?search="tag:%20publication"' class="tag" data-tooltip='Show items with the tag "publication"'>
         publication
       </a>
     
@@ -13828,9 +14133,9 @@ Ryan joins us after two years of outstanding work under the mentorship of Dr. Ro
   
 
 
-  <div class="tags" data-link="/blog">
+  <div class="tags" data-link="/news/">
     
-      <a href='blog?search="tag:%20lab"' class="tag" data-tooltip='Show items with the tag "lab"'>
+      <a href='/news/?search="tag:%20lab"' class="tag" data-tooltip='Show items with the tag "lab"'>
         lab
       </a>
     
@@ -14165,9 +14470,10 @@ Weâ€™re excited to accelerate our research and expand our efforts to improve out
       Lab Website Template
     </a>
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
+    <a href="#top" class="back-to-top" data-tooltip="Back to top" aria-label="back to top">
+      <i class="icon fa-solid fa-arrow-up"></i>
+    </a>
   </body>
 </html>

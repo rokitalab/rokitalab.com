@@ -17,4 +17,14 @@
   z-index: -1;
 }
 
+header.background,
+footer.background {
+  background: #0b1f3a;
+}
+
+header.background:before,
+footer.background:before {
+  display: none;
+}
+
 /*# sourceMappingURL=background.css.map */

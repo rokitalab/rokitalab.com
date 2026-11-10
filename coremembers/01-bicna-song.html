@@ -123,6 +123,10 @@
   
 
   
+    <link href="/_styles/back-to-top.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/background.css" rel="stylesheet">
   
 
@@ -301,6 +305,8 @@
 
   <script src="/_scripts/anchors.js"></script>
 
+  <script src="/_scripts/back-to-top.js"></script>
+
   <script src="/_scripts/dark-mode.js"></script>
 
   <script src="/_scripts/external-links.js"></script>
@@ -393,6 +399,7 @@
         </a>
       
     
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </nav>
 </header>
 
@@ -648,9 +655,10 @@
       Lab Website Template
     </a>
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
+    <a href="#top" class="back-to-top" data-tooltip="Back to top" aria-label="back to top">
+      <i class="icon fa-solid fa-arrow-up"></i>
+    </a>
   </body>
 </html>
