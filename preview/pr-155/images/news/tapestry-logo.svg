@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-label="TAPESTRY mark">
+  <title>TAPESTRY</title>
+  <rect width="900" height="600" fill="#ffffff"/>
+  <g transform="translate(299,259) scale(1.0)">
+
+  <path d="M59 66 L151 52 L243 66" fill="none" stroke="#56B4E9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M59 16 L243 16" fill="none" stroke="#0072B2" stroke-width="6" stroke-linecap="round"/>
+  <rect x="29" y="7" width="60" height="18" rx="4" fill="#0072B2"/>
+  <rect x="213" y="7" width="60" height="18" rx="4" fill="#0072B2"/>
+  <rect x="29" y="57" width="60" height="18" rx="4" fill="#56B4E9"/>
+  <rect x="213" y="57" width="60" height="18" rx="4" fill="#56B4E9"/>
+  <rect x="129" y="7" width="44" height="18" rx="4" fill="#E69F00"/>
+  <circle cx="3" cy="16" r="3" fill="#0072B2"/>
+  <circle cx="3" cy="66" r="3" fill="#56B4E9"/>
+  <circle cx="13" cy="16" r="3" fill="#0072B2"/>
+  <circle cx="13" cy="66" r="3" fill="#56B4E9"/>
+  <circle cx="23" cy="16" r="3" fill="#0072B2"/>
+  <circle cx="23" cy="66" r="3" fill="#56B4E9"/>
+  <circle cx="279" cy="16" r="3" fill="#0072B2"/>
+  <circle cx="279" cy="66" r="3" fill="#56B4E9"/>
+  <circle cx="289" cy="16" r="3" fill="#0072B2"/>
+  <circle cx="289" cy="66" r="3" fill="#56B4E9"/>
+  <circle cx="299" cy="16" r="3" fill="#0072B2"/>
+  <circle cx="299" cy="66" r="3" fill="#56B4E9"/>
+  </g>
+</svg>
