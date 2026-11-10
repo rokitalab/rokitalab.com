@@ -15,6 +15,9 @@
       src="{{ include.image | relative_url | uri_escape }}"
       loading="lazy"
       alt="{{ include.title | default: "feature image" | regex_strip }}"
+      {% if include.image-position %}
+        style="object-position: {{ include.image-position }}"
+      {% endif %}
       {% include fallback.html %}
     >
   </a>

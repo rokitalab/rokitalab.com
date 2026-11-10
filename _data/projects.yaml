@@ -1,57 +1,140 @@
-- title: AutoGVP
-  subtitle: Automated Germline Variant Pathogenicity
-  group: featured
-  image: images/autogvp.jpg
-  link: https://doi.org/10.1093/bioinformatics/btae114
-  description: A dockerized workflow integrating ClinVar and InterVar germline sequence variant classification
-  repo: diskin-lab-chop/AutoGVP
+# tools and resources
+
+- title: TAPESTRY
+  subtitle: Tumor Alternative PEdiatric Splicing visualizaTion and queRYing
+  group: tools
+  image: images/tapestry.jpg
+  image-position: 15% 50%
+  link: https://arxiv.org/abs/2610.31816
+  description: An interactive web application and API for exploring tumor-enriched splice junctions across pediatric brain tumors. Explore it at [tapestry.rokitalab.com](https://tapestry.rokitalab.com/).
+  repo: rokitalab/TAPESTRY
   tags:
     - tool
-    - publication
+    - resource
+    - preprint
+    - open source
+    - splicing
+
+- title: OpenPedCanExpress
+  subtitle: Pediatric tumor vs. normal expression explorer
+  group: tools
+  image: images/news/GPC2_expression_web.jpg
+  link: https://rokitalab.github.io/OpenPedCanExpress/
+  description: A lightweight web application for comparing gene expression in pediatric tumors against normal tissue controls, with publication-ready plot export.
+  repo: rokitalab/OpenPedCanExpress
+  tags:
+    - tool
+    - resource
     - open source
 
 - title: OpenPedCan
   subtitle: The Open Pediatric Cancer Project
-  group: featured
+  group: tools
   image: images/opc.png
-  link: https://pubmed.ncbi.nlm.nih.gov/39026781/
-  description: A harmonized open-source multi-omic dataset from > 6,000 pediatric cancer patients with > 7,000 tumor events across more than 100 histologies. 
+  link: https://doi.org/10.1093/gigascience/giaf093
+  description: A harmonized open-source multi-omic dataset from > 6,000 pediatric cancer patients with > 7,000 tumor events across more than 100 histologies.
   repo: rokitalab/OpenPedCan-analysis
   tags:
     - resource
-    - preprint
+    - publication
     - open source
 
 - title: OpenPBTA
   subtitle: The Open Pediatric Brain Tumor Atlas
+  group: tools
   image: images/openpbta.jpg
   link: https://pubmed.ncbi.nlm.nih.gov/37492101/
-  description: A global open science initiative characterizing over 1,000 pediatric brain tumors. 
+  description: A global open science initiative, co-led with the [Childhood Cancer Data Lab](https://www.alexslemonade.org/childhood-cancer-data-lab), characterizing over 1,000 pediatric brain tumors.
   repo: AlexsLemonade/OpenPBTA-analysis
   tags:
     - resource
     - open source
     - publication
 
+- title: AutoGVP
+  subtitle: Automated Germline Variant Pathogenicity
+  group: tools
+  image: images/autogvp.jpg
+  link: https://doi.org/10.1093/bioinformatics/btae114
+  description: A dockerized workflow integrating ClinVar and InterVar germline sequence variant classification, with a companion [CAVATICA preprocessing app](https://cavatica.sbgenomics.com/public/apps/cavatica/apps-publisher/d3b-diskin-pathogenicity-preprocess-wf).
+  repo: diskin-lab-chop/AutoGVP
+  tags:
+    - tool
+    - publication
+    - open source
+    - germline
+
+- title: annoFuse
+  subtitle: BMC Bioinformatics, 2020
+  group: tools
+  image: images/annofuse.jpg
+  link: https://pubmed.ncbi.nlm.nih.gov/33317447/
+  description: An R package and companion RShiny application to annotate, prioritize, and interactively explore putative oncogenic RNA fusions.
+  repo: d3b-center/annoFuse
+  tags:
+    - tool
+    - publication
+    - open source
+
+- title: Medulloblastoma subtype classifier
+  subtitle: PLOS Computational Biology, 2020
+  group: tools
+  image: images/medullo-classifier.jpg
+  link: https://pubmed.ncbi.nlm.nih.gov/33119584/
+  description: A transcriptome-based classifier that assigns medulloblastoma samples to WNT, SHH, Group 3, and Group 4 subtypes using gene expression ratios.
+  repo: d3b-center/medullo-classifier-package
+  tags:
+    - tool
+    - publication
+    - open source
+
+# integrative multi-omics
+
+- title: CLK1 splicing as a target in pediatric CNS tumors
+  subtitle: Neuro-Oncology Pediatrics, 2026
+  group: multiomics
+  image: images/cluster-heat.jpg
+  link: https://pubmed.ncbi.nlm.nih.gov/41908886/
+  description: Alternative splicing in pediatric central nervous system tumors highlights oncofetal candidate CLK1 exon 4.
+  repo: rokitalab/clk1-splicing
+  tags:
+    - publication
+    - resource
+    - splicing
+
+- title: Germline variation in pediatric CNS tumors
+  subtitle: Nature Communications, 2025
+  group: multiomics
+  image: images/germline.jpg
+  link: https://pubmed.ncbi.nlm.nih.gov/41271695/
+  description: Germline pathogenic variation impacts somatic alterations and patient outcomes in pediatric central nervous system tumors.
+  repo: diskin-lab-chop/pbta-germline-somatic
+  tags:
+    - publication
+    - germline
+    - open source
+
+- title: NRCAM microexon skipping in high-grade gliomas
+  subtitle: Cell Reports, 2025
+  group: multiomics
+  image: images/nrcam.jpg
+  image-position: top
+  link: https://pubmed.ncbi.nlm.nih.gov/40782352/
+  description: An NRCAM variant defined by microexon skipping is a targetable cell surface proteoform in high-grade gliomas.
+  tags:
+    - publication
+    - splicing
+
+# health disparities
+
 - title: Genetic ancestry associated disparities
-  subtitle: a study across PBTA and PNOC
+  subtitle: Neuro-Oncology, 2025
+  group: disparities
   image: images/anc-trt.jpg
-  link: https://www.medrxiv.org/content/10.1101/2024.06.14.24308885v1
+  link: https://pubmed.ncbi.nlm.nih.gov/39847453/
   description: Distinct associations of genetic ancestry-based superpopulations exist within pediatric CNS tumor histologic and molecular subtypes and correlate with survival outcomes and treatment.
   repo: rokitalab/pbta-genetic-ancestry
   tags:
-    - preprint
+    - publication
     - resource
     - disparities
-
-
-- title: CLK1 as an oncogenic dependency
-  subtitle: a subtitle
-  image: images/cluster-heat.jpg
-  link: https://pubmed.ncbi.nlm.nih.gov/39149264/
-  description: Characterization of aberrant splicing in pediatric central nervous system tumors reveals CLK1 as a candidate oncogenic dependency
-  repo: rokitalab/clk1-splicing
-  tags:
-    - preprint
-    - resource
-    - splicing

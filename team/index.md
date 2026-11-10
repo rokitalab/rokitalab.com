@@ -12,14 +12,14 @@ The Rokita Lab is a highly engaged and collaborative team united by a shared pas
 
 {% include section.html %}
 
-## Current Lab Members
+## {% include icon.html icon="fa-solid fa-brain" %}Current Lab Members
 
 {% include list.html data="labmembers" component="portrait" filter="role == 'pi'" %}
 {% include list.html data="labmembers" component="portrait" filter="role != 'pi'" %}
 
 {% include section.html %}
 
-## Past Trainees
+## {% include icon.html icon="fa-solid fa-graduation-cap" %}Past Trainees
 
 {% include list.html data="pastmembers" component="portrait" %}
 
